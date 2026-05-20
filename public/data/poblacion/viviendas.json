@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "id": "poblacion-viviendas",
+    "title": "Stock Habitacional y Viviendas",
+    "category": "Población",
+    "subcategory": "Viviendas",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "total-viv",
+      "label": "Total de viviendas",
+      "value": 266427,
+      "formatted": "266,4K"
+    },
+    {
+      "id": "particulares",
+      "label": "Viviendas particulares",
+      "value": 266244,
+      "formatted": "266,2K"
+    },
+    {
+      "id": "depto-pct",
+      "label": "Departamentos",
+      "value": 6.626746339353576,
+      "formatted": "6,6%",
+      "comparison": "del stock particular"
+    },
+    {
+      "id": "desocupadas",
+      "label": "Viviendas desocupadas",
+      "value": 10.548105109467134,
+      "formatted": "10,5%"
+    },
+    {
+      "id": "hacinamiento-viv",
+      "label": "Viviendas con 2+ hogares",
+      "value": 3.026358333928219,
+      "formatted": "3,0%",
+      "status": "warning",
+      "comparison": "hacinamiento residencial"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "tipo-de-vivienda",
+      "config": {},
+      "id": "pie-tipo-vivienda",
+      "type": "pie",
+      "title": "Tipo de vivienda particular — Jujuy",
+      "sectionTitle": "Tipo de Vivienda",
+      "data": [
+        {
+          "id": "Departamento",
+          "label": "Departamento",
+          "value": 15781
+        },
+        {
+          "id": "Casa",
+          "label": "Casa",
+          "value": 208317
+        },
+        {
+          "id": "Pieza/Inquilinato",
+          "label": "Pieza/Inquilinato",
+          "value": 5930
+        },
+        {
+          "id": "Rancho/Casilla",
+          "label": "Rancho/Casilla",
+          "value": 6870
+        },
+        {
+          "id": "Otros",
+          "label": "Otros",
+          "value": 1243
+        }
+      ]
+    },
+    {
+      "sectionId": "desocupacion-de-viviendas-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Desocupadas %"
+      },
+      "id": "bar-desoc-departamento",
+      "type": "bar",
+      "title": "% de viviendas desocupadas por departamento",
+      "sectionTitle": "Desocupación de Viviendas por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Desocupadas %": 24.4
+        },
+        {
+          "departamento": "El Carmen",
+          "Desocupadas %": 8.9
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Desocupadas %": 7
+        },
+        {
+          "departamento": "Humahuaca",
+          "Desocupadas %": 27.7
+        },
+        {
+          "departamento": "Ledesma",
+          "Desocupadas %": 7.8
+        },
+        {
+          "departamento": "Palpalá",
+          "Desocupadas %": 8.6
+        },
+        {
+          "departamento": "Rinconada",
+          "Desocupadas %": 31.6
+        },
+        {
+          "departamento": "San Antonio",
+          "Desocupadas %": 26.6
+        },
+        {
+          "departamento": "San Pedro",
+          "Desocupadas %": 9
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Desocupadas %": 13.8
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Desocupadas %": 27.1
+        },
+        {
+          "departamento": "Susques",
+          "Desocupadas %": 28.2
+        },
+        {
+          "departamento": "Tilcara",
+          "Desocupadas %": 26
+        },
+        {
+          "departamento": "Tumbaya",
+          "Desocupadas %": 19
+        },
+        {
+          "departamento": "Valle Grande",
+          "Desocupadas %": 46.8
+        },
+        {
+          "departamento": "Yavi",
+          "Desocupadas %": 15.9
+        }
+      ]
+    },
+    {
+      "sectionId": "hogares-por-vivienda",
+      "config": {},
+      "id": "pie-hogares-vivienda",
+      "type": "pie",
+      "title": "Cantidad de hogares por vivienda — Jujuy",
+      "sectionTitle": "Hogares por Vivienda",
+      "data": [
+        {
+          "id": "1 hogar",
+          "label": "1 hogar",
+          "value": 230934
+        },
+        {
+          "id": "2 hogares",
+          "label": "2 hogares",
+          "value": 6922
+        },
+        {
+          "id": "3 o más hogares",
+          "label": "3 o más hogares",
+          "value": 285
+        }
+      ]
+    },
+    {
+      "sectionId": "hacinamiento-residencial-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Hacinamiento %"
+      },
+      "id": "bar-hacinamiento-departamento",
+      "type": "bar",
+      "title": "Viviendas con 2 o más hogares por departamento",
+      "sectionTitle": "Hacinamiento Residencial por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Hacinamiento %": 3.6
+        },
+        {
+          "departamento": "El Carmen",
+          "Hacinamiento %": 3.9
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Hacinamiento %": 2.7
+        },
+        {
+          "departamento": "Humahuaca",
+          "Hacinamiento %": 4.4
+        },
+        {
+          "departamento": "Ledesma",
+          "Hacinamiento %": 3
+        },
+        {
+          "departamento": "Palpalá",
+          "Hacinamiento %": 2.5
+        },
+        {
+          "departamento": "Rinconada",
+          "Hacinamiento %": 2.9
+        },
+        {
+          "departamento": "San Antonio",
+          "Hacinamiento %": 3.2
+        },
+        {
+          "departamento": "San Pedro",
+          "Hacinamiento %": 2.8
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Hacinamiento %": 3.2
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Hacinamiento %": 5.9
+        },
+        {
+          "departamento": "Susques",
+          "Hacinamiento %": 5.7
+        },
+        {
+          "departamento": "Tilcara",
+          "Hacinamiento %": 2.1
+        },
+        {
+          "departamento": "Tumbaya",
+          "Hacinamiento %": 3.7
+        },
+        {
+          "departamento": "Valle Grande",
+          "Hacinamiento %": 4.5
+        },
+        {
+          "departamento": "Yavi",
+          "Hacinamiento %": 4.2
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "hacinamiento-residencial-por-departamento",
+      "id": "rank-hacinamiento",
+      "title": "Departamentos con mayor hacinamiento residencial",
+      "items": [
+        {
+          "name": "Santa Catalina",
+          "value": 5.93,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Susques",
+          "value": 5.65,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 4.49,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 4.39,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Yavi",
+          "value": 4.16,
+          "municipioId": "38112"
+        },
+        {
+          "name": "El Carmen",
+          "value": 3.9,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 3.65,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 3.57,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 3.23,
+          "municipioId": "38070"
+        },
+        {
+          "name": "San Antonio",
+          "value": 3.19,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Ledesma",
+          "value": 3,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Rinconada",
+          "value": 2.93,
+          "municipioId": "38049"
+        },
+        {
+          "name": "San Pedro",
+          "value": 2.76,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 2.66,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Palpalá",
+          "value": 2.49,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Tilcara",
+          "value": 2.14,
+          "municipioId": "38094"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 24.4,
+      "label": "24,4% desocupadas"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 8.9,
+      "label": "8,9% desocupadas"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 7,
+      "label": "7,0% desocupadas"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 27.7,
+      "label": "27,7% desocupadas"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 7.8,
+      "label": "7,8% desocupadas"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 8.6,
+      "label": "8,6% desocupadas"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 31.6,
+      "label": "31,6% desocupadas"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 26.6,
+      "label": "26,6% desocupadas"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 9,
+      "label": "9,0% desocupadas"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 13.8,
+      "label": "13,8% desocupadas"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 27.1,
+      "label": "27,1% desocupadas"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 28.2,
+      "label": "28,2% desocupadas"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 26,
+      "label": "26,0% desocupadas"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 19,
+      "label": "19,0% desocupadas"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 46.8,
+      "label": "46,8% desocupadas"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 15.9,
+      "label": "15,9% desocupadas"
+    }
+  ]
+}

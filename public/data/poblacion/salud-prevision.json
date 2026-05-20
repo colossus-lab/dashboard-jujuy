@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "id": "poblacion-salud-prevision",
+    "title": "Salud y Previsión Social",
+    "category": "Población",
+    "subcategory": "Salud",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "obra-prepaga",
+      "label": "Con obra social o prepaga",
+      "value": 49.844198654746194,
+      "formatted": "49,8%"
+    },
+    {
+      "id": "programas",
+      "label": "Programas o planes estatales",
+      "value": 3.9161613316134645,
+      "formatted": "3,9%"
+    },
+    {
+      "id": "sin-cobertura",
+      "label": "Sin cobertura de salud",
+      "value": 46.23964001364034,
+      "formatted": "46,2%",
+      "status": "critical"
+    },
+    {
+      "id": "con-jub",
+      "label": "Percibe jubilación o pensión",
+      "value": 18.04836884269624,
+      "formatted": "18,0%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "tipo-de-cobertura",
+      "config": {},
+      "id": "pie-cobertura",
+      "type": "pie",
+      "title": "Tipo de cobertura de salud — Jujuy",
+      "sectionTitle": "Tipo de Cobertura",
+      "data": [
+        {
+          "id": "Obra social/Prepaga",
+          "label": "Obra social/Prepaga",
+          "value": 403421
+        },
+        {
+          "id": "Programas estatales",
+          "label": "Programas estatales",
+          "value": 31696
+        },
+        {
+          "id": "Sin cobertura",
+          "label": "Sin cobertura",
+          "value": 374247
+        }
+      ]
+    },
+    {
+      "sectionId": "brechas-de-cobertura-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Sin cobertura %"
+      },
+      "id": "bar-sin-cob-departamento",
+      "type": "bar",
+      "title": "% sin cobertura de salud por departamento",
+      "sectionTitle": "Brechas de Cobertura por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Sin cobertura %": 57
+        },
+        {
+          "departamento": "El Carmen",
+          "Sin cobertura %": 55.5
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Sin cobertura %": 39.8
+        },
+        {
+          "departamento": "Humahuaca",
+          "Sin cobertura %": 54.5
+        },
+        {
+          "departamento": "Ledesma",
+          "Sin cobertura %": 49.6
+        },
+        {
+          "departamento": "Palpalá",
+          "Sin cobertura %": 41.9
+        },
+        {
+          "departamento": "Rinconada",
+          "Sin cobertura %": 36.4
+        },
+        {
+          "departamento": "San Antonio",
+          "Sin cobertura %": 40.9
+        },
+        {
+          "departamento": "San Pedro",
+          "Sin cobertura %": 45
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Sin cobertura %": 54.5
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Sin cobertura %": 57.4
+        },
+        {
+          "departamento": "Susques",
+          "Sin cobertura %": 37.1
+        },
+        {
+          "departamento": "Tilcara",
+          "Sin cobertura %": 57.8
+        },
+        {
+          "departamento": "Tumbaya",
+          "Sin cobertura %": 49.3
+        },
+        {
+          "departamento": "Valle Grande",
+          "Sin cobertura %": 41.1
+        },
+        {
+          "departamento": "Yavi",
+          "Sin cobertura %": 61.4
+        }
+      ]
+    },
+    {
+      "sectionId": "cobertura-por-grupo-de-edad",
+      "config": {
+        "xAxis": "edad",
+        "yAxis": "Porcentaje"
+      },
+      "id": "line-cobertura-edad",
+      "type": "line",
+      "title": "Cobertura de salud según grupo de edad — Jujuy",
+      "sectionTitle": "Cobertura por Grupo de Edad",
+      "data": [
+        {
+          "edad": "0-4",
+          "Sin cobertura %": 56.1,
+          "Con obra social/prepaga %": 39.2
+        },
+        {
+          "edad": "5-9",
+          "Sin cobertura %": 49.7,
+          "Con obra social/prepaga %": 45.9
+        },
+        {
+          "edad": "10-14",
+          "Sin cobertura %": 45.7,
+          "Con obra social/prepaga %": 50.1
+        },
+        {
+          "edad": "15-19",
+          "Sin cobertura %": 48.2,
+          "Con obra social/prepaga %": 48
+        },
+        {
+          "edad": "20-24",
+          "Sin cobertura %": 68.6,
+          "Con obra social/prepaga %": 28.6
+        },
+        {
+          "edad": "25-29",
+          "Sin cobertura %": 67.9,
+          "Con obra social/prepaga %": 29
+        },
+        {
+          "edad": "30-34",
+          "Sin cobertura %": 56.7,
+          "Con obra social/prepaga %": 39.5
+        },
+        {
+          "edad": "35-39",
+          "Sin cobertura %": 48.7,
+          "Con obra social/prepaga %": 47.1
+        },
+        {
+          "edad": "40-44",
+          "Sin cobertura %": 44.6,
+          "Con obra social/prepaga %": 51.2
+        },
+        {
+          "edad": "45-49",
+          "Sin cobertura %": 42,
+          "Con obra social/prepaga %": 53.4
+        },
+        {
+          "edad": "50-54",
+          "Sin cobertura %": 39.7,
+          "Con obra social/prepaga %": 55.6
+        },
+        {
+          "edad": "55-59",
+          "Sin cobertura %": 35.3,
+          "Con obra social/prepaga %": 59.7
+        },
+        {
+          "edad": "60-64",
+          "Sin cobertura %": 28.6,
+          "Con obra social/prepaga %": 66.6
+        },
+        {
+          "edad": "65-69",
+          "Sin cobertura %": 13.7,
+          "Con obra social/prepaga %": 83.3
+        },
+        {
+          "edad": "70-74",
+          "Sin cobertura %": 6.4,
+          "Con obra social/prepaga %": 91.3
+        },
+        {
+          "edad": "75-79",
+          "Sin cobertura %": 5.3,
+          "Con obra social/prepaga %": 92.6
+        },
+        {
+          "edad": "80-84",
+          "Sin cobertura %": 4.9,
+          "Con obra social/prepaga %": 93.2
+        },
+        {
+          "edad": "85-89",
+          "Sin cobertura %": 6.7,
+          "Con obra social/prepaga %": 91.5
+        },
+        {
+          "edad": "90-94",
+          "Sin cobertura %": 9.7,
+          "Con obra social/prepaga %": 88
+        },
+        {
+          "edad": "95-99",
+          "Sin cobertura %": 20.3,
+          "Con obra social/prepaga %": 77.1
+        },
+        {
+          "edad": "100 y más",
+          "Sin cobertura %": 12.5,
+          "Con obra social/prepaga %": 81.9
+        },
+        {
+          "edad": "0-4",
+          "Sin cobertura %": 56.5,
+          "Con obra social/prepaga %": 39
+        },
+        {
+          "edad": "5-9",
+          "Sin cobertura %": 49.8,
+          "Con obra social/prepaga %": 45.7
+        },
+        {
+          "edad": "10-14",
+          "Sin cobertura %": 46,
+          "Con obra social/prepaga %": 49.8
+        },
+        {
+          "edad": "15-19",
+          "Sin cobertura %": 47.8,
+          "Con obra social/prepaga %": 48.3
+        },
+        {
+          "edad": "20-24",
+          "Sin cobertura %": 68.4,
+          "Con obra social/prepaga %": 28.6
+        },
+        {
+          "edad": "25-29",
+          "Sin cobertura %": 68.8,
+          "Con obra social/prepaga %": 27.6
+        },
+        {
+          "edad": "30-34",
+          "Sin cobertura %": 57.7,
+          "Con obra social/prepaga %": 38.1
+        },
+        {
+          "edad": "35-39",
+          "Sin cobertura %": 49.3,
+          "Con obra social/prepaga %": 46.2
+        },
+        {
+          "edad": "40-44",
+          "Sin cobertura %": 44.1,
+          "Con obra social/prepaga %": 51.4
+        },
+        {
+          "edad": "45-49",
+          "Sin cobertura %": 40.6,
+          "Con obra social/prepaga %": 54.3
+        },
+        {
+          "edad": "50-54",
+          "Sin cobertura %": 37.2,
+          "Con obra social/prepaga %": 57.7
+        },
+        {
+          "edad": "55-59",
+          "Sin cobertura %": 33.4,
+          "Con obra social/prepaga %": 61.1
+        },
+        {
+          "edad": "60-64",
+          "Sin cobertura %": 23.2,
+          "Con obra social/prepaga %": 71.7
+        },
+        {
+          "edad": "65-69",
+          "Sin cobertura %": 10.1,
+          "Con obra social/prepaga %": 86.8
+        },
+        {
+          "edad": "70-74",
+          "Sin cobertura %": 6.3,
+          "Con obra social/prepaga %": 91.2
+        },
+        {
+          "edad": "75-79",
+          "Sin cobertura %": 5.7,
+          "Con obra social/prepaga %": 92
+        },
+        {
+          "edad": "80-84",
+          "Sin cobertura %": 5,
+          "Con obra social/prepaga %": 93.1
+        },
+        {
+          "edad": "85-89",
+          "Sin cobertura %": 6.9,
+          "Con obra social/prepaga %": 91.5
+        },
+        {
+          "edad": "90-94",
+          "Sin cobertura %": 9.6,
+          "Con obra social/prepaga %": 87.7
+        },
+        {
+          "edad": "95-99",
+          "Sin cobertura %": 20.7,
+          "Con obra social/prepaga %": 76.9
+        },
+        {
+          "edad": "100 y más",
+          "Sin cobertura %": 11.8,
+          "Con obra social/prepaga %": 82.4
+        },
+        {
+          "edad": "0-4",
+          "Sin cobertura %": 55.8,
+          "Con obra social/prepaga %": 39.4
+        },
+        {
+          "edad": "5-9",
+          "Sin cobertura %": 49.5,
+          "Con obra social/prepaga %": 46.1
+        },
+        {
+          "edad": "10-14",
+          "Sin cobertura %": 45.5,
+          "Con obra social/prepaga %": 50.3
+        },
+        {
+          "edad": "15-19",
+          "Sin cobertura %": 48.5,
+          "Con obra social/prepaga %": 47.8
+        },
+        {
+          "edad": "20-24",
+          "Sin cobertura %": 68.8,
+          "Con obra social/prepaga %": 28.6
+        },
+        {
+          "edad": "25-29",
+          "Sin cobertura %": 66.9,
+          "Con obra social/prepaga %": 30.4
+        },
+        {
+          "edad": "30-34",
+          "Sin cobertura %": 55.7,
+          "Con obra social/prepaga %": 41.1
+        },
+        {
+          "edad": "35-39",
+          "Sin cobertura %": 48.1,
+          "Con obra social/prepaga %": 48.1
+        },
+        {
+          "edad": "40-44",
+          "Sin cobertura %": 45,
+          "Con obra social/prepaga %": 51
+        },
+        {
+          "edad": "45-49",
+          "Sin cobertura %": 43.5,
+          "Con obra social/prepaga %": 52.4
+        },
+        {
+          "edad": "50-54",
+          "Sin cobertura %": 42.5,
+          "Con obra social/prepaga %": 53.4
+        },
+        {
+          "edad": "55-59",
+          "Sin cobertura %": 37.6,
+          "Con obra social/prepaga %": 58
+        },
+        {
+          "edad": "60-64",
+          "Sin cobertura %": 35,
+          "Con obra social/prepaga %": 60.6
+        },
+        {
+          "edad": "65-69",
+          "Sin cobertura %": 18,
+          "Con obra social/prepaga %": 79.1
+        },
+        {
+          "edad": "70-74",
+          "Sin cobertura %": 6.5,
+          "Con obra social/prepaga %": 91.6
+        },
+        {
+          "edad": "75-79",
+          "Sin cobertura %": 4.8,
+          "Con obra social/prepaga %": 93.3
+        },
+        {
+          "edad": "80-84",
+          "Sin cobertura %": 4.8,
+          "Con obra social/prepaga %": 93.4
+        },
+        {
+          "edad": "85-89",
+          "Sin cobertura %": 6.4,
+          "Con obra social/prepaga %": 91.7
+        },
+        {
+          "edad": "90-94",
+          "Sin cobertura %": 9.9,
+          "Con obra social/prepaga %": 88.4
+        },
+        {
+          "edad": "95-99",
+          "Sin cobertura %": 19.4,
+          "Con obra social/prepaga %": 77.7
+        },
+        {
+          "edad": "100 y más",
+          "Sin cobertura %": 14.3,
+          "Con obra social/prepaga %": 81
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "brechas-de-cobertura-por-departamento",
+      "id": "rank-sin-cob",
+      "title": "Departamentos con mayor % sin cobertura",
+      "items": [
+        {
+          "name": "Yavi",
+          "value": 61.4,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Tilcara",
+          "value": 57.8,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 57.4,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 57,
+          "municipioId": "38007"
+        },
+        {
+          "name": "El Carmen",
+          "value": 55.5,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 54.5,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 54.5,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Ledesma",
+          "value": 49.6,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 49.3,
+          "municipioId": "38098"
+        },
+        {
+          "name": "San Pedro",
+          "value": 45,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Palpalá",
+          "value": 41.9,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 41.1,
+          "municipioId": "38105"
+        },
+        {
+          "name": "San Antonio",
+          "value": 40.9,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 39.8,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Susques",
+          "value": 37.1,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Rinconada",
+          "value": 36.4,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 57,
+      "label": "57,0% sin cobertura"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 55.5,
+      "label": "55,5% sin cobertura"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 39.8,
+      "label": "39,8% sin cobertura"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 54.5,
+      "label": "54,5% sin cobertura"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 49.6,
+      "label": "49,6% sin cobertura"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 41.9,
+      "label": "41,9% sin cobertura"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 36.4,
+      "label": "36,4% sin cobertura"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 40.9,
+      "label": "40,9% sin cobertura"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 45,
+      "label": "45,0% sin cobertura"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 54.5,
+      "label": "54,5% sin cobertura"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 57.4,
+      "label": "57,4% sin cobertura"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 37.1,
+      "label": "37,1% sin cobertura"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 57.8,
+      "label": "57,8% sin cobertura"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 49.3,
+      "label": "49,3% sin cobertura"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 41.1,
+      "label": "41,1% sin cobertura"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 61.4,
+      "label": "61,4% sin cobertura"
+    }
+  ]
+}

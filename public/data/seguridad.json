@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "id": "seguridad",
+    "title": "Seguridad y Estadísticas Criminales",
+    "category": "Seguridad",
+    "subcategory": "SNIC",
+    "source": "SNIC — Sistema Nacional de Información Criminal (Ministerio de Seguridad de la Nación)",
+    "date": "2024"
+  },
+  "kpis": [
+    {
+      "id": "homicidios-dolosos",
+      "label": "Homicidios dolosos",
+      "value": 16,
+      "formatted": "16",
+      "unit": "casos",
+      "comparison": "-5,9% vs 2023"
+    },
+    {
+      "id": "tasa-homicidios",
+      "label": "Tasa homicidios",
+      "value": 1.9912708,
+      "formatted": "1,99",
+      "unit": "/100K hab."
+    },
+    {
+      "id": "robos",
+      "label": "Robos (totales)",
+      "value": 5420,
+      "formatted": "5,4K",
+      "unit": "casos",
+      "comparison": "incluye agravados"
+    },
+    {
+      "id": "hurtos",
+      "label": "Hurtos",
+      "value": 8331,
+      "formatted": "8,3K",
+      "unit": "casos"
+    },
+    {
+      "id": "lesiones-dolosas",
+      "label": "Lesiones dolosas",
+      "value": 3617,
+      "formatted": "3,6K",
+      "unit": "casos"
+    },
+    {
+      "id": "muertes-viales",
+      "label": "Muertes viales",
+      "value": 82,
+      "formatted": "82",
+      "unit": "casos"
+    },
+    {
+      "id": "suicidios",
+      "label": "Suicidios",
+      "value": 75,
+      "formatted": "75",
+      "unit": "casos"
+    },
+    {
+      "id": "total-hechos",
+      "label": "Total hechos delictivos",
+      "value": 65957,
+      "formatted": "66,0K"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "principales-tipos-de-delito",
+      "config": {
+        "xAxis": "delito",
+        "yAxis": "Hechos",
+        "layout": "horizontal"
+      },
+      "id": "bar-top-delitos",
+      "type": "bar",
+      "title": "Principales tipos de delito — Jujuy, 2024",
+      "sectionTitle": "Principales Tipos de Delito",
+      "data": [
+        {
+          "delito": "Hurtos",
+          "Hechos": 8331
+        },
+        {
+          "delito": "Robos",
+          "Hechos": 5420
+        },
+        {
+          "delito": "Estafas",
+          "Hechos": 3776
+        },
+        {
+          "delito": "Lesiones dolosas",
+          "Hechos": 3617
+        },
+        {
+          "delito": "Amenazas",
+          "Hechos": 3036
+        },
+        {
+          "delito": "Estupefacientes (Ley 23.737)",
+          "Hechos": 742
+        },
+        {
+          "delito": "Abusos sexuales con acceso carnal",
+          "Hechos": 93
+        },
+        {
+          "delito": "Muertes viales",
+          "Hechos": 82
+        },
+        {
+          "delito": "Suicidios",
+          "Hechos": 75
+        },
+        {
+          "delito": "Homicidios dolosos",
+          "Hechos": 16
+        }
+      ]
+    },
+    {
+      "sectionId": "evolucion-2000-2024",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "Hechos"
+      },
+      "id": "line-serie-temporal",
+      "type": "line",
+      "title": "Evolución temporal de delitos clave — Jujuy 2000-2024",
+      "sectionTitle": "Evolución 2000-2024",
+      "data": [
+        {
+          "anio": "2000",
+          "Homicidios dolosos": 18,
+          "Hurtos": 5172,
+          "Robos": 3063
+        },
+        {
+          "anio": "2001",
+          "Homicidios dolosos": 28,
+          "Hurtos": 6367,
+          "Robos": 3690
+        },
+        {
+          "anio": "2002",
+          "Homicidios dolosos": 12,
+          "Hurtos": 7401,
+          "Robos": 4583
+        },
+        {
+          "anio": "2003",
+          "Homicidios dolosos": 21,
+          "Hurtos": 7180,
+          "Robos": 4812
+        },
+        {
+          "anio": "2004",
+          "Homicidios dolosos": 16,
+          "Hurtos": 8599,
+          "Robos": 6824
+        },
+        {
+          "anio": "2005",
+          "Homicidios dolosos": 24,
+          "Hurtos": 8243,
+          "Robos": 6043
+        },
+        {
+          "anio": "2006",
+          "Homicidios dolosos": 37,
+          "Hurtos": 7059,
+          "Robos": 5962
+        },
+        {
+          "anio": "2007",
+          "Homicidios dolosos": 31,
+          "Hurtos": 6253,
+          "Robos": 6273
+        },
+        {
+          "anio": "2008",
+          "Homicidios dolosos": 28,
+          "Hurtos": 6341,
+          "Robos": 7363
+        },
+        {
+          "anio": "2009",
+          "Homicidios dolosos": 40,
+          "Hurtos": 5984,
+          "Robos": 6975
+        },
+        {
+          "anio": "2010",
+          "Homicidios dolosos": 25,
+          "Hurtos": 5239,
+          "Robos": 6979
+        },
+        {
+          "anio": "2011",
+          "Homicidios dolosos": 30,
+          "Hurtos": 4750,
+          "Robos": 6633
+        },
+        {
+          "anio": "2012",
+          "Homicidios dolosos": 30,
+          "Hurtos": 4754,
+          "Robos": 7054
+        },
+        {
+          "anio": "2013",
+          "Homicidios dolosos": 39,
+          "Hurtos": 3808,
+          "Robos": 6301
+        },
+        {
+          "anio": "2014",
+          "Homicidios dolosos": 27,
+          "Hurtos": 5371,
+          "Robos": 9388
+        },
+        {
+          "anio": "2015",
+          "Homicidios dolosos": 37,
+          "Hurtos": 5266,
+          "Robos": 8276
+        },
+        {
+          "anio": "2016",
+          "Homicidios dolosos": 38,
+          "Hurtos": 5796,
+          "Robos": 7887
+        },
+        {
+          "anio": "2017",
+          "Homicidios dolosos": 21,
+          "Hurtos": 4745,
+          "Robos": 7410
+        },
+        {
+          "anio": "2018",
+          "Homicidios dolosos": 19,
+          "Hurtos": 4712,
+          "Robos": 6525
+        },
+        {
+          "anio": "2019",
+          "Homicidios dolosos": 22,
+          "Hurtos": 5541,
+          "Robos": 6817
+        },
+        {
+          "anio": "2020",
+          "Homicidios dolosos": 35,
+          "Hurtos": 4642,
+          "Robos": 4738
+        },
+        {
+          "anio": "2021",
+          "Homicidios dolosos": 25,
+          "Hurtos": 5518,
+          "Robos": 5373
+        },
+        {
+          "anio": "2022",
+          "Homicidios dolosos": 17,
+          "Hurtos": 6395,
+          "Robos": 5104
+        },
+        {
+          "anio": "2023",
+          "Homicidios dolosos": 17,
+          "Hurtos": 7189,
+          "Robos": 5211
+        },
+        {
+          "anio": "2024",
+          "Homicidios dolosos": 16,
+          "Hurtos": 8331,
+          "Robos": 5420
+        }
+      ]
+    },
+    {
+      "sectionId": "tasa-de-homicidios",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "Tasa /100.000"
+      },
+      "id": "line-tasa-homicidios",
+      "type": "line",
+      "title": "Tasa de homicidios dolosos (cada 100.000 hab.) — Jujuy",
+      "sectionTitle": "Tasa de Homicidios",
+      "data": [
+        {
+          "anio": "2000",
+          "Tasa /100K": 2.9690378
+        },
+        {
+          "anio": "2001",
+          "Tasa /100K": 4.5376244
+        },
+        {
+          "anio": "2002",
+          "Tasa /100K": 1.9227226
+        },
+        {
+          "anio": "2003",
+          "Tasa /100K": 3.3267431
+        },
+        {
+          "anio": "2004",
+          "Tasa /100K": 2.5060222
+        },
+        {
+          "anio": "2005",
+          "Tasa /100K": 3.7165568
+        },
+        {
+          "anio": "2006",
+          "Tasa /100K": 5.6649504
+        },
+        {
+          "anio": "2007",
+          "Tasa /100K": 4.6926751
+        },
+        {
+          "anio": "2008",
+          "Tasa /100K": 4.1906505
+        },
+        {
+          "anio": "2009",
+          "Tasa /100K": 5.9189987
+        },
+        {
+          "anio": "2010",
+          "Tasa /100K": 3.6575749
+        },
+        {
+          "anio": "2011",
+          "Tasa /100K": 4.3328872
+        },
+        {
+          "anio": "2012",
+          "Tasa /100K": 4.2780628
+        },
+        {
+          "anio": "2013",
+          "Tasa /100K": 5.4920216
+        },
+        {
+          "anio": "2014",
+          "Tasa /100K": 3.755367
+        },
+        {
+          "anio": "2015",
+          "Tasa /100K": 5.0839539
+        },
+        {
+          "anio": "2016",
+          "Tasa /100K": 5.1592441
+        },
+        {
+          "anio": "2017",
+          "Tasa /100K": 2.8178389
+        },
+        {
+          "anio": "2018",
+          "Tasa /100K": 2.5202582
+        },
+        {
+          "anio": "2019",
+          "Tasa /100K": 2.885473
+        },
+        {
+          "anio": "2020",
+          "Tasa /100K": 4.5402598
+        },
+        {
+          "anio": "2021",
+          "Tasa /100K": 3.2083695
+        },
+        {
+          "anio": "2022",
+          "Tasa /100K": 2.1589055
+        },
+        {
+          "anio": "2023",
+          "Tasa /100K": 2.1369159
+        },
+        {
+          "anio": "2024",
+          "Tasa /100K": 1.9912708
+        }
+      ]
+    },
+    {
+      "sectionId": "hechos-delictivos-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Hechos"
+      },
+      "id": "bar-hechos-departamento",
+      "type": "bar",
+      "title": "Hechos delictivos por departamento — 2024",
+      "sectionTitle": "Hechos Delictivos por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Hechos": 665
+        },
+        {
+          "departamento": "El Carmen",
+          "Hechos": 6804
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Hechos": 22582
+        },
+        {
+          "departamento": "Humahuaca",
+          "Hechos": 1278
+        },
+        {
+          "departamento": "Ledesma",
+          "Hechos": 3896
+        },
+        {
+          "departamento": "Palpalá",
+          "Hechos": 4746
+        },
+        {
+          "departamento": "Rinconada",
+          "Hechos": 40
+        },
+        {
+          "departamento": "San Antonio",
+          "Hechos": 124
+        },
+        {
+          "departamento": "San Pedro",
+          "Hechos": 4726
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Hechos": 528
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Hechos": 48
+        },
+        {
+          "departamento": "Susques",
+          "Hechos": 74
+        },
+        {
+          "departamento": "Tilcara",
+          "Hechos": 853
+        },
+        {
+          "departamento": "Tumbaya",
+          "Hechos": 159
+        },
+        {
+          "departamento": "Valle Grande",
+          "Hechos": 31
+        },
+        {
+          "departamento": "Yavi",
+          "Hechos": 1262
+        }
+      ]
+    },
+    {
+      "sectionId": "victimas-por-sexo",
+      "config": {
+        "xAxis": "delito",
+        "yAxis": "Víctimas",
+        "grouped": true
+      },
+      "id": "bar-victimas-sexo",
+      "type": "bar",
+      "title": "Víctimas por sexo según delito",
+      "sectionTitle": "Víctimas por Sexo",
+      "data": [
+        {
+          "delito": "Homicidios dolosos",
+          "Mujeres": 4,
+          "Varones": 12
+        },
+        {
+          "delito": "Lesiones dolosas",
+          "Mujeres": 1881,
+          "Varones": 2065
+        },
+        {
+          "delito": "Abusos sexuales con acceso car…",
+          "Mujeres": 86,
+          "Varones": 12
+        },
+        {
+          "delito": "Robos agravados por el resulta…",
+          "Mujeres": 0,
+          "Varones": 0
+        }
+      ]
+    },
+    {
+      "sectionId": "comparativo-nacional",
+      "config": {
+        "xAxis": "provincia",
+        "yAxis": "Tasa (/100K)",
+        "layout": "horizontal"
+      },
+      "id": "bar-homicidios-provincias",
+      "type": "bar",
+      "title": "Tasa de homicidios dolosos por provincia — 2024",
+      "sectionTitle": "Comparativo Nacional",
+      "data": [
+        {
+          "provincia": "Santa Fe",
+          "Tasa homicidios": 4.6402273
+        },
+        {
+          "provincia": "Chaco",
+          "Tasa homicidios": 4.4800286
+        },
+        {
+          "provincia": "Buenos Aires",
+          "Tasa homicidios": 4.3404565
+        },
+        {
+          "provincia": "Neuquén",
+          "Tasa homicidios": 4.305192
+        },
+        {
+          "provincia": "Salta",
+          "Tasa homicidios": 4.2853851
+        },
+        {
+          "provincia": "Chubut",
+          "Tasa homicidios": 4.2470317
+        },
+        {
+          "provincia": "Río Negro",
+          "Tasa homicidios": 4.2053485
+        },
+        {
+          "provincia": "Tucumán",
+          "Tasa homicidios": 3.553941
+        },
+        {
+          "provincia": "Formosa",
+          "Tasa homicidios": 3.3675163
+        },
+        {
+          "provincia": "Entre Ríos",
+          "Tasa homicidios": 3.3445351
+        },
+        {
+          "provincia": "Mendoza",
+          "Tasa homicidios": 3.3359182
+        },
+        {
+          "provincia": "Santiago del Estero",
+          "Tasa homicidios": 3.2434728
+        },
+        {
+          "provincia": "Misiones",
+          "Tasa homicidios": 3.1946111
+        },
+        {
+          "provincia": "Córdoba",
+          "Tasa homicidios": 2.915982
+        },
+        {
+          "provincia": "San Luis",
+          "Tasa homicidios": 2.8135357
+        },
+        {
+          "provincia": "Corrientes",
+          "Tasa homicidios": 2.7648511
+        },
+        {
+          "provincia": "Ciudad Autónoma de Buenos Aires",
+          "Tasa homicidios": 2.4631476
+        },
+        {
+          "provincia": "Jujuy",
+          "Tasa homicidios": 1.9912708
+        },
+        {
+          "provincia": "Catamarca",
+          "Tasa homicidios": 1.8638982
+        },
+        {
+          "provincia": "Santa Cruz",
+          "Tasa homicidios": 1.4925967
+        },
+        {
+          "provincia": "La Pampa",
+          "Tasa homicidios": 1.3511797
+        },
+        {
+          "provincia": "San Juan",
+          "Tasa homicidios": 1.2286854
+        },
+        {
+          "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "Tasa homicidios": 1.0493125
+        },
+        {
+          "provincia": "La Rioja",
+          "Tasa homicidios": 0.96680242
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "hechos-delictivos-por-departamento",
+      "id": "rank-hechos-departamento",
+      "title": "Departamentos con más hechos delictivos",
+      "items": [
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 22582,
+          "municipioId": "38021"
+        },
+        {
+          "name": "El Carmen",
+          "value": 6804,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Palpalá",
+          "value": 4746,
+          "municipioId": "38042"
+        },
+        {
+          "name": "San Pedro",
+          "value": 4726,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Ledesma",
+          "value": 3896,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 1278,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Yavi",
+          "value": 1262,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Tilcara",
+          "value": 853,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 665,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 528,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 159,
+          "municipioId": "38098"
+        },
+        {
+          "name": "San Antonio",
+          "value": 124,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Susques",
+          "value": 74,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 48,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Rinconada",
+          "value": 40,
+          "municipioId": "38049"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 31,
+          "municipioId": "38105"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 665,
+      "label": "665 hechos"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 6804,
+      "label": "6.804 hechos"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 22582,
+      "label": "22.582 hechos"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 1278,
+      "label": "1.278 hechos"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 3896,
+      "label": "3.896 hechos"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 4746,
+      "label": "4.746 hechos"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 40,
+      "label": "40 hechos"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 124,
+      "label": "124 hechos"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 4726,
+      "label": "4.726 hechos"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 528,
+      "label": "528 hechos"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 48,
+      "label": "48 hechos"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 74,
+      "label": "74 hechos"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 853,
+      "label": "853 hechos"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 159,
+      "label": "159 hechos"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 31,
+      "label": "31 hechos"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 1262,
+      "label": "1.262 hechos"
+    }
+  ]
+}

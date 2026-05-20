@@ -1,0 +1,540 @@
+{
+  "meta": {
+    "id": "poblacion-habitacional-hogares",
+    "title": "Condiciones Habitacionales de los Hogares",
+    "category": "Población",
+    "subcategory": "Hábitat Hogares",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "total-hogares",
+      "label": "Total de hogares",
+      "value": 245706,
+      "formatted": "245,7K"
+    },
+    {
+      "id": "propia",
+      "label": "Hogares en vivienda propia",
+      "value": 73.14310598845775,
+      "formatted": "73,1%"
+    },
+    {
+      "id": "alquilada",
+      "label": "Hogares en vivienda alquilada",
+      "value": 11.59230950811132,
+      "formatted": "11,6%"
+    },
+    {
+      "id": "gas-red-hog",
+      "label": "Hogares con gas de red",
+      "value": 35.043507281059476,
+      "formatted": "35,0%"
+    },
+    {
+      "id": "internet-hog",
+      "label": "Hogares con internet en la vivienda",
+      "value": 66.67439948556405,
+      "formatted": "66,7%"
+    },
+    {
+      "id": "agua-red",
+      "label": "Hogares con agua de red pública",
+      "value": 95.66066762716417,
+      "formatted": "95,7%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "regimen-de-tenencia",
+      "config": {},
+      "id": "pie-tenencia",
+      "type": "pie",
+      "title": "Régimen de tenencia de la vivienda — Jujuy",
+      "sectionTitle": "Régimen de Tenencia",
+      "data": [
+        {
+          "id": "Propia",
+          "label": "Propia",
+          "value": 179717
+        },
+        {
+          "id": "Alquilada",
+          "label": "Alquilada",
+          "value": 28483
+        },
+        {
+          "id": "Cedida por trabajo",
+          "label": "Cedida por trabajo",
+          "value": 4341
+        },
+        {
+          "id": "Otras situaciones",
+          "label": "Otras situaciones",
+          "value": 33165
+        }
+      ]
+    },
+    {
+      "sectionId": "alquiler-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Alquiler %"
+      },
+      "id": "bar-alquiler-departamento",
+      "type": "bar",
+      "title": "% de hogares en vivienda alquilada por departamento",
+      "sectionTitle": "Alquiler por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Alquiler %": 9.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Alquiler %": 10.3
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Alquiler %": 15.5
+        },
+        {
+          "departamento": "Humahuaca",
+          "Alquiler %": 6.7
+        },
+        {
+          "departamento": "Ledesma",
+          "Alquiler %": 7.1
+        },
+        {
+          "departamento": "Palpalá",
+          "Alquiler %": 10.7
+        },
+        {
+          "departamento": "Rinconada",
+          "Alquiler %": 6.1
+        },
+        {
+          "departamento": "San Antonio",
+          "Alquiler %": 4.3
+        },
+        {
+          "departamento": "San Pedro",
+          "Alquiler %": 6.8
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Alquiler %": 3.9
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Alquiler %": 6.2
+        },
+        {
+          "departamento": "Susques",
+          "Alquiler %": 7
+        },
+        {
+          "departamento": "Tilcara",
+          "Alquiler %": 10.2
+        },
+        {
+          "departamento": "Tumbaya",
+          "Alquiler %": 10.9
+        },
+        {
+          "departamento": "Valle Grande",
+          "Alquiler %": 3.7
+        },
+        {
+          "departamento": "Yavi",
+          "Alquiler %": 17.8
+        }
+      ]
+    },
+    {
+      "sectionId": "materiales-del-piso-hogares",
+      "config": {},
+      "id": "pie-piso-hogares",
+      "type": "pie",
+      "title": "Material predominante de los pisos — Hogares Jujuy",
+      "sectionTitle": "Materiales del Piso (Hogares)",
+      "data": [
+        {
+          "id": "Cerámica/Mosaico/Madera",
+          "label": "Cerámica/Mosaico/Madera",
+          "value": 173191
+        },
+        {
+          "id": "Carpeta/Contrapiso",
+          "label": "Carpeta/Contrapiso",
+          "value": 51630
+        },
+        {
+          "id": "Tierra/Ladrillo suelto",
+          "label": "Tierra/Ladrillo suelto",
+          "value": 16764
+        },
+        {
+          "id": "Otro material",
+          "label": "Otro material",
+          "value": 4121
+        }
+      ]
+    },
+    {
+      "sectionId": "procedencia-del-agua-hogares",
+      "config": {},
+      "id": "pie-agua-hogares",
+      "type": "pie",
+      "title": "Procedencia del agua — Hogares Jujuy",
+      "sectionTitle": "Procedencia del Agua (Hogares)",
+      "data": [
+        {
+          "id": "Red pública (agua corriente)",
+          "label": "Red pública (agua corriente)",
+          "value": 235044
+        },
+        {
+          "id": "Perforación con bomba a motor",
+          "label": "Perforación con bomba a motor",
+          "value": 2210
+        },
+        {
+          "id": "Perforación con bomba manual",
+          "label": "Perforación con bomba manual",
+          "value": 413
+        },
+        {
+          "id": "Pozo sin bomba",
+          "label": "Pozo sin bomba",
+          "value": 1266
+        },
+        {
+          "id": "Transporte por cisterna, agua de lluvi",
+          "label": "Transporte por cisterna, agua de lluvi",
+          "value": 3942
+        }
+      ]
+    },
+    {
+      "sectionId": "brecha-digital-hogares",
+      "config": {},
+      "id": "pie-internet-hogares",
+      "type": "pie",
+      "title": "Acceso a internet en la vivienda — Hogares Jujuy",
+      "sectionTitle": "Brecha Digital (Hogares)",
+      "data": [
+        {
+          "id": "Internet + dispositivo",
+          "label": "Internet + dispositivo",
+          "value": 102467
+        },
+        {
+          "id": "Internet sin dispositivo",
+          "label": "Internet sin dispositivo",
+          "value": 61356
+        },
+        {
+          "id": "Sin internet",
+          "label": "Sin internet",
+          "value": 81883
+        }
+      ]
+    },
+    {
+      "sectionId": "saneamiento-hogares",
+      "config": {},
+      "id": "pie-cloaca-hogares",
+      "type": "pie",
+      "title": "Ubicación del baño — Hogares Jujuy",
+      "sectionTitle": "Saneamiento (Hogares)",
+      "data": [
+        {
+          "id": "Dentro de la vivienda",
+          "label": "Dentro de la vivienda",
+          "value": 204067
+        },
+        {
+          "id": "Fuera de la vivienda",
+          "label": "Fuera de la vivienda",
+          "value": 37307
+        },
+        {
+          "id": "No tiene baño",
+          "label": "No tiene baño",
+          "value": 4332
+        }
+      ]
+    },
+    {
+      "sectionId": "cantidad-de-habitaciones-hogares",
+      "config": {},
+      "id": "pie-habitaciones-hogares",
+      "type": "pie",
+      "title": "Cantidad de habitaciones por hogar — Jujuy",
+      "sectionTitle": "Cantidad de Habitaciones (Hogares)",
+      "data": [
+        {
+          "id": "1",
+          "label": "1",
+          "value": 29030
+        },
+        {
+          "id": "2",
+          "label": "2",
+          "value": 53227
+        },
+        {
+          "id": "3",
+          "label": "3",
+          "value": 66407
+        },
+        {
+          "id": "4",
+          "label": "4",
+          "value": 44957
+        },
+        {
+          "id": "5",
+          "label": "5",
+          "value": 24251
+        },
+        {
+          "id": "6",
+          "label": "6",
+          "value": 12200
+        },
+        {
+          "id": "7",
+          "label": "7",
+          "value": 6654
+        },
+        {
+          "id": "8",
+          "label": "8",
+          "value": 3329
+        }
+      ]
+    },
+    {
+      "sectionId": "cantidad-de-banos-por-hogar",
+      "config": {},
+      "id": "pie-banos",
+      "type": "pie",
+      "title": "Cantidad de baños por hogar — Jujuy",
+      "sectionTitle": "Cantidad de Baños por Hogar",
+      "data": [
+        {
+          "id": "1 baño",
+          "label": "1 baño",
+          "value": 187797
+        },
+        {
+          "id": "2 baños",
+          "label": "2 baños",
+          "value": 42202
+        },
+        {
+          "id": "3 o más baños",
+          "label": "3 o más baños",
+          "value": 11375
+        },
+        {
+          "id": "No tiene baño",
+          "label": "No tiene baño",
+          "value": 4332
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "alquiler-por-departamento",
+      "id": "rank-alquiler",
+      "title": "Departamentos con mayor % de alquiler",
+      "items": [
+        {
+          "name": "Yavi",
+          "value": 17.8,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 15.5,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 10.9,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Palpalá",
+          "value": 10.7,
+          "municipioId": "38042"
+        },
+        {
+          "name": "El Carmen",
+          "value": 10.3,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Tilcara",
+          "value": 10.2,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 9.9,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Ledesma",
+          "value": 7.1,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Susques",
+          "value": 7,
+          "municipioId": "38084"
+        },
+        {
+          "name": "San Pedro",
+          "value": 6.8,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 6.7,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 6.2,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Rinconada",
+          "value": 6.1,
+          "municipioId": "38049"
+        },
+        {
+          "name": "San Antonio",
+          "value": 4.3,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 3.9,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 3.7,
+          "municipioId": "38105"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 9.9,
+      "label": "9,9% alquiler"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 10.3,
+      "label": "10,3% alquiler"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 15.5,
+      "label": "15,5% alquiler"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 6.7,
+      "label": "6,7% alquiler"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 7.1,
+      "label": "7,1% alquiler"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 10.7,
+      "label": "10,7% alquiler"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 6.1,
+      "label": "6,1% alquiler"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 4.3,
+      "label": "4,3% alquiler"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 6.8,
+      "label": "6,8% alquiler"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 3.9,
+      "label": "3,9% alquiler"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 6.2,
+      "label": "6,2% alquiler"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 7,
+      "label": "7,0% alquiler"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 10.2,
+      "label": "10,2% alquiler"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 10.9,
+      "label": "10,9% alquiler"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 3.7,
+      "label": "3,7% alquiler"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 17.8,
+      "label": "17,8% alquiler"
+    }
+  ]
+}

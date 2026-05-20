@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "id": "poblacion-fecundidad",
+    "title": "Fecundidad",
+    "category": "Población",
+    "subcategory": "Fecundidad",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "mujeres-14-49",
+      "label": "Mujeres de 14 a 49 años",
+      "value": 227033,
+      "formatted": "227,0K"
+    },
+    {
+      "id": "promedio-hijos",
+      "label": "Promedio de hijos por mujer",
+      "value": 1.6,
+      "formatted": "1,6"
+    },
+    {
+      "id": "sin-hijos",
+      "label": "Mujeres sin hijos",
+      "value": 37.37254055577823,
+      "formatted": "37,4%"
+    },
+    {
+      "id": "tres-o-mas",
+      "label": "Mujeres con 3 o más hijos",
+      "value": 22.73546136464743,
+      "formatted": "22,7%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "distribucion-por-cantidad-de-hijos",
+      "config": {},
+      "id": "pie-cant-hijos",
+      "type": "pie",
+      "title": "Cantidad de hijas e hijos nacidos vivos — Jujuy",
+      "sectionTitle": "Distribución por Cantidad de Hijos",
+      "data": [
+        {
+          "id": "Ninguno",
+          "label": "Ninguno",
+          "value": 84848
+        },
+        {
+          "id": "1",
+          "label": "1",
+          "value": 47907
+        },
+        {
+          "id": "2",
+          "label": "2",
+          "value": 42661
+        },
+        {
+          "id": "3",
+          "label": "3",
+          "value": 24920
+        },
+        {
+          "id": "4",
+          "label": "4",
+          "value": 12543
+        },
+        {
+          "id": "5 y más",
+          "label": "5 y más",
+          "value": 14154
+        }
+      ]
+    },
+    {
+      "sectionId": "promedio-de-hijos-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Promedio hijos"
+      },
+      "id": "bar-prom-hijos-departamento",
+      "type": "bar",
+      "title": "Promedio de hijos por mujer — por departamento",
+      "sectionTitle": "Promedio de Hijos por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Promedio hijos": 1.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Promedio hijos": 1.7
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Promedio hijos": 1.4
+        },
+        {
+          "departamento": "Humahuaca",
+          "Promedio hijos": 1.7
+        },
+        {
+          "departamento": "Ledesma",
+          "Promedio hijos": 1.7
+        },
+        {
+          "departamento": "Palpalá",
+          "Promedio hijos": 1.5
+        },
+        {
+          "departamento": "Rinconada",
+          "Promedio hijos": 2
+        },
+        {
+          "departamento": "San Antonio",
+          "Promedio hijos": 1.5
+        },
+        {
+          "departamento": "San Pedro",
+          "Promedio hijos": 1.6
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Promedio hijos": 1.9
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Promedio hijos": 2.1
+        },
+        {
+          "departamento": "Susques",
+          "Promedio hijos": 2.1
+        },
+        {
+          "departamento": "Tilcara",
+          "Promedio hijos": 1.6
+        },
+        {
+          "departamento": "Tumbaya",
+          "Promedio hijos": 1.6
+        },
+        {
+          "departamento": "Valle Grande",
+          "Promedio hijos": 2.1
+        },
+        {
+          "departamento": "Yavi",
+          "Promedio hijos": 1.7
+        }
+      ]
+    },
+    {
+      "sectionId": "fecundidad-y-educacion",
+      "config": {
+        "xAxis": "nivel",
+        "yAxis": "Promedio hijos"
+      },
+      "id": "bar-fecundidad-educacion",
+      "type": "bar",
+      "title": "Promedio de hijos según máximo nivel educativo alcanzado",
+      "sectionTitle": "Fecundidad y Educación",
+      "data": [
+        {
+          "nivel": "Sin instrucción / Primario",
+          "Promedio hijos": 2.88,
+          "% sin hijos": 10.8
+        },
+        {
+          "nivel": "Secundario / Polimodal",
+          "Promedio hijos": 1.96,
+          "% sin hijos": 18.3
+        },
+        {
+          "nivel": "Terciario no univ.",
+          "Promedio hijos": 1.61,
+          "% sin hijos": 22
+        },
+        {
+          "nivel": "Universitario",
+          "Promedio hijos": 1.31,
+          "% sin hijos": 33.4
+        },
+        {
+          "nivel": "Posgrado",
+          "Promedio hijos": 1.39,
+          "% sin hijos": 30.9
+        }
+      ]
+    },
+    {
+      "sectionId": "fecundidad-por-edad",
+      "config": {
+        "xAxis": "edad",
+        "yAxis": "Valor"
+      },
+      "id": "line-fec-edad",
+      "type": "line",
+      "title": "Promedio de hijos y % sin hijos según edad — Jujuy",
+      "sectionTitle": "Fecundidad por Edad",
+      "data": [
+        {
+          "edad": "14",
+          "Promedio hijos": 0,
+          "% sin hijos": 99.3
+        },
+        {
+          "edad": "15-19",
+          "Promedio hijos": 0.1,
+          "% sin hijos": 91.5
+        },
+        {
+          "edad": "20-24",
+          "Promedio hijos": 0.7,
+          "% sin hijos": 58.6
+        },
+        {
+          "edad": "25-29",
+          "Promedio hijos": 1.3,
+          "% sin hijos": 34.7
+        },
+        {
+          "edad": "30-34",
+          "Promedio hijos": 1.8,
+          "% sin hijos": 21.8
+        },
+        {
+          "edad": "35-39",
+          "Promedio hijos": 2.2,
+          "% sin hijos": 14.4
+        },
+        {
+          "edad": "40-44",
+          "Promedio hijos": 2.6,
+          "% sin hijos": 11
+        },
+        {
+          "edad": "45-49",
+          "Promedio hijos": 3,
+          "% sin hijos": 8.7
+        }
+      ]
+    },
+    {
+      "sectionId": "fecundidad-y-cobertura-de-salud",
+      "config": {
+        "xAxis": "cobertura",
+        "yAxis": "Valor",
+        "grouped": true
+      },
+      "id": "bar-fec-cobertura",
+      "type": "bar",
+      "title": "Hijos según tipo de cobertura de salud",
+      "sectionTitle": "Fecundidad y Cobertura de Salud",
+      "data": [
+        {
+          "cobertura": "Obra social o prepaga (incluye…",
+          "Promedio hijos": 1.38,
+          "% sin hijos": 40.6
+        },
+        {
+          "cobertura": "Programas o planes estatales d…",
+          "Promedio hijos": 1.61,
+          "% sin hijos": 33.5
+        },
+        {
+          "cobertura": "No tiene obra social, prepaga …",
+          "Promedio hijos": 1.55,
+          "% sin hijos": 35.2
+        }
+      ]
+    },
+    {
+      "sectionId": "fecundidad-y-condicion-de-actividad",
+      "config": {
+        "xAxis": "condicion",
+        "yAxis": "Valor",
+        "grouped": true
+      },
+      "id": "bar-fec-actividad",
+      "type": "bar",
+      "title": "Hijos según condición de actividad económica",
+      "sectionTitle": "Fecundidad y Condición de Actividad",
+      "data": [
+        {
+          "condicion": "Población económicamente activa",
+          "Promedio hijos": 1.68,
+          "% sin hijos": 27.8
+        },
+        {
+          "condicion": "Ocupada",
+          "Promedio hijos": 1.73,
+          "% sin hijos": 26.3
+        },
+        {
+          "condicion": "Desocupada",
+          "Promedio hijos": 1.33,
+          "% sin hijos": 39.5
+        },
+        {
+          "condicion": "Población económicamente inact…",
+          "Promedio hijos": 1.15,
+          "% sin hijos": 53.2
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "promedio-de-hijos-por-departamento",
+      "id": "rank-prom-hijos",
+      "title": "Departamentos con mayor promedio de hijos",
+      "items": [
+        {
+          "name": "Santa Catalina",
+          "value": 2.1,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Susques",
+          "value": 2.1,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 2.1,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Rinconada",
+          "value": 2,
+          "municipioId": "38049"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 1.9,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 1.9,
+          "municipioId": "38070"
+        },
+        {
+          "name": "El Carmen",
+          "value": 1.7,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 1.7,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Ledesma",
+          "value": 1.7,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Yavi",
+          "value": 1.7,
+          "municipioId": "38112"
+        },
+        {
+          "name": "San Pedro",
+          "value": 1.6,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Tilcara",
+          "value": 1.6,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 1.6,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Palpalá",
+          "value": 1.5,
+          "municipioId": "38042"
+        },
+        {
+          "name": "San Antonio",
+          "value": 1.5,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 1.4,
+          "municipioId": "38021"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 1.9,
+      "label": "1,9 hijos/mujer"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 1.7,
+      "label": "1,7 hijos/mujer"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 1.4,
+      "label": "1,4 hijos/mujer"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 1.7,
+      "label": "1,7 hijos/mujer"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 1.7,
+      "label": "1,7 hijos/mujer"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 1.5,
+      "label": "1,5 hijos/mujer"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 2,
+      "label": "2,0 hijos/mujer"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 1.5,
+      "label": "1,5 hijos/mujer"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 1.6,
+      "label": "1,6 hijos/mujer"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 1.9,
+      "label": "1,9 hijos/mujer"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 2.1,
+      "label": "2,1 hijos/mujer"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 2.1,
+      "label": "2,1 hijos/mujer"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 1.6,
+      "label": "1,6 hijos/mujer"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 1.6,
+      "label": "1,6 hijos/mujer"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 2.1,
+      "label": "2,1 hijos/mujer"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 1.7,
+      "label": "1,7 hijos/mujer"
+    }
+  ]
+}

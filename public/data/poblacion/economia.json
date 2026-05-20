@@ -1,0 +1,979 @@
+{
+  "meta": {
+    "id": "poblacion-economia",
+    "title": "Características Económicas de la Población",
+    "category": "Población",
+    "subcategory": "Economía",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "tasa-actividad",
+      "label": "Tasa de actividad",
+      "value": 62.83562478877865,
+      "formatted": "62,8%",
+      "comparison": "PEA / Población 14+"
+    },
+    {
+      "id": "tasa-empleo",
+      "label": "Tasa de empleo",
+      "value": 57.85664427325645,
+      "formatted": "57,9%",
+      "comparison": "Ocupados / Población 14+"
+    },
+    {
+      "id": "tasa-desoc",
+      "label": "Tasa de desocupación",
+      "value": 7.923817949227045,
+      "formatted": "7,9%",
+      "comparison": "Desocupados / PEA"
+    },
+    {
+      "id": "no-pea",
+      "label": "Población no económicamente activa",
+      "value": 235333,
+      "formatted": "235,3K"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "condicion-de-actividad",
+      "config": {},
+      "id": "pie-actividad",
+      "type": "pie",
+      "title": "Condición de actividad económica — Jujuy (14+)",
+      "sectionTitle": "Condición de Actividad",
+      "data": [
+        {
+          "id": "Ocupada",
+          "label": "Ocupada",
+          "value": 366361
+        },
+        {
+          "id": "Desocupada",
+          "label": "Desocupada",
+          "value": 31528
+        },
+        {
+          "id": "No PEA",
+          "label": "No PEA",
+          "value": 235333
+        }
+      ]
+    },
+    {
+      "sectionId": "tasa-de-actividad-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Tasa actividad %"
+      },
+      "id": "bar-tasa-act-departamento",
+      "type": "bar",
+      "title": "Tasa de actividad por departamento",
+      "sectionTitle": "Tasa de Actividad por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Tasa actividad %": 58.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Tasa actividad %": 62.5
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Tasa actividad %": 64.8
+        },
+        {
+          "departamento": "Humahuaca",
+          "Tasa actividad %": 59.9
+        },
+        {
+          "departamento": "Ledesma",
+          "Tasa actividad %": 60.6
+        },
+        {
+          "departamento": "Palpalá",
+          "Tasa actividad %": 63
+        },
+        {
+          "departamento": "Rinconada",
+          "Tasa actividad %": 62.9
+        },
+        {
+          "departamento": "San Antonio",
+          "Tasa actividad %": 64.2
+        },
+        {
+          "departamento": "San Pedro",
+          "Tasa actividad %": 60.7
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Tasa actividad %": 58.5
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Tasa actividad %": 54.1
+        },
+        {
+          "departamento": "Susques",
+          "Tasa actividad %": 57.4
+        },
+        {
+          "departamento": "Tilcara",
+          "Tasa actividad %": 67.1
+        },
+        {
+          "departamento": "Tumbaya",
+          "Tasa actividad %": 66
+        },
+        {
+          "departamento": "Valle Grande",
+          "Tasa actividad %": 57.8
+        },
+        {
+          "departamento": "Yavi",
+          "Tasa actividad %": 61.3
+        }
+      ]
+    },
+    {
+      "sectionId": "tasa-de-desocupacion-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Desocupación %"
+      },
+      "id": "bar-tasa-desoc-departamento",
+      "type": "bar",
+      "title": "Tasa de desocupación por departamento",
+      "sectionTitle": "Tasa de Desocupación por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Desocupación %": 8.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Desocupación %": 8
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Desocupación %": 8.1
+        },
+        {
+          "departamento": "Humahuaca",
+          "Desocupación %": 8.1
+        },
+        {
+          "departamento": "Ledesma",
+          "Desocupación %": 7
+        },
+        {
+          "departamento": "Palpalá",
+          "Desocupación %": 8.9
+        },
+        {
+          "departamento": "Rinconada",
+          "Desocupación %": 4.7
+        },
+        {
+          "departamento": "San Antonio",
+          "Desocupación %": 6.7
+        },
+        {
+          "departamento": "San Pedro",
+          "Desocupación %": 8.4
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Desocupación %": 5.4
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Desocupación %": 8.9
+        },
+        {
+          "departamento": "Susques",
+          "Desocupación %": 7.6
+        },
+        {
+          "departamento": "Tilcara",
+          "Desocupación %": 6
+        },
+        {
+          "departamento": "Tumbaya",
+          "Desocupación %": 6
+        },
+        {
+          "departamento": "Valle Grande",
+          "Desocupación %": 5.2
+        },
+        {
+          "departamento": "Yavi",
+          "Desocupación %": 7.5
+        }
+      ]
+    },
+    {
+      "sectionId": "ramas-de-actividad-economica",
+      "config": {
+        "xAxis": "rama",
+        "yAxis": "Ocupados",
+        "layout": "horizontal"
+      },
+      "id": "bar-ramas",
+      "type": "bar",
+      "title": "Población ocupada por rama de actividad económica",
+      "sectionTitle": "Ramas de Actividad Económica",
+      "data": [
+        {
+          "rama": "Sin respuesta",
+          "Ocupados": 59024
+        },
+        {
+          "rama": "Comercio al por mayor y al por menor…",
+          "Ocupados": 57794
+        },
+        {
+          "rama": "Información insuficiente para codifi…",
+          "Ocupados": 49767
+        },
+        {
+          "rama": "Construcción",
+          "Ocupados": 32366
+        },
+        {
+          "rama": "Construcción",
+          "Ocupados": 31330
+        },
+        {
+          "rama": "Comercio al por mayor y al por menor…",
+          "Ocupados": 30579
+        },
+        {
+          "rama": "Sin respuesta",
+          "Ocupados": 30248
+        },
+        {
+          "rama": "Sin respuesta",
+          "Ocupados": 28776
+        },
+        {
+          "rama": "Información insuficiente para codifi…",
+          "Ocupados": 28415
+        },
+        {
+          "rama": "Comercio al por mayor y al por menor…",
+          "Ocupados": 27215
+        }
+      ]
+    },
+    {
+      "sectionId": "categoria-ocupacional-por-edad",
+      "config": {
+        "xAxis": "edad",
+        "yAxis": "%"
+      },
+      "id": "line-cat-ocupacional-edad",
+      "type": "line",
+      "title": "Distribución de la categoría ocupacional según edad",
+      "sectionTitle": "Categoría Ocupacional por Edad",
+      "data": [
+        {
+          "edad": "14",
+          "Servicio doméstico %": 4.6,
+          "Empleado/obrero %": 34,
+          "Cuenta propia %": 24.4,
+          "Patrón/Empleador %": 2.4
+        },
+        {
+          "edad": "15-19",
+          "Servicio doméstico %": 5.9,
+          "Empleado/obrero %": 40.8,
+          "Cuenta propia %": 28.9,
+          "Patrón/Empleador %": 1.5
+        },
+        {
+          "edad": "20-24",
+          "Servicio doméstico %": 6.9,
+          "Empleado/obrero %": 52.3,
+          "Cuenta propia %": 28,
+          "Patrón/Empleador %": 1.7
+        },
+        {
+          "edad": "25-29",
+          "Servicio doméstico %": 5.8,
+          "Empleado/obrero %": 56,
+          "Cuenta propia %": 28,
+          "Patrón/Empleador %": 2
+        },
+        {
+          "edad": "30-34",
+          "Servicio doméstico %": 5.5,
+          "Empleado/obrero %": 57.8,
+          "Cuenta propia %": 27.6,
+          "Patrón/Empleador %": 2.5
+        },
+        {
+          "edad": "35-39",
+          "Servicio doméstico %": 5.6,
+          "Empleado/obrero %": 58.7,
+          "Cuenta propia %": 27.3,
+          "Patrón/Empleador %": 2.6
+        },
+        {
+          "edad": "40-44",
+          "Servicio doméstico %": 6.1,
+          "Empleado/obrero %": 58.6,
+          "Cuenta propia %": 27,
+          "Patrón/Empleador %": 2.6
+        },
+        {
+          "edad": "45-49",
+          "Servicio doméstico %": 6.5,
+          "Empleado/obrero %": 58,
+          "Cuenta propia %": 27.4,
+          "Patrón/Empleador %": 2.7
+        },
+        {
+          "edad": "50-54",
+          "Servicio doméstico %": 6.5,
+          "Empleado/obrero %": 57,
+          "Cuenta propia %": 27.9,
+          "Patrón/Empleador %": 2.8
+        },
+        {
+          "edad": "55-59",
+          "Servicio doméstico %": 6.7,
+          "Empleado/obrero %": 55.7,
+          "Cuenta propia %": 28.6,
+          "Patrón/Empleador %": 2.7
+        },
+        {
+          "edad": "60-64",
+          "Servicio doméstico %": 5.4,
+          "Empleado/obrero %": 49.5,
+          "Cuenta propia %": 33.9,
+          "Patrón/Empleador %": 3.1
+        },
+        {
+          "edad": "65-69",
+          "Servicio doméstico %": 5.7,
+          "Empleado/obrero %": 34.9,
+          "Cuenta propia %": 43.1,
+          "Patrón/Empleador %": 3.4
+        },
+        {
+          "edad": "70-74",
+          "Servicio doméstico %": 5.8,
+          "Empleado/obrero %": 23.7,
+          "Cuenta propia %": 49,
+          "Patrón/Empleador %": 4
+        },
+        {
+          "edad": "75-79",
+          "Servicio doméstico %": 5.9,
+          "Empleado/obrero %": 23.6,
+          "Cuenta propia %": 44.9,
+          "Patrón/Empleador %": 3.4
+        },
+        {
+          "edad": "14",
+          "Servicio doméstico %": 6.9,
+          "Empleado/obrero %": 34.2,
+          "Cuenta propia %": 21.3,
+          "Patrón/Empleador %": 2.7
+        },
+        {
+          "edad": "15-19",
+          "Servicio doméstico %": 11.2,
+          "Empleado/obrero %": 35,
+          "Cuenta propia %": 28.3,
+          "Patrón/Empleador %": 1.5
+        },
+        {
+          "edad": "20-24",
+          "Servicio doméstico %": 14.6,
+          "Empleado/obrero %": 44.2,
+          "Cuenta propia %": 27.3,
+          "Patrón/Empleador %": 1.7
+        },
+        {
+          "edad": "25-29",
+          "Servicio doméstico %": 12.3,
+          "Empleado/obrero %": 48.4,
+          "Cuenta propia %": 28.3,
+          "Patrón/Empleador %": 1.7
+        },
+        {
+          "edad": "30-34",
+          "Servicio doméstico %": 11.3,
+          "Empleado/obrero %": 51,
+          "Cuenta propia %": 27.9,
+          "Patrón/Empleador %": 2.1
+        },
+        {
+          "edad": "35-39",
+          "Servicio doméstico %": 11.4,
+          "Empleado/obrero %": 52.9,
+          "Cuenta propia %": 26.6,
+          "Patrón/Empleador %": 2.1
+        },
+        {
+          "edad": "40-44",
+          "Servicio doméstico %": 12.3,
+          "Empleado/obrero %": 54.5,
+          "Cuenta propia %": 24.4,
+          "Patrón/Empleador %": 2.1
+        },
+        {
+          "edad": "45-49",
+          "Servicio doméstico %": 13,
+          "Empleado/obrero %": 54.2,
+          "Cuenta propia %": 24.2,
+          "Patrón/Empleador %": 2.2
+        },
+        {
+          "edad": "50-54",
+          "Servicio doméstico %": 12.9,
+          "Empleado/obrero %": 54.9,
+          "Cuenta propia %": 23.6,
+          "Patrón/Empleador %": 2.1
+        },
+        {
+          "edad": "55-59",
+          "Servicio doméstico %": 12.9,
+          "Empleado/obrero %": 53.5,
+          "Cuenta propia %": 24.3,
+          "Patrón/Empleador %": 2.2
+        },
+        {
+          "edad": "60-64",
+          "Servicio doméstico %": 11.5,
+          "Empleado/obrero %": 43.8,
+          "Cuenta propia %": 32.1,
+          "Patrón/Empleador %": 2.4
+        },
+        {
+          "edad": "65-69",
+          "Servicio doméstico %": 10.7,
+          "Empleado/obrero %": 30.9,
+          "Cuenta propia %": 40.7,
+          "Patrón/Empleador %": 2.4
+        },
+        {
+          "edad": "70-74",
+          "Servicio doméstico %": 10.5,
+          "Empleado/obrero %": 23.1,
+          "Cuenta propia %": 41.6,
+          "Patrón/Empleador %": 3.8
+        },
+        {
+          "edad": "75-79",
+          "Servicio doméstico %": 9,
+          "Empleado/obrero %": 23.4,
+          "Cuenta propia %": 39.6,
+          "Patrón/Empleador %": 3.1
+        },
+        {
+          "edad": "14",
+          "Servicio doméstico %": 2.5,
+          "Empleado/obrero %": 33.8,
+          "Cuenta propia %": 27.3,
+          "Patrón/Empleador %": 2.1
+        },
+        {
+          "edad": "15-19",
+          "Servicio doméstico %": 1.9,
+          "Empleado/obrero %": 45.1,
+          "Cuenta propia %": 29.3,
+          "Patrón/Empleador %": 1.5
+        },
+        {
+          "edad": "20-24",
+          "Servicio doméstico %": 1,
+          "Empleado/obrero %": 58.3,
+          "Cuenta propia %": 28.5,
+          "Patrón/Empleador %": 1.8
+        },
+        {
+          "edad": "25-29",
+          "Servicio doméstico %": 0.5,
+          "Empleado/obrero %": 62.2,
+          "Cuenta propia %": 27.7,
+          "Patrón/Empleador %": 2.3
+        },
+        {
+          "edad": "30-34",
+          "Servicio doméstico %": 0.5,
+          "Empleado/obrero %": 63.7,
+          "Cuenta propia %": 27.4,
+          "Patrón/Empleador %": 2.8
+        },
+        {
+          "edad": "35-39",
+          "Servicio doméstico %": 0.5,
+          "Empleado/obrero %": 63.7,
+          "Cuenta propia %": 27.8,
+          "Patrón/Empleador %": 3
+        },
+        {
+          "edad": "40-44",
+          "Servicio doméstico %": 0.4,
+          "Empleado/obrero %": 62.2,
+          "Cuenta propia %": 29.3,
+          "Patrón/Empleador %": 3.1
+        },
+        {
+          "edad": "45-49",
+          "Servicio doméstico %": 0.5,
+          "Empleado/obrero %": 61.4,
+          "Cuenta propia %": 30.3,
+          "Patrón/Empleador %": 3.1
+        },
+        {
+          "edad": "50-54",
+          "Servicio doméstico %": 0.6,
+          "Empleado/obrero %": 58.9,
+          "Cuenta propia %": 31.9,
+          "Patrón/Empleador %": 3.3
+        },
+        {
+          "edad": "55-59",
+          "Servicio doméstico %": 0.8,
+          "Empleado/obrero %": 57.9,
+          "Cuenta propia %": 32.7,
+          "Patrón/Empleador %": 3.2
+        },
+        {
+          "edad": "60-64",
+          "Servicio doméstico %": 1,
+          "Empleado/obrero %": 53.6,
+          "Cuenta propia %": 35.2,
+          "Patrón/Empleador %": 3.7
+        },
+        {
+          "edad": "65-69",
+          "Servicio doméstico %": 2.2,
+          "Empleado/obrero %": 37.7,
+          "Cuenta propia %": 44.8,
+          "Patrón/Empleador %": 4.2
+        },
+        {
+          "edad": "70-74",
+          "Servicio doméstico %": 2.3,
+          "Empleado/obrero %": 24.1,
+          "Cuenta propia %": 54.6,
+          "Patrón/Empleador %": 4.2
+        },
+        {
+          "edad": "75-79",
+          "Servicio doméstico %": 3.4,
+          "Empleado/obrero %": 23.7,
+          "Cuenta propia %": 49.3,
+          "Patrón/Empleador %": 3.6
+        }
+      ]
+    },
+    {
+      "sectionId": "actividad-y-nivel-educativo",
+      "config": {
+        "xAxis": "nivel",
+        "yAxis": "%",
+        "grouped": true
+      },
+      "id": "bar-actividad-nivel-edu",
+      "type": "bar",
+      "title": "Tasas de actividad y empleo según máximo nivel educativo",
+      "sectionTitle": "Actividad y Nivel Educativo",
+      "data": [
+        {
+          "nivel": "Sin instrucción",
+          "Tasa actividad %": 32.7,
+          "Tasa empleo %": 22.4,
+          "Tasa desocupación %": 31.5
+        },
+        {
+          "nivel": "Primario incompleto",
+          "Tasa actividad %": 47.5,
+          "Tasa empleo %": 45.2,
+          "Tasa desocupación %": 4.7
+        },
+        {
+          "nivel": "Primario completo",
+          "Tasa actividad %": 58.6,
+          "Tasa empleo %": 55.6,
+          "Tasa desocupación %": 5.2
+        },
+        {
+          "nivel": "EGB incompleto",
+          "Tasa actividad %": 69.1,
+          "Tasa empleo %": 62.6,
+          "Tasa desocupación %": 9.3
+        },
+        {
+          "nivel": "EGB completo",
+          "Tasa actividad %": 65.8,
+          "Tasa empleo %": 58.5,
+          "Tasa desocupación %": 11.1
+        },
+        {
+          "nivel": "Secundario incompleto",
+          "Tasa actividad %": 72.4,
+          "Tasa empleo %": 67.5,
+          "Tasa desocupación %": 6.8
+        },
+        {
+          "nivel": "Secundario completo",
+          "Tasa actividad %": 75.2,
+          "Tasa empleo %": 69.9,
+          "Tasa desocupación %": 7
+        },
+        {
+          "nivel": "Polimodal incompleto",
+          "Tasa actividad %": 56.4,
+          "Tasa empleo %": 46,
+          "Tasa desocupación %": 18.5
+        },
+        {
+          "nivel": "Polimodal completo",
+          "Tasa actividad %": 68.6,
+          "Tasa empleo %": 59,
+          "Tasa desocupación %": 13.9
+        },
+        {
+          "nivel": "Terciario no universitario i…",
+          "Tasa actividad %": 80.9,
+          "Tasa empleo %": 75.3,
+          "Tasa desocupación %": 6.9
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "tasa-de-actividad-por-departamento",
+      "id": "rank-actividad",
+      "title": "Departamentos con mayor tasa de actividad",
+      "items": [
+        {
+          "name": "Tilcara",
+          "value": 67.1,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 66,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 64.8,
+          "municipioId": "38021"
+        },
+        {
+          "name": "San Antonio",
+          "value": 64.2,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Palpalá",
+          "value": 63,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Rinconada",
+          "value": 62.9,
+          "municipioId": "38049"
+        },
+        {
+          "name": "El Carmen",
+          "value": 62.5,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Yavi",
+          "value": 61.3,
+          "municipioId": "38112"
+        },
+        {
+          "name": "San Pedro",
+          "value": 60.7,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Ledesma",
+          "value": 60.6,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 59.9,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 58.9,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 58.5,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 57.8,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Susques",
+          "value": 57.4,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 54.1,
+          "municipioId": "38077"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "sectionId": "tasa-de-desocupacion-por-departamento",
+      "id": "rank-desocupacion",
+      "title": "Departamentos con mayor tasa de desocupación",
+      "items": [
+        {
+          "name": "Palpalá",
+          "value": 8.9,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 8.9,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 8.9,
+          "municipioId": "38077"
+        },
+        {
+          "name": "San Pedro",
+          "value": 8.4,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 8.1,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 8.1,
+          "municipioId": "38028"
+        },
+        {
+          "name": "El Carmen",
+          "value": 8,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Susques",
+          "value": 7.6,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Yavi",
+          "value": 7.5,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Ledesma",
+          "value": 7,
+          "municipioId": "38035"
+        },
+        {
+          "name": "San Antonio",
+          "value": 6.7,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 6,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Tilcara",
+          "value": 6,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 5.4,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 5.2,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Rinconada",
+          "value": 4.7,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "sectionId": "ramas-de-actividad-economica",
+      "id": "rank-ramas",
+      "title": "Ramas con mayor ocupación",
+      "items": [
+        {
+          "name": "Sin respuesta",
+          "value": 59024
+        },
+        {
+          "name": "Comercio al por mayor y al por menor…",
+          "value": 57794
+        },
+        {
+          "name": "Información insuficiente para codifi…",
+          "value": 49767
+        },
+        {
+          "name": "Construcción",
+          "value": 32366
+        },
+        {
+          "name": "Construcción",
+          "value": 31330
+        },
+        {
+          "name": "Comercio al por mayor y al por menor…",
+          "value": 30579
+        },
+        {
+          "name": "Sin respuesta",
+          "value": 30248
+        },
+        {
+          "name": "Sin respuesta",
+          "value": 28776
+        },
+        {
+          "name": "Información insuficiente para codifi…",
+          "value": 28415
+        },
+        {
+          "name": "Comercio al por mayor y al por menor…",
+          "value": 27215
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 8.9,
+      "label": "8,9% desocupación"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 8,
+      "label": "8,0% desocupación"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 8.1,
+      "label": "8,1% desocupación"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 8.1,
+      "label": "8,1% desocupación"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 7,
+      "label": "7,0% desocupación"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 8.9,
+      "label": "8,9% desocupación"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 4.7,
+      "label": "4,7% desocupación"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 6.7,
+      "label": "6,7% desocupación"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 8.4,
+      "label": "8,4% desocupación"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 5.4,
+      "label": "5,4% desocupación"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 8.9,
+      "label": "8,9% desocupación"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 7.6,
+      "label": "7,6% desocupación"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 6,
+      "label": "6,0% desocupación"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 6,
+      "label": "6,0% desocupación"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 5.2,
+      "label": "5,2% desocupación"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 7.5,
+      "label": "7,5% desocupación"
+    }
+  ]
+}

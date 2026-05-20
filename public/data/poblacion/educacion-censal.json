@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "poblacion-educacion-censal",
+    "title": "Asistencia Educativa de la Población",
+    "category": "Población",
+    "subcategory": "Educación",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "asiste",
+      "label": "Asiste a un establecimiento",
+      "value": 37.3957823673897,
+      "formatted": "37,4%"
+    },
+    {
+      "id": "superior",
+      "label": "Con nivel superior alcanzado",
+      "value": 25.265065640031697,
+      "formatted": "25,3%",
+      "comparison": "terciario, universitario o posgrado"
+    },
+    {
+      "id": "no-asiste",
+      "label": "No asiste pero asistió",
+      "value": 56.34028694135148,
+      "formatted": "56,3%"
+    },
+    {
+      "id": "nunca",
+      "label": "Nunca asistió",
+      "value": 6.263930691258815,
+      "formatted": "6,3%",
+      "status": "warning"
+    },
+    {
+      "id": "universitarios",
+      "label": "Asisten a universitario de grado",
+      "value": 32132,
+      "formatted": "32,1K"
+    },
+    {
+      "id": "posgrado-pop",
+      "label": "Con posgrado alcanzado",
+      "value": 6114,
+      "formatted": "6,1K"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "condicion-de-asistencia",
+      "config": {},
+      "id": "pie-asistencia",
+      "type": "pie",
+      "title": "Condición de asistencia escolar — Jujuy",
+      "sectionTitle": "Condición de Asistencia",
+      "data": [
+        {
+          "id": "Asiste",
+          "label": "Asiste",
+          "value": 302668
+        },
+        {
+          "id": "Asistió (no asiste)",
+          "label": "Asistió (no asiste)",
+          "value": 455998
+        },
+        {
+          "id": "Nunca asistió",
+          "label": "Nunca asistió",
+          "value": 50698
+        }
+      ]
+    },
+    {
+      "sectionId": "nivel-educativo-en-curso",
+      "config": {
+        "xAxis": "nivel",
+        "yAxis": "Población"
+      },
+      "id": "bar-niveles",
+      "type": "bar",
+      "title": "Población por nivel educativo en curso",
+      "sectionTitle": "Nivel Educativo en Curso",
+      "data": [
+        {
+          "nivel": "Jardín maternal/centro primera infancia",
+          "Población": 12834
+        },
+        {
+          "nivel": "Sala de 4 o 5 (jardín)",
+          "Población": 21739
+        },
+        {
+          "nivel": "Primario",
+          "Población": 103112
+        },
+        {
+          "nivel": "Secundario",
+          "Población": 86938
+        },
+        {
+          "nivel": "Terciario no universitario",
+          "Población": 41717
+        },
+        {
+          "nivel": "Universitario de grado",
+          "Población": 32132
+        },
+        {
+          "nivel": "Posgrado",
+          "Población": 4196
+        }
+      ]
+    },
+    {
+      "sectionId": "maximo-nivel-educativo-alcanzado",
+      "config": {},
+      "id": "pie-max-nivel",
+      "type": "pie",
+      "title": "Máximo nivel educativo alcanzado — Jujuy (5 años y más que asistió)",
+      "sectionTitle": "Máximo Nivel Educativo Alcanzado",
+      "data": [
+        {
+          "id": "Sin instrucción",
+          "label": "Sin instrucción",
+          "value": 4463
+        },
+        {
+          "id": "Primario/EGB",
+          "label": "Primario/EGB",
+          "value": 120441
+        },
+        {
+          "id": "Secundario/Polimodal",
+          "label": "Secundario/Polimodal",
+          "value": 211046
+        },
+        {
+          "id": "Terciario no univ.",
+          "label": "Terciario no univ.",
+          "value": 71242
+        },
+        {
+          "id": "Universitario grado",
+          "label": "Universitario grado",
+          "value": 37095
+        },
+        {
+          "id": "Posgrado",
+          "label": "Posgrado",
+          "value": 6114
+        }
+      ]
+    }
+  ],
+  "rankings": [],
+  "mapData": []
+}

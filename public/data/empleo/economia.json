@@ -1,0 +1,1106 @@
+{
+  "meta": {
+    "id": "empleo-economia",
+    "title": "Empleo Registrado y Economía",
+    "category": "Economía",
+    "subcategory": "Empleo SSPM",
+    "source": "SSPM — Subsecretaría de Planificación y Modernización · Asalariados registrados del sector privado por provincia (sin estacionalidad)",
+    "date": "2025-11-01"
+  },
+  "kpis": [
+    {
+      "id": "asalariados-latest",
+      "label": "Asalariados privados (2025-11)",
+      "value": 58871,
+      "formatted": "58.871",
+      "unit": "personas"
+    },
+    {
+      "id": "var-interanual",
+      "label": "Variación interanual",
+      "value": -0.720091740024958,
+      "formatted": "-0,7%",
+      "status": "warning",
+      "comparison": "vs 2024-11"
+    },
+    {
+      "id": "var-acumulada",
+      "label": "Variación desde 2009",
+      "value": 22.599387742351993,
+      "formatted": "+22,6%",
+      "comparison": "vs 2009-01"
+    },
+    {
+      "id": "max-historico",
+      "label": "Máximo histórico",
+      "value": 63541,
+      "formatted": "63.541",
+      "comparison": "2023-03"
+    },
+    {
+      "id": "min-historico",
+      "label": "Mínimo histórico",
+      "value": 48019,
+      "formatted": "48.019",
+      "comparison": "2009-01"
+    },
+    {
+      "id": "cobertura",
+      "label": "Cobertura de la serie",
+      "value": 203,
+      "formatted": "2009–2025",
+      "unit": "203 obs."
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "evolucion-del-empleo-registrado",
+      "config": {
+        "xAxis": "fecha",
+        "yAxis": "Asalariados"
+      },
+      "id": "line-serie-empleo",
+      "type": "line",
+      "title": "Asalariados privados registrados — Jujuy 2009-2025",
+      "sectionTitle": "Evolución del Empleo Registrado",
+      "data": [
+        {
+          "fecha": "2009-01",
+          "Asalariados": 48019
+        },
+        {
+          "fecha": "2009-02",
+          "Asalariados": 48488
+        },
+        {
+          "fecha": "2009-03",
+          "Asalariados": 48737
+        },
+        {
+          "fecha": "2009-04",
+          "Asalariados": 49086
+        },
+        {
+          "fecha": "2009-05",
+          "Asalariados": 50059
+        },
+        {
+          "fecha": "2009-06",
+          "Asalariados": 51488
+        },
+        {
+          "fecha": "2009-07",
+          "Asalariados": 52160
+        },
+        {
+          "fecha": "2009-08",
+          "Asalariados": 51675
+        },
+        {
+          "fecha": "2009-09",
+          "Asalariados": 52381
+        },
+        {
+          "fecha": "2009-10",
+          "Asalariados": 51594
+        },
+        {
+          "fecha": "2009-11",
+          "Asalariados": 51474
+        },
+        {
+          "fecha": "2009-12",
+          "Asalariados": 50963
+        },
+        {
+          "fecha": "2010-01",
+          "Asalariados": 50545
+        },
+        {
+          "fecha": "2010-02",
+          "Asalariados": 51033
+        },
+        {
+          "fecha": "2010-03",
+          "Asalariados": 51166
+        },
+        {
+          "fecha": "2010-04",
+          "Asalariados": 51581
+        },
+        {
+          "fecha": "2010-05",
+          "Asalariados": 51823
+        },
+        {
+          "fecha": "2010-06",
+          "Asalariados": 52388
+        },
+        {
+          "fecha": "2010-07",
+          "Asalariados": 52482
+        },
+        {
+          "fecha": "2010-08",
+          "Asalariados": 52660
+        },
+        {
+          "fecha": "2010-09",
+          "Asalariados": 52979
+        },
+        {
+          "fecha": "2010-10",
+          "Asalariados": 52948
+        },
+        {
+          "fecha": "2010-11",
+          "Asalariados": 52919
+        },
+        {
+          "fecha": "2010-12",
+          "Asalariados": 52731
+        },
+        {
+          "fecha": "2011-01",
+          "Asalariados": 53201
+        },
+        {
+          "fecha": "2011-02",
+          "Asalariados": 53247
+        },
+        {
+          "fecha": "2011-03",
+          "Asalariados": 53897
+        },
+        {
+          "fecha": "2011-04",
+          "Asalariados": 54089
+        },
+        {
+          "fecha": "2011-05",
+          "Asalariados": 54483
+        },
+        {
+          "fecha": "2011-06",
+          "Asalariados": 54307
+        },
+        {
+          "fecha": "2011-07",
+          "Asalariados": 54515
+        },
+        {
+          "fecha": "2011-08",
+          "Asalariados": 54879
+        },
+        {
+          "fecha": "2011-09",
+          "Asalariados": 54998
+        },
+        {
+          "fecha": "2011-10",
+          "Asalariados": 55514
+        },
+        {
+          "fecha": "2011-11",
+          "Asalariados": 55439
+        },
+        {
+          "fecha": "2011-12",
+          "Asalariados": 55781
+        },
+        {
+          "fecha": "2012-01",
+          "Asalariados": 55756
+        },
+        {
+          "fecha": "2012-02",
+          "Asalariados": 55862
+        },
+        {
+          "fecha": "2012-03",
+          "Asalariados": 55401
+        },
+        {
+          "fecha": "2012-04",
+          "Asalariados": 55081
+        },
+        {
+          "fecha": "2012-05",
+          "Asalariados": 54968
+        },
+        {
+          "fecha": "2012-06",
+          "Asalariados": 54786
+        },
+        {
+          "fecha": "2012-07",
+          "Asalariados": 54814
+        },
+        {
+          "fecha": "2012-08",
+          "Asalariados": 54456
+        },
+        {
+          "fecha": "2012-09",
+          "Asalariados": 54989
+        },
+        {
+          "fecha": "2012-10",
+          "Asalariados": 54978
+        },
+        {
+          "fecha": "2012-11",
+          "Asalariados": 55103
+        },
+        {
+          "fecha": "2012-12",
+          "Asalariados": 54883
+        },
+        {
+          "fecha": "2013-01",
+          "Asalariados": 54605
+        },
+        {
+          "fecha": "2013-02",
+          "Asalariados": 54436
+        },
+        {
+          "fecha": "2013-03",
+          "Asalariados": 54201
+        },
+        {
+          "fecha": "2013-04",
+          "Asalariados": 55966
+        },
+        {
+          "fecha": "2013-05",
+          "Asalariados": 56239
+        },
+        {
+          "fecha": "2013-06",
+          "Asalariados": 56150
+        },
+        {
+          "fecha": "2013-07",
+          "Asalariados": 56248
+        },
+        {
+          "fecha": "2013-08",
+          "Asalariados": 56429
+        },
+        {
+          "fecha": "2013-09",
+          "Asalariados": 56154
+        },
+        {
+          "fecha": "2013-10",
+          "Asalariados": 55948
+        },
+        {
+          "fecha": "2013-11",
+          "Asalariados": 56371
+        },
+        {
+          "fecha": "2013-12",
+          "Asalariados": 56236
+        },
+        {
+          "fecha": "2014-01",
+          "Asalariados": 55934
+        },
+        {
+          "fecha": "2014-02",
+          "Asalariados": 56045
+        },
+        {
+          "fecha": "2014-03",
+          "Asalariados": 56149
+        },
+        {
+          "fecha": "2014-04",
+          "Asalariados": 56057
+        },
+        {
+          "fecha": "2014-05",
+          "Asalariados": 56096
+        },
+        {
+          "fecha": "2014-06",
+          "Asalariados": 56427
+        },
+        {
+          "fecha": "2014-07",
+          "Asalariados": 56787
+        },
+        {
+          "fecha": "2014-08",
+          "Asalariados": 56646
+        },
+        {
+          "fecha": "2014-09",
+          "Asalariados": 57173
+        },
+        {
+          "fecha": "2014-10",
+          "Asalariados": 57256
+        },
+        {
+          "fecha": "2014-11",
+          "Asalariados": 57470
+        },
+        {
+          "fecha": "2014-12",
+          "Asalariados": 58423
+        },
+        {
+          "fecha": "2015-01",
+          "Asalariados": 58786
+        },
+        {
+          "fecha": "2015-02",
+          "Asalariados": 58784
+        },
+        {
+          "fecha": "2015-03",
+          "Asalariados": 58637
+        },
+        {
+          "fecha": "2015-04",
+          "Asalariados": 58473
+        },
+        {
+          "fecha": "2015-05",
+          "Asalariados": 58199
+        },
+        {
+          "fecha": "2015-06",
+          "Asalariados": 57868
+        },
+        {
+          "fecha": "2015-07",
+          "Asalariados": 57880
+        },
+        {
+          "fecha": "2015-08",
+          "Asalariados": 58106
+        },
+        {
+          "fecha": "2015-09",
+          "Asalariados": 57396
+        },
+        {
+          "fecha": "2015-10",
+          "Asalariados": 57646
+        },
+        {
+          "fecha": "2015-11",
+          "Asalariados": 57101
+        },
+        {
+          "fecha": "2015-12",
+          "Asalariados": 56442
+        },
+        {
+          "fecha": "2016-01",
+          "Asalariados": 56693
+        },
+        {
+          "fecha": "2016-02",
+          "Asalariados": 57059
+        },
+        {
+          "fecha": "2016-03",
+          "Asalariados": 57653
+        },
+        {
+          "fecha": "2016-04",
+          "Asalariados": 57075
+        },
+        {
+          "fecha": "2016-05",
+          "Asalariados": 56533
+        },
+        {
+          "fecha": "2016-06",
+          "Asalariados": 56746
+        },
+        {
+          "fecha": "2016-07",
+          "Asalariados": 56832
+        },
+        {
+          "fecha": "2016-08",
+          "Asalariados": 56871
+        },
+        {
+          "fecha": "2016-09",
+          "Asalariados": 57241
+        },
+        {
+          "fecha": "2016-10",
+          "Asalariados": 57704
+        },
+        {
+          "fecha": "2016-11",
+          "Asalariados": 57117
+        },
+        {
+          "fecha": "2016-12",
+          "Asalariados": 58693
+        },
+        {
+          "fecha": "2017-01",
+          "Asalariados": 58856
+        },
+        {
+          "fecha": "2017-02",
+          "Asalariados": 59114
+        },
+        {
+          "fecha": "2017-03",
+          "Asalariados": 60912
+        },
+        {
+          "fecha": "2017-04",
+          "Asalariados": 58213
+        },
+        {
+          "fecha": "2017-05",
+          "Asalariados": 58449
+        },
+        {
+          "fecha": "2017-06",
+          "Asalariados": 58416
+        },
+        {
+          "fecha": "2017-07",
+          "Asalariados": 58152
+        },
+        {
+          "fecha": "2017-08",
+          "Asalariados": 58818
+        },
+        {
+          "fecha": "2017-09",
+          "Asalariados": 59328
+        },
+        {
+          "fecha": "2017-10",
+          "Asalariados": 59126
+        },
+        {
+          "fecha": "2017-11",
+          "Asalariados": 59931
+        },
+        {
+          "fecha": "2017-12",
+          "Asalariados": 60323
+        },
+        {
+          "fecha": "2018-01",
+          "Asalariados": 60449
+        },
+        {
+          "fecha": "2018-02",
+          "Asalariados": 60419
+        },
+        {
+          "fecha": "2018-03",
+          "Asalariados": 60755
+        },
+        {
+          "fecha": "2018-04",
+          "Asalariados": 60870
+        },
+        {
+          "fecha": "2018-05",
+          "Asalariados": 61397
+        },
+        {
+          "fecha": "2018-06",
+          "Asalariados": 61188
+        },
+        {
+          "fecha": "2018-07",
+          "Asalariados": 60866
+        },
+        {
+          "fecha": "2018-08",
+          "Asalariados": 60799
+        },
+        {
+          "fecha": "2018-09",
+          "Asalariados": 60994
+        },
+        {
+          "fecha": "2018-10",
+          "Asalariados": 61610
+        },
+        {
+          "fecha": "2018-11",
+          "Asalariados": 62351
+        },
+        {
+          "fecha": "2018-12",
+          "Asalariados": 62080
+        },
+        {
+          "fecha": "2019-01",
+          "Asalariados": 61403
+        },
+        {
+          "fecha": "2019-02",
+          "Asalariados": 60324
+        },
+        {
+          "fecha": "2019-03",
+          "Asalariados": 60046
+        },
+        {
+          "fecha": "2019-04",
+          "Asalariados": 59908
+        },
+        {
+          "fecha": "2019-05",
+          "Asalariados": 60594
+        },
+        {
+          "fecha": "2019-06",
+          "Asalariados": 60434
+        },
+        {
+          "fecha": "2019-07",
+          "Asalariados": 60487
+        },
+        {
+          "fecha": "2019-08",
+          "Asalariados": 60797
+        },
+        {
+          "fecha": "2019-09",
+          "Asalariados": 60379
+        },
+        {
+          "fecha": "2019-10",
+          "Asalariados": 59827
+        },
+        {
+          "fecha": "2019-11",
+          "Asalariados": 59798
+        },
+        {
+          "fecha": "2019-12",
+          "Asalariados": 59245
+        },
+        {
+          "fecha": "2020-01",
+          "Asalariados": 59424
+        },
+        {
+          "fecha": "2020-02",
+          "Asalariados": 59535
+        },
+        {
+          "fecha": "2020-03",
+          "Asalariados": 58756
+        },
+        {
+          "fecha": "2020-04",
+          "Asalariados": 57599
+        },
+        {
+          "fecha": "2020-05",
+          "Asalariados": 57372
+        },
+        {
+          "fecha": "2020-06",
+          "Asalariados": 57087
+        },
+        {
+          "fecha": "2020-07",
+          "Asalariados": 57018
+        },
+        {
+          "fecha": "2020-08",
+          "Asalariados": 56465
+        },
+        {
+          "fecha": "2020-09",
+          "Asalariados": 55808
+        },
+        {
+          "fecha": "2020-10",
+          "Asalariados": 55926
+        },
+        {
+          "fecha": "2020-11",
+          "Asalariados": 56138
+        },
+        {
+          "fecha": "2020-12",
+          "Asalariados": 55930
+        },
+        {
+          "fecha": "2021-01",
+          "Asalariados": 56129
+        },
+        {
+          "fecha": "2021-02",
+          "Asalariados": 56060
+        },
+        {
+          "fecha": "2021-03",
+          "Asalariados": 56469
+        },
+        {
+          "fecha": "2021-04",
+          "Asalariados": 57655
+        },
+        {
+          "fecha": "2021-05",
+          "Asalariados": 58304
+        },
+        {
+          "fecha": "2021-06",
+          "Asalariados": 57880
+        },
+        {
+          "fecha": "2021-07",
+          "Asalariados": 57961
+        },
+        {
+          "fecha": "2021-08",
+          "Asalariados": 58062
+        },
+        {
+          "fecha": "2021-09",
+          "Asalariados": 58660
+        },
+        {
+          "fecha": "2021-10",
+          "Asalariados": 58752
+        },
+        {
+          "fecha": "2021-11",
+          "Asalariados": 58877
+        },
+        {
+          "fecha": "2021-12",
+          "Asalariados": 58696
+        },
+        {
+          "fecha": "2022-01",
+          "Asalariados": 59525
+        },
+        {
+          "fecha": "2022-02",
+          "Asalariados": 60905
+        },
+        {
+          "fecha": "2022-03",
+          "Asalariados": 62440
+        },
+        {
+          "fecha": "2022-04",
+          "Asalariados": 61896
+        },
+        {
+          "fecha": "2022-05",
+          "Asalariados": 61531
+        },
+        {
+          "fecha": "2022-06",
+          "Asalariados": 61837
+        },
+        {
+          "fecha": "2022-07",
+          "Asalariados": 61953
+        },
+        {
+          "fecha": "2022-08",
+          "Asalariados": 62053
+        },
+        {
+          "fecha": "2022-09",
+          "Asalariados": 62234
+        },
+        {
+          "fecha": "2022-10",
+          "Asalariados": 61914
+        },
+        {
+          "fecha": "2022-11",
+          "Asalariados": 61799
+        },
+        {
+          "fecha": "2022-12",
+          "Asalariados": 61149
+        },
+        {
+          "fecha": "2023-01",
+          "Asalariados": 61280
+        },
+        {
+          "fecha": "2023-02",
+          "Asalariados": 62204
+        },
+        {
+          "fecha": "2023-03",
+          "Asalariados": 63541
+        },
+        {
+          "fecha": "2023-04",
+          "Asalariados": 62460
+        },
+        {
+          "fecha": "2023-05",
+          "Asalariados": 62104
+        },
+        {
+          "fecha": "2023-06",
+          "Asalariados": 62058
+        },
+        {
+          "fecha": "2023-07",
+          "Asalariados": 61773
+        },
+        {
+          "fecha": "2023-08",
+          "Asalariados": 61497
+        },
+        {
+          "fecha": "2023-09",
+          "Asalariados": 60985
+        },
+        {
+          "fecha": "2023-10",
+          "Asalariados": 60844
+        },
+        {
+          "fecha": "2023-11",
+          "Asalariados": 60058
+        },
+        {
+          "fecha": "2023-12",
+          "Asalariados": 59359
+        },
+        {
+          "fecha": "2024-01",
+          "Asalariados": 58772
+        },
+        {
+          "fecha": "2024-02",
+          "Asalariados": 58500
+        },
+        {
+          "fecha": "2024-03",
+          "Asalariados": 58525
+        },
+        {
+          "fecha": "2024-04",
+          "Asalariados": 58666
+        },
+        {
+          "fecha": "2024-05",
+          "Asalariados": 58868
+        },
+        {
+          "fecha": "2024-06",
+          "Asalariados": 58619
+        },
+        {
+          "fecha": "2024-07",
+          "Asalariados": 58967
+        },
+        {
+          "fecha": "2024-08",
+          "Asalariados": 58685
+        },
+        {
+          "fecha": "2024-09",
+          "Asalariados": 58873
+        },
+        {
+          "fecha": "2024-10",
+          "Asalariados": 59102
+        },
+        {
+          "fecha": "2024-11",
+          "Asalariados": 59298
+        },
+        {
+          "fecha": "2024-12",
+          "Asalariados": 59229
+        },
+        {
+          "fecha": "2025-01",
+          "Asalariados": 59452
+        },
+        {
+          "fecha": "2025-02",
+          "Asalariados": 59381
+        },
+        {
+          "fecha": "2025-03",
+          "Asalariados": 59317
+        },
+        {
+          "fecha": "2025-04",
+          "Asalariados": 59243
+        },
+        {
+          "fecha": "2025-05",
+          "Asalariados": 59379
+        },
+        {
+          "fecha": "2025-06",
+          "Asalariados": 59133
+        },
+        {
+          "fecha": "2025-07",
+          "Asalariados": 58643
+        },
+        {
+          "fecha": "2025-08",
+          "Asalariados": 58823
+        },
+        {
+          "fecha": "2025-09",
+          "Asalariados": 58679
+        },
+        {
+          "fecha": "2025-10",
+          "Asalariados": 58585
+        },
+        {
+          "fecha": "2025-11",
+          "Asalariados": 58871
+        }
+      ]
+    },
+    {
+      "sectionId": "promedio-anual",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "Promedio asalariados"
+      },
+      "id": "bar-prom-anual",
+      "type": "bar",
+      "title": "Promedio anual de asalariados — Jujuy",
+      "sectionTitle": "Promedio Anual",
+      "data": [
+        {
+          "anio": "2009",
+          "Promedio asalariados": 50510
+        },
+        {
+          "anio": "2010",
+          "Promedio asalariados": 52105
+        },
+        {
+          "anio": "2011",
+          "Promedio asalariados": 54529
+        },
+        {
+          "anio": "2012",
+          "Promedio asalariados": 55090
+        },
+        {
+          "anio": "2013",
+          "Promedio asalariados": 55749
+        },
+        {
+          "anio": "2014",
+          "Promedio asalariados": 56705
+        },
+        {
+          "anio": "2015",
+          "Promedio asalariados": 57943
+        },
+        {
+          "anio": "2016",
+          "Promedio asalariados": 57185
+        },
+        {
+          "anio": "2017",
+          "Promedio asalariados": 59137
+        },
+        {
+          "anio": "2018",
+          "Promedio asalariados": 61148
+        },
+        {
+          "anio": "2019",
+          "Promedio asalariados": 60270
+        },
+        {
+          "anio": "2020",
+          "Promedio asalariados": 57255
+        },
+        {
+          "anio": "2021",
+          "Promedio asalariados": 57792
+        },
+        {
+          "anio": "2022",
+          "Promedio asalariados": 61603
+        },
+        {
+          "anio": "2023",
+          "Promedio asalariados": 61514
+        },
+        {
+          "anio": "2024",
+          "Promedio asalariados": 58842
+        },
+        {
+          "anio": "2025",
+          "Promedio asalariados": 59046
+        }
+      ]
+    },
+    {
+      "sectionId": "variacion-interanual",
+      "config": {
+        "xAxis": "fecha",
+        "yAxis": "Var. interanual (%)"
+      },
+      "id": "line-var-interanual",
+      "type": "line",
+      "title": "Variación interanual del empleo — Jujuy",
+      "sectionTitle": "Variación Interanual",
+      "data": [
+        {
+          "fecha": "2010-01",
+          "Var. interanual (%)": 5.3
+        },
+        {
+          "fecha": "2010-07",
+          "Var. interanual (%)": 0.6
+        },
+        {
+          "fecha": "2011-01",
+          "Var. interanual (%)": 5.3
+        },
+        {
+          "fecha": "2011-07",
+          "Var. interanual (%)": 3.9
+        },
+        {
+          "fecha": "2012-01",
+          "Var. interanual (%)": 4.8
+        },
+        {
+          "fecha": "2012-07",
+          "Var. interanual (%)": 0.5
+        },
+        {
+          "fecha": "2013-01",
+          "Var. interanual (%)": -2.1
+        },
+        {
+          "fecha": "2013-07",
+          "Var. interanual (%)": 2.6
+        },
+        {
+          "fecha": "2014-01",
+          "Var. interanual (%)": 2.4
+        },
+        {
+          "fecha": "2014-07",
+          "Var. interanual (%)": 1
+        },
+        {
+          "fecha": "2015-01",
+          "Var. interanual (%)": 5.1
+        },
+        {
+          "fecha": "2015-07",
+          "Var. interanual (%)": 1.9
+        },
+        {
+          "fecha": "2016-01",
+          "Var. interanual (%)": -3.6
+        },
+        {
+          "fecha": "2016-07",
+          "Var. interanual (%)": -1.8
+        },
+        {
+          "fecha": "2017-01",
+          "Var. interanual (%)": 3.8
+        },
+        {
+          "fecha": "2017-07",
+          "Var. interanual (%)": 2.3
+        },
+        {
+          "fecha": "2018-01",
+          "Var. interanual (%)": 2.7
+        },
+        {
+          "fecha": "2018-07",
+          "Var. interanual (%)": 4.7
+        },
+        {
+          "fecha": "2019-01",
+          "Var. interanual (%)": 1.6
+        },
+        {
+          "fecha": "2019-07",
+          "Var. interanual (%)": -0.6
+        },
+        {
+          "fecha": "2020-01",
+          "Var. interanual (%)": -3.2
+        },
+        {
+          "fecha": "2020-07",
+          "Var. interanual (%)": -5.7
+        },
+        {
+          "fecha": "2021-01",
+          "Var. interanual (%)": -5.5
+        },
+        {
+          "fecha": "2021-07",
+          "Var. interanual (%)": 1.7
+        },
+        {
+          "fecha": "2022-01",
+          "Var. interanual (%)": 6.1
+        },
+        {
+          "fecha": "2022-07",
+          "Var. interanual (%)": 6.9
+        },
+        {
+          "fecha": "2023-01",
+          "Var. interanual (%)": 2.9
+        },
+        {
+          "fecha": "2023-07",
+          "Var. interanual (%)": -0.3
+        },
+        {
+          "fecha": "2024-01",
+          "Var. interanual (%)": -4.1
+        },
+        {
+          "fecha": "2024-07",
+          "Var. interanual (%)": -4.5
+        },
+        {
+          "fecha": "2025-01",
+          "Var. interanual (%)": 1.2
+        },
+        {
+          "fecha": "2025-07",
+          "Var. interanual (%)": -0.5
+        }
+      ]
+    }
+  ],
+  "rankings": [],
+  "mapData": []
+}

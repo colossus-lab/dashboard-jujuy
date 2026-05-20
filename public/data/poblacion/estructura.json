@@ -1,0 +1,1058 @@
+{
+  "meta": {
+    "id": "poblacion-estructura",
+    "title": "Estructura por Sexo y Edad",
+    "category": "Población",
+    "subcategory": "Estructura",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "pob-total-2022",
+      "label": "Población total Jujuy (2022)",
+      "value": 811611,
+      "formatted": "811,6K",
+      "unit": "hab."
+    },
+    {
+      "id": "densidad",
+      "label": "Densidad poblacional",
+      "value": 15.2,
+      "formatted": "15",
+      "unit": "hab./km²"
+    },
+    {
+      "id": "edad-mediana",
+      "label": "Edad mediana",
+      "value": 31,
+      "formatted": "31",
+      "unit": "años"
+    },
+    {
+      "id": "var-pct",
+      "label": "Crecimiento decenal",
+      "value": 20.5,
+      "formatted": "20,5%",
+      "comparison": "respecto a 2010"
+    },
+    {
+      "id": "superficie",
+      "label": "Superficie",
+      "value": 53244.2,
+      "formatted": "53.244,2",
+      "unit": "km²"
+    },
+    {
+      "id": "var-abs",
+      "label": "Variación absoluta vs 2010",
+      "value": 138304,
+      "formatted": "138.304",
+      "unit": "hab."
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "poblacion-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Población",
+        "layout": "vertical"
+      },
+      "id": "bar-pob-departamento",
+      "type": "bar",
+      "title": "Población 2022 por departamento",
+      "sectionTitle": "Población por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Población": 15054
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Población": 320990
+        },
+        {
+          "departamento": "El Carmen",
+          "Población": 122366
+        },
+        {
+          "departamento": "Humahuaca",
+          "Población": 20914
+        },
+        {
+          "departamento": "Ledesma",
+          "Población": 94252
+        },
+        {
+          "departamento": "Palpalá",
+          "Población": 65541
+        },
+        {
+          "departamento": "Rinconada",
+          "Población": 1802
+        },
+        {
+          "departamento": "San Antonio",
+          "Población": 6729
+        },
+        {
+          "departamento": "San Pedro",
+          "Población": 88241
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Población": 20499
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Población": 2646
+        },
+        {
+          "departamento": "Susques",
+          "Población": 4098
+        },
+        {
+          "departamento": "Tilcara",
+          "Población": 14721
+        },
+        {
+          "departamento": "Tumbaya",
+          "Población": 5381
+        },
+        {
+          "departamento": "Valle Grande",
+          "Población": 2509
+        },
+        {
+          "departamento": "Yavi",
+          "Población": 25868
+        }
+      ]
+    },
+    {
+      "sectionId": "crecimiento-decenal",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Variación %",
+        "layout": "vertical"
+      },
+      "id": "bar-var-departamento",
+      "type": "bar",
+      "title": "Variación % de población 2010-2022",
+      "sectionTitle": "Crecimiento Decenal",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Variación %": 18.9
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Variación %": 21
+        },
+        {
+          "departamento": "El Carmen",
+          "Variación %": 26.1
+        },
+        {
+          "departamento": "Humahuaca",
+          "Variación %": 20.4
+        },
+        {
+          "departamento": "Ledesma",
+          "Variación %": 15.2
+        },
+        {
+          "departamento": "Palpalá",
+          "Variación %": 24.5
+        },
+        {
+          "departamento": "Rinconada",
+          "Variación %": -27.6
+        },
+        {
+          "departamento": "San Antonio",
+          "Variación %": 50.7
+        },
+        {
+          "departamento": "San Pedro",
+          "Variación %": 17.6
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Variación %": 15.6
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Variación %": -5.5
+        },
+        {
+          "departamento": "Susques",
+          "Variación %": 8.1
+        },
+        {
+          "departamento": "Tilcara",
+          "Variación %": 19.2
+        },
+        {
+          "departamento": "Tumbaya",
+          "Variación %": 15.5
+        },
+        {
+          "departamento": "Valle Grande",
+          "Variación %": 2.4
+        },
+        {
+          "departamento": "Yavi",
+          "Variación %": 24.3
+        }
+      ]
+    },
+    {
+      "sectionId": "densidad-poblacional",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Densidad"
+      },
+      "id": "bar-densidad-departamento",
+      "type": "bar",
+      "title": "Densidad poblacional por departamento (hab./km²)",
+      "sectionTitle": "Densidad Poblacional",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Densidad": 2.1
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Densidad": 154.8
+        },
+        {
+          "departamento": "El Carmen",
+          "Densidad": 134.6
+        },
+        {
+          "departamento": "Humahuaca",
+          "Densidad": 5.9
+        },
+        {
+          "departamento": "Ledesma",
+          "Densidad": 31.6
+        },
+        {
+          "departamento": "Palpalá",
+          "Densidad": 134.4
+        },
+        {
+          "departamento": "Rinconada",
+          "Densidad": 0.3
+        },
+        {
+          "departamento": "San Antonio",
+          "Densidad": 9.7
+        },
+        {
+          "departamento": "San Pedro",
+          "Densidad": 43.1
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Densidad": 4.7
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Densidad": 0.9
+        },
+        {
+          "departamento": "Susques",
+          "Densidad": 0.4
+        },
+        {
+          "departamento": "Tilcara",
+          "Densidad": 6.9
+        },
+        {
+          "departamento": "Tumbaya",
+          "Densidad": 1.6
+        },
+        {
+          "departamento": "Valle Grande",
+          "Densidad": 2.1
+        },
+        {
+          "departamento": "Yavi",
+          "Densidad": 8.6
+        }
+      ]
+    },
+    {
+      "sectionId": "piramide-poblacional",
+      "config": {
+        "xAxis": "grupo",
+        "layout": "horizontal"
+      },
+      "id": "piramide-poblacional",
+      "type": "pyramid",
+      "title": "Pirámide poblacional — Jujuy",
+      "sectionTitle": "Pirámide Poblacional",
+      "data": [
+        {
+          "grupo": "0-4",
+          "Mujeres": -25490,
+          "Varones": 26183
+        },
+        {
+          "grupo": "5-9",
+          "Mujeres": -33967,
+          "Varones": 34420
+        },
+        {
+          "grupo": "10-14",
+          "Mujeres": -34444,
+          "Varones": 35094
+        },
+        {
+          "grupo": "15-19",
+          "Mujeres": -32681,
+          "Varones": 33376
+        },
+        {
+          "grupo": "20-24",
+          "Mujeres": -32818,
+          "Varones": 32927
+        },
+        {
+          "grupo": "25-29",
+          "Mujeres": -34643,
+          "Varones": 33033
+        },
+        {
+          "grupo": "30-34",
+          "Mujeres": -31517,
+          "Varones": 29395
+        },
+        {
+          "grupo": "35-39",
+          "Mujeres": -30515,
+          "Varones": 28907
+        },
+        {
+          "grupo": "40-44",
+          "Mujeres": -31613,
+          "Varones": 29551
+        },
+        {
+          "grupo": "45-49",
+          "Mujeres": -26679,
+          "Varones": 24865
+        },
+        {
+          "grupo": "50-54",
+          "Mujeres": -21609,
+          "Varones": 19653
+        },
+        {
+          "grupo": "55-59",
+          "Mujeres": -19479,
+          "Varones": 16674
+        },
+        {
+          "grupo": "60-64",
+          "Mujeres": -17093,
+          "Varones": 14554
+        },
+        {
+          "grupo": "65-69",
+          "Mujeres": -15064,
+          "Varones": 12764
+        },
+        {
+          "grupo": "70-74",
+          "Mujeres": -11735,
+          "Varones": 9453
+        },
+        {
+          "grupo": "75-79",
+          "Mujeres": -8350,
+          "Varones": 6363
+        },
+        {
+          "grupo": "80-84",
+          "Mujeres": -5529,
+          "Varones": 3785
+        },
+        {
+          "grupo": "85-89",
+          "Mujeres": -3071,
+          "Varones": 1666
+        },
+        {
+          "grupo": "90-94",
+          "Mujeres": -1303,
+          "Varones": 644
+        },
+        {
+          "grupo": "95-99",
+          "Mujeres": -370,
+          "Varones": 180
+        },
+        {
+          "grupo": "100 y más",
+          "Mujeres": -51,
+          "Varones": 21
+        }
+      ]
+    },
+    {
+      "sectionId": "edad-mediana-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Edad mediana"
+      },
+      "id": "bar-edad-mediana",
+      "type": "bar",
+      "title": "Edad mediana por departamento",
+      "sectionTitle": "Edad Mediana por Departamento",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Edad mediana": 27
+        },
+        {
+          "departamento": "El Carmen",
+          "Edad mediana": 29
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Edad mediana": 32
+        },
+        {
+          "departamento": "Humahuaca",
+          "Edad mediana": 29
+        },
+        {
+          "departamento": "Ledesma",
+          "Edad mediana": 30
+        },
+        {
+          "departamento": "Palpalá",
+          "Edad mediana": 32
+        },
+        {
+          "departamento": "Rinconada",
+          "Edad mediana": 28
+        },
+        {
+          "departamento": "San Antonio",
+          "Edad mediana": 31
+        },
+        {
+          "departamento": "San Pedro",
+          "Edad mediana": 31
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Edad mediana": 28
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Edad mediana": 27
+        },
+        {
+          "departamento": "Susques",
+          "Edad mediana": 24
+        },
+        {
+          "departamento": "Tilcara",
+          "Edad mediana": 30
+        },
+        {
+          "departamento": "Tumbaya",
+          "Edad mediana": 31
+        },
+        {
+          "departamento": "Valle Grande",
+          "Edad mediana": 30
+        },
+        {
+          "departamento": "Yavi",
+          "Edad mediana": 29
+        }
+      ]
+    },
+    {
+      "sectionId": "tipo-de-residencia",
+      "config": {},
+      "id": "pie-tipo-residencia",
+      "type": "pie",
+      "title": "Tipo de residencia — Jujuy",
+      "sectionTitle": "Tipo de Residencia",
+      "data": [
+        {
+          "id": "Vivienda particular",
+          "label": "Vivienda particular",
+          "value": 809364
+        },
+        {
+          "id": "Vivienda colectiva",
+          "label": "Vivienda colectiva",
+          "value": 2165
+        },
+        {
+          "id": "Situación de calle",
+          "label": "Situación de calle",
+          "value": 82
+        }
+      ]
+    },
+    {
+      "sectionId": "indice-de-feminidad-por-edad",
+      "config": {
+        "xAxis": "edad",
+        "yAxis": "Mujeres por cada 100 varones"
+      },
+      "id": "line-feminidad",
+      "type": "line",
+      "title": "Índice de feminidad por grupo de edad — Jujuy",
+      "sectionTitle": "Índice de Feminidad por Edad",
+      "data": [
+        {
+          "edad": "0-4",
+          "Índice feminidad": 97
+        },
+        {
+          "edad": "5-9",
+          "Índice feminidad": 99
+        },
+        {
+          "edad": "10-14",
+          "Índice feminidad": 98
+        },
+        {
+          "edad": "15-19",
+          "Índice feminidad": 98
+        },
+        {
+          "edad": "20-24",
+          "Índice feminidad": 100
+        },
+        {
+          "edad": "25-29",
+          "Índice feminidad": 105
+        },
+        {
+          "edad": "30-34",
+          "Índice feminidad": 107
+        },
+        {
+          "edad": "35-39",
+          "Índice feminidad": 106
+        },
+        {
+          "edad": "40-44",
+          "Índice feminidad": 107
+        },
+        {
+          "edad": "45-49",
+          "Índice feminidad": 107
+        },
+        {
+          "edad": "50-54",
+          "Índice feminidad": 110
+        },
+        {
+          "edad": "55-59",
+          "Índice feminidad": 117
+        },
+        {
+          "edad": "60-64",
+          "Índice feminidad": 117
+        },
+        {
+          "edad": "65-69",
+          "Índice feminidad": 118
+        },
+        {
+          "edad": "70-74",
+          "Índice feminidad": 124
+        },
+        {
+          "edad": "75-79",
+          "Índice feminidad": 131
+        },
+        {
+          "edad": "80-84",
+          "Índice feminidad": 146
+        },
+        {
+          "edad": "85-89",
+          "Índice feminidad": 184
+        },
+        {
+          "edad": "90-94",
+          "Índice feminidad": 202
+        },
+        {
+          "edad": "95-99",
+          "Índice feminidad": 206
+        },
+        {
+          "edad": "100 y más",
+          "Índice feminidad": 243
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "poblacion-por-departamento",
+      "id": "rank-pob",
+      "title": "Departamentos más pobladas",
+      "items": [
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 320990,
+          "municipioId": "38021"
+        },
+        {
+          "name": "El Carmen",
+          "value": 122366,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Ledesma",
+          "value": 94252,
+          "municipioId": "38035"
+        },
+        {
+          "name": "San Pedro",
+          "value": 88241,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Palpalá",
+          "value": 65541,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Yavi",
+          "value": 25868,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 20914,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 20499,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 15054,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Tilcara",
+          "value": 14721,
+          "municipioId": "38094"
+        },
+        {
+          "name": "San Antonio",
+          "value": 6729,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 5381,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Susques",
+          "value": 4098,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 2646,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 2509,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Rinconada",
+          "value": 1802,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "sectionId": "crecimiento-decenal",
+      "id": "rank-var",
+      "title": "Departamentos con mayor crecimiento",
+      "items": [
+        {
+          "name": "San Antonio",
+          "value": 50.7,
+          "municipioId": "38056"
+        },
+        {
+          "name": "El Carmen",
+          "value": 26.1,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Palpalá",
+          "value": 24.5,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Yavi",
+          "value": 24.3,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 21,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 20.4,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Tilcara",
+          "value": 19.2,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 18.9,
+          "municipioId": "38007"
+        },
+        {
+          "name": "San Pedro",
+          "value": 17.6,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 15.6,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 15.5,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Ledesma",
+          "value": 15.2,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Susques",
+          "value": 8.1,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 2.4,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": -5.5,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Rinconada",
+          "value": -27.6,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "sectionId": "densidad-poblacional",
+      "id": "rank-densidad",
+      "title": "Departamentos con mayor densidad",
+      "items": [
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 154.8,
+          "municipioId": "38021"
+        },
+        {
+          "name": "El Carmen",
+          "value": 134.6,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Palpalá",
+          "value": 134.4,
+          "municipioId": "38042"
+        },
+        {
+          "name": "San Pedro",
+          "value": 43.1,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Ledesma",
+          "value": 31.6,
+          "municipioId": "38035"
+        },
+        {
+          "name": "San Antonio",
+          "value": 9.7,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Yavi",
+          "value": 8.6,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Tilcara",
+          "value": 6.9,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 5.9,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 4.7,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 2.1,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 2.1,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 1.6,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 0.9,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Susques",
+          "value": 0.4,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Rinconada",
+          "value": 0.3,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    },
+    {
+      "sectionId": "edad-mediana-por-departamento",
+      "id": "rank-mediana",
+      "title": "Departamentos con población más envejecida",
+      "items": [
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 32,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Palpalá",
+          "value": 32,
+          "municipioId": "38042"
+        },
+        {
+          "name": "San Antonio",
+          "value": 31,
+          "municipioId": "38056"
+        },
+        {
+          "name": "San Pedro",
+          "value": 31,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 31,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Ledesma",
+          "value": 30,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Tilcara",
+          "value": 30,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 30,
+          "municipioId": "38105"
+        },
+        {
+          "name": "El Carmen",
+          "value": 29,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 29,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Yavi",
+          "value": 29,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Rinconada",
+          "value": 28,
+          "municipioId": "38049"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 28,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 27,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 27,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Susques",
+          "value": 24,
+          "municipioId": "38084"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 15054,
+      "label": "15.054 hab."
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 320990,
+      "label": "320.990 hab."
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 122366,
+      "label": "122.366 hab."
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 20914,
+      "label": "20.914 hab."
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 94252,
+      "label": "94.252 hab."
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 65541,
+      "label": "65.541 hab."
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 1802,
+      "label": "1.802 hab."
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 6729,
+      "label": "6.729 hab."
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 88241,
+      "label": "88.241 hab."
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 20499,
+      "label": "20.499 hab."
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 2646,
+      "label": "2.646 hab."
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 4098,
+      "label": "4.098 hab."
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 14721,
+      "label": "14.721 hab."
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 5381,
+      "label": "5.381 hab."
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 2509,
+      "label": "2.509 hab."
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 25868,
+      "label": "25.868 hab."
+    }
+  ]
+}

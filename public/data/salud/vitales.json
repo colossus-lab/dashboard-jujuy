@@ -1,0 +1,634 @@
+{
+  "meta": {
+    "id": "salud-vitales",
+    "title": "Estadísticas Vitales — Nacimientos y Defunciones",
+    "category": "Salud",
+    "subcategory": "Vitales",
+    "source": "DEIS — Dirección de Estadísticas e Información de Salud · Ministerio de Salud de la Nación",
+    "date": "2023"
+  },
+  "kpis": [
+    {
+      "id": "defunciones-latest",
+      "label": "Defunciones Jujuy (2023)",
+      "value": 4787,
+      "formatted": "4.787",
+      "unit": "casos"
+    },
+    {
+      "id": "defunciones-2020",
+      "label": "Defunciones pico pandemia (2020)",
+      "value": 6522,
+      "formatted": "6.522",
+      "unit": "casos"
+    },
+    {
+      "id": "defunciones-2010",
+      "label": "Defunciones década anterior (2010)",
+      "value": 4091,
+      "formatted": "4.091",
+      "unit": "casos"
+    },
+    {
+      "id": "serie-largo",
+      "label": "Cobertura de la serie histórica",
+      "value": 110,
+      "formatted": "1914–2023",
+      "unit": "110 años"
+    },
+    {
+      "id": "nacimientos-latest",
+      "label": "Nacimientos Jujuy (2023)",
+      "value": 7365,
+      "formatted": "7.365",
+      "unit": "nacidos vivos"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "serie-historica-de-defunciones",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "Defunciones"
+      },
+      "id": "line-defunciones",
+      "type": "line",
+      "title": "Defunciones registradas en Jujuy (1914-2023)",
+      "sectionTitle": "Serie Histórica de Defunciones",
+      "data": [
+        {
+          "anio": "1914",
+          "Defunciones": 2084
+        },
+        {
+          "anio": "1915",
+          "Defunciones": 2022
+        },
+        {
+          "anio": "1916",
+          "Defunciones": 2414
+        },
+        {
+          "anio": "1917",
+          "Defunciones": 1203
+        },
+        {
+          "anio": "1918",
+          "Defunciones": 2596
+        },
+        {
+          "anio": "1919",
+          "Defunciones": 3658
+        },
+        {
+          "anio": "1920",
+          "Defunciones": 2231
+        },
+        {
+          "anio": "1921",
+          "Defunciones": 2631
+        },
+        {
+          "anio": "1922",
+          "Defunciones": 2230
+        },
+        {
+          "anio": "1923",
+          "Defunciones": 2574
+        },
+        {
+          "anio": "1924",
+          "Defunciones": 2765
+        },
+        {
+          "anio": "1925",
+          "Defunciones": 2661
+        },
+        {
+          "anio": "1926",
+          "Defunciones": 2750
+        },
+        {
+          "anio": "1927",
+          "Defunciones": 3011
+        },
+        {
+          "anio": "1928",
+          "Defunciones": 2443
+        },
+        {
+          "anio": "1929",
+          "Defunciones": 2317
+        },
+        {
+          "anio": "1930",
+          "Defunciones": 2965
+        },
+        {
+          "anio": "1931",
+          "Defunciones": 2530
+        },
+        {
+          "anio": "1932",
+          "Defunciones": 2088
+        },
+        {
+          "anio": "1933",
+          "Defunciones": 2464
+        },
+        {
+          "anio": "1934",
+          "Defunciones": 2776
+        },
+        {
+          "anio": "1935",
+          "Defunciones": 3849
+        },
+        {
+          "anio": "1936",
+          "Defunciones": 3346
+        },
+        {
+          "anio": "1937",
+          "Defunciones": 2926
+        },
+        {
+          "anio": "1938",
+          "Defunciones": 3613
+        },
+        {
+          "anio": "1939",
+          "Defunciones": 3000
+        },
+        {
+          "anio": "1940",
+          "Defunciones": 3262
+        },
+        {
+          "anio": "1941",
+          "Defunciones": 3410
+        },
+        {
+          "anio": "1942",
+          "Defunciones": 3179
+        },
+        {
+          "anio": "1943",
+          "Defunciones": 3158
+        },
+        {
+          "anio": "1944",
+          "Defunciones": 3650
+        },
+        {
+          "anio": "1945",
+          "Defunciones": 3465
+        },
+        {
+          "anio": "1946",
+          "Defunciones": 3327
+        },
+        {
+          "anio": "1947",
+          "Defunciones": 3011
+        },
+        {
+          "anio": "1948",
+          "Defunciones": 3478
+        },
+        {
+          "anio": "1949",
+          "Defunciones": 3044
+        },
+        {
+          "anio": "1950",
+          "Defunciones": 3221
+        },
+        {
+          "anio": "1951",
+          "Defunciones": 4006
+        },
+        {
+          "anio": "1952",
+          "Defunciones": 3769
+        },
+        {
+          "anio": "1953",
+          "Defunciones": 3644
+        },
+        {
+          "anio": "1954",
+          "Defunciones": 3442
+        },
+        {
+          "anio": "1955",
+          "Defunciones": 3432
+        },
+        {
+          "anio": "1956",
+          "Defunciones": 3507
+        },
+        {
+          "anio": "1957",
+          "Defunciones": 4330
+        },
+        {
+          "anio": "1958",
+          "Defunciones": 3451
+        },
+        {
+          "anio": "1959",
+          "Defunciones": 3701
+        },
+        {
+          "anio": "1960",
+          "Defunciones": 3894
+        },
+        {
+          "anio": "1961",
+          "Defunciones": 3662
+        },
+        {
+          "anio": "1962",
+          "Defunciones": 3754
+        },
+        {
+          "anio": "1963",
+          "Defunciones": 3469
+        },
+        {
+          "anio": "1964",
+          "Defunciones": 3889
+        },
+        {
+          "anio": "1965",
+          "Defunciones": 4030
+        },
+        {
+          "anio": "1966",
+          "Defunciones": 4031
+        },
+        {
+          "anio": "1967",
+          "Defunciones": 3341
+        },
+        {
+          "anio": "1968",
+          "Defunciones": 4316
+        },
+        {
+          "anio": "1969",
+          "Defunciones": 3708
+        },
+        {
+          "anio": "1970",
+          "Defunciones": 4263
+        },
+        {
+          "anio": "1971",
+          "Defunciones": 0
+        },
+        {
+          "anio": "1972",
+          "Defunciones": 0
+        },
+        {
+          "anio": "1973",
+          "Defunciones": 0
+        },
+        {
+          "anio": "1974",
+          "Defunciones": 0
+        },
+        {
+          "anio": "1975",
+          "Defunciones": 3842
+        },
+        {
+          "anio": "1976",
+          "Defunciones": 4039
+        },
+        {
+          "anio": "1977",
+          "Defunciones": 3758
+        },
+        {
+          "anio": "1978",
+          "Defunciones": 3300
+        },
+        {
+          "anio": "1979",
+          "Defunciones": 3223
+        },
+        {
+          "anio": "1980",
+          "Defunciones": 3204
+        },
+        {
+          "anio": "1981",
+          "Defunciones": 2962
+        },
+        {
+          "anio": "1982",
+          "Defunciones": 2990
+        },
+        {
+          "anio": "1983",
+          "Defunciones": 3206
+        },
+        {
+          "anio": "1984",
+          "Defunciones": 3618
+        },
+        {
+          "anio": "1985",
+          "Defunciones": 2783
+        },
+        {
+          "anio": "1986",
+          "Defunciones": 2981
+        },
+        {
+          "anio": "1987",
+          "Defunciones": 3040
+        },
+        {
+          "anio": "1988",
+          "Defunciones": 3093
+        },
+        {
+          "anio": "1989",
+          "Defunciones": 3098
+        },
+        {
+          "anio": "1990",
+          "Defunciones": 3206
+        },
+        {
+          "anio": "1991",
+          "Defunciones": 2919
+        },
+        {
+          "anio": "1992",
+          "Defunciones": 3185
+        },
+        {
+          "anio": "1993",
+          "Defunciones": 3133
+        },
+        {
+          "anio": "1994",
+          "Defunciones": 2908
+        },
+        {
+          "anio": "1995",
+          "Defunciones": 3176
+        },
+        {
+          "anio": "1996",
+          "Defunciones": 3301
+        },
+        {
+          "anio": "1997",
+          "Defunciones": 3276
+        },
+        {
+          "anio": "1998",
+          "Defunciones": 3251
+        },
+        {
+          "anio": "1999",
+          "Defunciones": 3308
+        },
+        {
+          "anio": "2000",
+          "Defunciones": 3227
+        },
+        {
+          "anio": "2001",
+          "Defunciones": 3389
+        },
+        {
+          "anio": "2002",
+          "Defunciones": 3525
+        },
+        {
+          "anio": "2003",
+          "Defunciones": 3477
+        },
+        {
+          "anio": "2004",
+          "Defunciones": 3504
+        },
+        {
+          "anio": "2005",
+          "Defunciones": 3528
+        },
+        {
+          "anio": "2006",
+          "Defunciones": 3489
+        },
+        {
+          "anio": "2007",
+          "Defunciones": 3662
+        },
+        {
+          "anio": "2008",
+          "Defunciones": 3658
+        },
+        {
+          "anio": "2009",
+          "Defunciones": 3794
+        },
+        {
+          "anio": "2010",
+          "Defunciones": 4091
+        },
+        {
+          "anio": "2011",
+          "Defunciones": 4004
+        },
+        {
+          "anio": "2012",
+          "Defunciones": 4132
+        },
+        {
+          "anio": "2013",
+          "Defunciones": 4231
+        },
+        {
+          "anio": "2014",
+          "Defunciones": 4066
+        },
+        {
+          "anio": "2015",
+          "Defunciones": 4105
+        },
+        {
+          "anio": "2016",
+          "Defunciones": 4508
+        },
+        {
+          "anio": "2017",
+          "Defunciones": 4492
+        },
+        {
+          "anio": "2018",
+          "Defunciones": 4498
+        },
+        {
+          "anio": "2019",
+          "Defunciones": 4534
+        },
+        {
+          "anio": "2020",
+          "Defunciones": 6522
+        },
+        {
+          "anio": "2021",
+          "Defunciones": 5786
+        },
+        {
+          "anio": "2022",
+          "Defunciones": 5452
+        },
+        {
+          "anio": "2023",
+          "Defunciones": 4787
+        }
+      ]
+    },
+    {
+      "sectionId": "comparativa-decenal",
+      "config": {
+        "xAxis": "decada",
+        "yAxis": "Defunciones"
+      },
+      "id": "bar-decadas",
+      "type": "bar",
+      "title": "Defunciones en Jujuy por año hito",
+      "sectionTitle": "Comparativa Decenal",
+      "data": [
+        {
+          "decada": "1920",
+          "Defunciones": 2231
+        },
+        {
+          "decada": "1940",
+          "Defunciones": 3262
+        },
+        {
+          "decada": "1960",
+          "Defunciones": 3894
+        },
+        {
+          "decada": "1980",
+          "Defunciones": 3204
+        },
+        {
+          "decada": "2000",
+          "Defunciones": 3227
+        },
+        {
+          "decada": "2010",
+          "Defunciones": 4091
+        },
+        {
+          "decada": "2020",
+          "Defunciones": 6522
+        },
+        {
+          "decada": "2023",
+          "Defunciones": 4787
+        }
+      ]
+    },
+    {
+      "sectionId": "nacimientos-por-edad-de-la-madre",
+      "config": {
+        "xAxis": "edad",
+        "yAxis": "Nacimientos"
+      },
+      "id": "bar-edad-madre",
+      "type": "bar",
+      "title": "Nacimientos por grupo de edad de la madre — Jujuy 2023",
+      "sectionTitle": "Nacimientos por Edad de la Madre",
+      "data": [
+        {
+          "edad": "15 a 19",
+          "Nacimientos": 468
+        },
+        {
+          "edad": "20 a 24",
+          "Nacimientos": 1427
+        },
+        {
+          "edad": "25 a 29",
+          "Nacimientos": 2139
+        },
+        {
+          "edad": "30 a 34",
+          "Nacimientos": 1757
+        },
+        {
+          "edad": "35 a 39",
+          "Nacimientos": 1150
+        },
+        {
+          "edad": "40 a 44",
+          "Nacimientos": 395
+        },
+        {
+          "edad": "De 45 y más",
+          "Nacimientos": 16
+        },
+        {
+          "edad": "Menor de 15",
+          "Nacimientos": 13
+        }
+      ]
+    },
+    {
+      "sectionId": "tipo-de-parto",
+      "config": {},
+      "id": "pie-tipo-parto",
+      "type": "pie",
+      "title": "Tipo de parto — Jujuy 2023",
+      "sectionTitle": "Tipo de Parto",
+      "data": [
+        {
+          "id": "Simple",
+          "label": "Simple",
+          "value": 7231
+        },
+        {
+          "id": "Multiple",
+          "label": "Multiple",
+          "value": 134
+        }
+      ]
+    },
+    {
+      "sectionId": "nacimientos-por-sexo",
+      "config": {},
+      "id": "pie-sexo",
+      "type": "pie",
+      "title": "Nacimientos por sexo del recién nacido — Jujuy 2023",
+      "sectionTitle": "Nacimientos por Sexo",
+      "data": [
+        {
+          "id": "Masculino",
+          "label": "Masculino",
+          "value": 3725
+        },
+        {
+          "id": "Femenino",
+          "label": "Femenino",
+          "value": 3640
+        }
+      ]
+    }
+  ],
+  "rankings": [],
+  "mapData": []
+}

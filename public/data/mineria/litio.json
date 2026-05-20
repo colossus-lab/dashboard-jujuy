@@ -1,0 +1,1211 @@
+{
+  "meta": {
+    "id": "mineria-litio",
+    "title": "Minería y Litio",
+    "category": "Minería",
+    "subcategory": "Litio · SIACAM",
+    "source": "SIACAM — Sistema de Información Abierta a la Comunidad sobre Actividad Minera · Secretaría de Minería",
+    "date": "2025-04-01"
+  },
+  "kpis": [
+    {
+      "id": "proyectos-jujuy",
+      "label": "Proyectos mineros en Jujuy",
+      "value": 13,
+      "formatted": "13",
+      "unit": "proyectos",
+      "comparison": "6 de litio"
+    },
+    {
+      "id": "share-proyectos-litio",
+      "label": "Litio Jujuy / Litio nacional",
+      "value": 9.090909090909092,
+      "formatted": "9,1%",
+      "comparison": "66 proyectos de litio en el país"
+    },
+    {
+      "id": "empleo-litio-jujuy",
+      "label": "Empleos litio Jujuy (2025-04)",
+      "value": 1351,
+      "formatted": "1.351",
+      "unit": "trabajadores"
+    },
+    {
+      "id": "mujeres-pct",
+      "label": "Mujeres en el empleo del litio",
+      "value": 17.838638045891933,
+      "formatted": "17,8%",
+      "status": "warning"
+    },
+    {
+      "id": "expo-litio",
+      "label": "Exportaciones argentinas de litio (2025)",
+      "value": 911.3303873,
+      "formatted": "US$ 911,3M FOB"
+    },
+    {
+      "id": "share-expo",
+      "label": "Participación del litio en exportaciones nacionales",
+      "value": 15.0115735707666,
+      "formatted": "15,01%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "cartera-de-proyectos-en-jujuy",
+      "config": {},
+      "id": "pie-proyectos-estado",
+      "type": "pie",
+      "title": "Proyectos mineros en Jujuy por estado",
+      "sectionTitle": "Cartera de Proyectos en Jujuy",
+      "data": [
+        {
+          "id": "Producción",
+          "label": "Producción",
+          "value": 9
+        },
+        {
+          "id": "Prefactibilidad",
+          "label": "Prefactibilidad",
+          "value": 2
+        },
+        {
+          "id": "Exploración inicial",
+          "label": "Exploración inicial",
+          "value": 1
+        },
+        {
+          "id": "Exploración avanzada",
+          "label": "Exploración avanzada",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "sectionId": "cartera-de-proyectos-en-jujuy",
+      "config": {
+        "xAxis": "mineral",
+        "yAxis": "Proyectos"
+      },
+      "id": "bar-proyectos-mineral",
+      "type": "bar",
+      "title": "Proyectos mineros en Jujuy por mineral principal",
+      "sectionTitle": "Cartera de Proyectos en Jujuy",
+      "data": [
+        {
+          "mineral": "Litio",
+          "Proyectos": 6
+        },
+        {
+          "mineral": "Oro",
+          "Proyectos": 3
+        },
+        {
+          "mineral": "Plata",
+          "Proyectos": 2
+        },
+        {
+          "mineral": "Plomo",
+          "Proyectos": 1
+        },
+        {
+          "mineral": "Cobre",
+          "Proyectos": 1
+        }
+      ]
+    },
+    {
+      "sectionId": "empleo-en-proyectos-de-litio",
+      "config": {
+        "xAxis": "fecha",
+        "yAxis": "Empleos"
+      },
+      "id": "line-empleo-litio",
+      "type": "line",
+      "title": "Empleo en proyectos de litio — Jujuy (mensual)",
+      "sectionTitle": "Empleo en Proyectos de Litio",
+      "data": [
+        {
+          "fecha": "2007-01",
+          "Empleos": 6
+        },
+        {
+          "fecha": "2007-02",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-03",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-04",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-05",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-06",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-07",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-08",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-09",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-10",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-11",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2007-12",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2008-01",
+          "Empleos": 7
+        },
+        {
+          "fecha": "2008-02",
+          "Empleos": 8
+        },
+        {
+          "fecha": "2008-03",
+          "Empleos": 8
+        },
+        {
+          "fecha": "2008-04",
+          "Empleos": 8
+        },
+        {
+          "fecha": "2008-05",
+          "Empleos": 8
+        },
+        {
+          "fecha": "2008-06",
+          "Empleos": 8
+        },
+        {
+          "fecha": "2008-07",
+          "Empleos": 8
+        },
+        {
+          "fecha": "2008-08",
+          "Empleos": 16
+        },
+        {
+          "fecha": "2008-09",
+          "Empleos": 17
+        },
+        {
+          "fecha": "2008-10",
+          "Empleos": 18
+        },
+        {
+          "fecha": "2008-11",
+          "Empleos": 17
+        },
+        {
+          "fecha": "2008-12",
+          "Empleos": 9
+        },
+        {
+          "fecha": "2009-01",
+          "Empleos": 13
+        },
+        {
+          "fecha": "2009-02",
+          "Empleos": 12
+        },
+        {
+          "fecha": "2009-03",
+          "Empleos": 13
+        },
+        {
+          "fecha": "2009-04",
+          "Empleos": 13
+        },
+        {
+          "fecha": "2009-05",
+          "Empleos": 13
+        },
+        {
+          "fecha": "2009-06",
+          "Empleos": 18
+        },
+        {
+          "fecha": "2009-07",
+          "Empleos": 24
+        },
+        {
+          "fecha": "2009-08",
+          "Empleos": 28
+        },
+        {
+          "fecha": "2009-09",
+          "Empleos": 34
+        },
+        {
+          "fecha": "2009-10",
+          "Empleos": 34
+        },
+        {
+          "fecha": "2009-11",
+          "Empleos": 35
+        },
+        {
+          "fecha": "2009-12",
+          "Empleos": 36
+        },
+        {
+          "fecha": "2010-01",
+          "Empleos": 43
+        },
+        {
+          "fecha": "2010-02",
+          "Empleos": 42
+        },
+        {
+          "fecha": "2010-03",
+          "Empleos": 48
+        },
+        {
+          "fecha": "2010-04",
+          "Empleos": 56
+        },
+        {
+          "fecha": "2010-05",
+          "Empleos": 56
+        },
+        {
+          "fecha": "2010-06",
+          "Empleos": 58
+        },
+        {
+          "fecha": "2010-07",
+          "Empleos": 62
+        },
+        {
+          "fecha": "2010-08",
+          "Empleos": 63
+        },
+        {
+          "fecha": "2010-09",
+          "Empleos": 64
+        },
+        {
+          "fecha": "2010-10",
+          "Empleos": 100
+        },
+        {
+          "fecha": "2010-11",
+          "Empleos": 113
+        },
+        {
+          "fecha": "2010-12",
+          "Empleos": 113
+        },
+        {
+          "fecha": "2011-01",
+          "Empleos": 135
+        },
+        {
+          "fecha": "2011-02",
+          "Empleos": 140
+        },
+        {
+          "fecha": "2011-03",
+          "Empleos": 134
+        },
+        {
+          "fecha": "2011-04",
+          "Empleos": 135
+        },
+        {
+          "fecha": "2011-05",
+          "Empleos": 134
+        },
+        {
+          "fecha": "2011-06",
+          "Empleos": 141
+        },
+        {
+          "fecha": "2011-07",
+          "Empleos": 148
+        },
+        {
+          "fecha": "2011-08",
+          "Empleos": 149
+        },
+        {
+          "fecha": "2011-09",
+          "Empleos": 157
+        },
+        {
+          "fecha": "2011-10",
+          "Empleos": 165
+        },
+        {
+          "fecha": "2011-11",
+          "Empleos": 163
+        },
+        {
+          "fecha": "2011-12",
+          "Empleos": 155
+        },
+        {
+          "fecha": "2012-01",
+          "Empleos": 157
+        },
+        {
+          "fecha": "2012-02",
+          "Empleos": 162
+        },
+        {
+          "fecha": "2012-03",
+          "Empleos": 163
+        },
+        {
+          "fecha": "2012-04",
+          "Empleos": 151
+        },
+        {
+          "fecha": "2012-05",
+          "Empleos": 151
+        },
+        {
+          "fecha": "2012-06",
+          "Empleos": 150
+        },
+        {
+          "fecha": "2012-07",
+          "Empleos": 146
+        },
+        {
+          "fecha": "2012-08",
+          "Empleos": 150
+        },
+        {
+          "fecha": "2012-09",
+          "Empleos": 156
+        },
+        {
+          "fecha": "2012-10",
+          "Empleos": 157
+        },
+        {
+          "fecha": "2012-11",
+          "Empleos": 159
+        },
+        {
+          "fecha": "2012-12",
+          "Empleos": 156
+        },
+        {
+          "fecha": "2013-01",
+          "Empleos": 155
+        },
+        {
+          "fecha": "2013-02",
+          "Empleos": 157
+        },
+        {
+          "fecha": "2013-03",
+          "Empleos": 156
+        },
+        {
+          "fecha": "2013-04",
+          "Empleos": 157
+        },
+        {
+          "fecha": "2013-05",
+          "Empleos": 157
+        },
+        {
+          "fecha": "2013-06",
+          "Empleos": 159
+        },
+        {
+          "fecha": "2013-07",
+          "Empleos": 162
+        },
+        {
+          "fecha": "2013-08",
+          "Empleos": 172
+        },
+        {
+          "fecha": "2013-09",
+          "Empleos": 172
+        },
+        {
+          "fecha": "2013-10",
+          "Empleos": 176
+        },
+        {
+          "fecha": "2013-11",
+          "Empleos": 177
+        },
+        {
+          "fecha": "2013-12",
+          "Empleos": 174
+        },
+        {
+          "fecha": "2014-01",
+          "Empleos": 175
+        },
+        {
+          "fecha": "2014-02",
+          "Empleos": 177
+        },
+        {
+          "fecha": "2014-03",
+          "Empleos": 177
+        },
+        {
+          "fecha": "2014-04",
+          "Empleos": 181
+        },
+        {
+          "fecha": "2014-05",
+          "Empleos": 172
+        },
+        {
+          "fecha": "2014-06",
+          "Empleos": 186
+        },
+        {
+          "fecha": "2014-07",
+          "Empleos": 182
+        },
+        {
+          "fecha": "2014-08",
+          "Empleos": 181
+        },
+        {
+          "fecha": "2014-09",
+          "Empleos": 189
+        },
+        {
+          "fecha": "2014-10",
+          "Empleos": 194
+        },
+        {
+          "fecha": "2014-11",
+          "Empleos": 228
+        },
+        {
+          "fecha": "2014-12",
+          "Empleos": 247
+        },
+        {
+          "fecha": "2015-01",
+          "Empleos": 236
+        },
+        {
+          "fecha": "2015-02",
+          "Empleos": 234
+        },
+        {
+          "fecha": "2015-03",
+          "Empleos": 206
+        },
+        {
+          "fecha": "2015-04",
+          "Empleos": 206
+        },
+        {
+          "fecha": "2015-05",
+          "Empleos": 213
+        },
+        {
+          "fecha": "2015-06",
+          "Empleos": 226
+        },
+        {
+          "fecha": "2015-07",
+          "Empleos": 224
+        },
+        {
+          "fecha": "2015-08",
+          "Empleos": 222
+        },
+        {
+          "fecha": "2015-09",
+          "Empleos": 222
+        },
+        {
+          "fecha": "2015-10",
+          "Empleos": 221
+        },
+        {
+          "fecha": "2015-11",
+          "Empleos": 222
+        },
+        {
+          "fecha": "2015-12",
+          "Empleos": 223
+        },
+        {
+          "fecha": "2016-01",
+          "Empleos": 228
+        },
+        {
+          "fecha": "2016-02",
+          "Empleos": 253
+        },
+        {
+          "fecha": "2016-03",
+          "Empleos": 264
+        },
+        {
+          "fecha": "2016-04",
+          "Empleos": 280
+        },
+        {
+          "fecha": "2016-05",
+          "Empleos": 285
+        },
+        {
+          "fecha": "2016-06",
+          "Empleos": 286
+        },
+        {
+          "fecha": "2016-07",
+          "Empleos": 294
+        },
+        {
+          "fecha": "2016-08",
+          "Empleos": 290
+        },
+        {
+          "fecha": "2016-09",
+          "Empleos": 308
+        },
+        {
+          "fecha": "2016-10",
+          "Empleos": 319
+        },
+        {
+          "fecha": "2016-11",
+          "Empleos": 336
+        },
+        {
+          "fecha": "2016-12",
+          "Empleos": 348
+        },
+        {
+          "fecha": "2017-01",
+          "Empleos": 356
+        },
+        {
+          "fecha": "2017-02",
+          "Empleos": 365
+        },
+        {
+          "fecha": "2017-03",
+          "Empleos": 368
+        },
+        {
+          "fecha": "2017-04",
+          "Empleos": 391
+        },
+        {
+          "fecha": "2017-05",
+          "Empleos": 409
+        },
+        {
+          "fecha": "2017-06",
+          "Empleos": 420
+        },
+        {
+          "fecha": "2017-07",
+          "Empleos": 432
+        },
+        {
+          "fecha": "2017-08",
+          "Empleos": 446
+        },
+        {
+          "fecha": "2017-09",
+          "Empleos": 454
+        },
+        {
+          "fecha": "2017-10",
+          "Empleos": 471
+        },
+        {
+          "fecha": "2017-11",
+          "Empleos": 493
+        },
+        {
+          "fecha": "2017-12",
+          "Empleos": 565
+        },
+        {
+          "fecha": "2018-01",
+          "Empleos": 564
+        },
+        {
+          "fecha": "2018-02",
+          "Empleos": 543
+        },
+        {
+          "fecha": "2018-03",
+          "Empleos": 533
+        },
+        {
+          "fecha": "2018-04",
+          "Empleos": 527
+        },
+        {
+          "fecha": "2018-05",
+          "Empleos": 531
+        },
+        {
+          "fecha": "2018-06",
+          "Empleos": 544
+        },
+        {
+          "fecha": "2018-07",
+          "Empleos": 556
+        },
+        {
+          "fecha": "2018-08",
+          "Empleos": 560
+        },
+        {
+          "fecha": "2018-09",
+          "Empleos": 571
+        },
+        {
+          "fecha": "2018-10",
+          "Empleos": 591
+        },
+        {
+          "fecha": "2018-11",
+          "Empleos": 622
+        },
+        {
+          "fecha": "2018-12",
+          "Empleos": 633
+        },
+        {
+          "fecha": "2019-01",
+          "Empleos": 655
+        },
+        {
+          "fecha": "2019-02",
+          "Empleos": 675
+        },
+        {
+          "fecha": "2019-03",
+          "Empleos": 688
+        },
+        {
+          "fecha": "2019-04",
+          "Empleos": 719
+        },
+        {
+          "fecha": "2019-05",
+          "Empleos": 732
+        },
+        {
+          "fecha": "2019-06",
+          "Empleos": 753
+        },
+        {
+          "fecha": "2019-07",
+          "Empleos": 752
+        },
+        {
+          "fecha": "2019-08",
+          "Empleos": 747
+        },
+        {
+          "fecha": "2019-09",
+          "Empleos": 750
+        },
+        {
+          "fecha": "2019-10",
+          "Empleos": 750
+        },
+        {
+          "fecha": "2019-11",
+          "Empleos": 763
+        },
+        {
+          "fecha": "2019-12",
+          "Empleos": 764
+        },
+        {
+          "fecha": "2020-01",
+          "Empleos": 775
+        },
+        {
+          "fecha": "2020-02",
+          "Empleos": 777
+        },
+        {
+          "fecha": "2020-03",
+          "Empleos": 785
+        },
+        {
+          "fecha": "2020-04",
+          "Empleos": 786
+        },
+        {
+          "fecha": "2020-05",
+          "Empleos": 786
+        },
+        {
+          "fecha": "2020-06",
+          "Empleos": 791
+        },
+        {
+          "fecha": "2020-07",
+          "Empleos": 791
+        },
+        {
+          "fecha": "2020-08",
+          "Empleos": 789
+        },
+        {
+          "fecha": "2020-09",
+          "Empleos": 792
+        },
+        {
+          "fecha": "2020-10",
+          "Empleos": 792
+        },
+        {
+          "fecha": "2020-11",
+          "Empleos": 795
+        },
+        {
+          "fecha": "2020-12",
+          "Empleos": 798
+        },
+        {
+          "fecha": "2021-01",
+          "Empleos": 801
+        },
+        {
+          "fecha": "2021-02",
+          "Empleos": 815
+        },
+        {
+          "fecha": "2021-03",
+          "Empleos": 833
+        },
+        {
+          "fecha": "2021-04",
+          "Empleos": 840
+        },
+        {
+          "fecha": "2021-05",
+          "Empleos": 862
+        },
+        {
+          "fecha": "2021-06",
+          "Empleos": 884
+        },
+        {
+          "fecha": "2021-07",
+          "Empleos": 892
+        },
+        {
+          "fecha": "2021-08",
+          "Empleos": 912
+        },
+        {
+          "fecha": "2021-09",
+          "Empleos": 919
+        },
+        {
+          "fecha": "2021-10",
+          "Empleos": 931
+        },
+        {
+          "fecha": "2021-11",
+          "Empleos": 934
+        },
+        {
+          "fecha": "2021-12",
+          "Empleos": 935
+        },
+        {
+          "fecha": "2022-01",
+          "Empleos": 993
+        },
+        {
+          "fecha": "2022-02",
+          "Empleos": 1100
+        },
+        {
+          "fecha": "2022-03",
+          "Empleos": 1150
+        },
+        {
+          "fecha": "2022-04",
+          "Empleos": 1187
+        },
+        {
+          "fecha": "2022-05",
+          "Empleos": 1256
+        },
+        {
+          "fecha": "2022-06",
+          "Empleos": 1252
+        },
+        {
+          "fecha": "2022-07",
+          "Empleos": 1289
+        },
+        {
+          "fecha": "2022-08",
+          "Empleos": 1308
+        },
+        {
+          "fecha": "2022-09",
+          "Empleos": 1333
+        },
+        {
+          "fecha": "2022-10",
+          "Empleos": 1345
+        },
+        {
+          "fecha": "2022-11",
+          "Empleos": 1357
+        },
+        {
+          "fecha": "2022-12",
+          "Empleos": 1365
+        },
+        {
+          "fecha": "2023-01",
+          "Empleos": 1390
+        },
+        {
+          "fecha": "2023-02",
+          "Empleos": 1401
+        },
+        {
+          "fecha": "2023-03",
+          "Empleos": 1420
+        },
+        {
+          "fecha": "2023-04",
+          "Empleos": 1439
+        },
+        {
+          "fecha": "2023-05",
+          "Empleos": 1441
+        },
+        {
+          "fecha": "2023-06",
+          "Empleos": 1446
+        },
+        {
+          "fecha": "2023-07",
+          "Empleos": 1452
+        },
+        {
+          "fecha": "2023-08",
+          "Empleos": 1478
+        },
+        {
+          "fecha": "2023-09",
+          "Empleos": 1485
+        },
+        {
+          "fecha": "2023-10",
+          "Empleos": 1463
+        },
+        {
+          "fecha": "2023-11",
+          "Empleos": 1486
+        },
+        {
+          "fecha": "2023-12",
+          "Empleos": 1482
+        },
+        {
+          "fecha": "2024-01",
+          "Empleos": 1482
+        },
+        {
+          "fecha": "2024-02",
+          "Empleos": 1464
+        },
+        {
+          "fecha": "2024-03",
+          "Empleos": 1453
+        },
+        {
+          "fecha": "2024-04",
+          "Empleos": 1383
+        },
+        {
+          "fecha": "2024-05",
+          "Empleos": 1374
+        },
+        {
+          "fecha": "2024-06",
+          "Empleos": 1373
+        },
+        {
+          "fecha": "2024-07",
+          "Empleos": 1374
+        },
+        {
+          "fecha": "2024-08",
+          "Empleos": 1366
+        },
+        {
+          "fecha": "2024-09",
+          "Empleos": 1366
+        },
+        {
+          "fecha": "2024-10",
+          "Empleos": 1364
+        },
+        {
+          "fecha": "2024-11",
+          "Empleos": 1372
+        },
+        {
+          "fecha": "2024-12",
+          "Empleos": 1368
+        },
+        {
+          "fecha": "2025-01",
+          "Empleos": 1372
+        },
+        {
+          "fecha": "2025-02",
+          "Empleos": 1366
+        },
+        {
+          "fecha": "2025-03",
+          "Empleos": 1366
+        },
+        {
+          "fecha": "2025-04",
+          "Empleos": 1351
+        }
+      ]
+    },
+    {
+      "sectionId": "empleo-en-proyectos-de-litio",
+      "config": {},
+      "id": "pie-empleo-genero",
+      "type": "pie",
+      "title": "Empleo del litio por género — Jujuy 2025-04",
+      "sectionTitle": "Empleo en Proyectos de Litio",
+      "data": [
+        {
+          "id": "Femenino",
+          "label": "Femenino",
+          "value": 241
+        },
+        {
+          "id": "Masculino",
+          "label": "Masculino",
+          "value": 1110
+        }
+      ]
+    },
+    {
+      "sectionId": "exportaciones-nacionales-de-litio-contexto-argentina",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "FOB US$ M"
+      },
+      "id": "line-expo-litio",
+      "type": "line",
+      "title": "Exportaciones argentinas de litio (FOB · US$ millones)",
+      "sectionTitle": "Exportaciones Nacionales de Litio (contexto Argentina)",
+      "data": [
+        {
+          "anio": "2000",
+          "FOB US$ M": 27.8
+        },
+        {
+          "anio": "2001",
+          "FOB US$ M": 27.2
+        },
+        {
+          "anio": "2002",
+          "FOB US$ M": 20.9
+        },
+        {
+          "anio": "2003",
+          "FOB US$ M": 26.9
+        },
+        {
+          "anio": "2004",
+          "FOB US$ M": 42.8
+        },
+        {
+          "anio": "2005",
+          "FOB US$ M": 54.3
+        },
+        {
+          "anio": "2006",
+          "FOB US$ M": 62.8
+        },
+        {
+          "anio": "2007",
+          "FOB US$ M": 59.5
+        },
+        {
+          "anio": "2008",
+          "FOB US$ M": 83.5
+        },
+        {
+          "anio": "2009",
+          "FOB US$ M": 56.2
+        },
+        {
+          "anio": "2010",
+          "FOB US$ M": 71
+        },
+        {
+          "anio": "2011",
+          "FOB US$ M": 54.8
+        },
+        {
+          "anio": "2012",
+          "FOB US$ M": 58.4
+        },
+        {
+          "anio": "2013",
+          "FOB US$ M": 61.1
+        },
+        {
+          "anio": "2014",
+          "FOB US$ M": 80.4
+        },
+        {
+          "anio": "2015",
+          "FOB US$ M": 90.9
+        },
+        {
+          "anio": "2016",
+          "FOB US$ M": 191.9
+        },
+        {
+          "anio": "2017",
+          "FOB US$ M": 223.9
+        },
+        {
+          "anio": "2018",
+          "FOB US$ M": 274.6
+        },
+        {
+          "anio": "2019",
+          "FOB US$ M": 195.4
+        },
+        {
+          "anio": "2020",
+          "FOB US$ M": 128.9
+        },
+        {
+          "anio": "2021",
+          "FOB US$ M": 208.2
+        },
+        {
+          "anio": "2022",
+          "FOB US$ M": 695
+        },
+        {
+          "anio": "2023",
+          "FOB US$ M": 849.2
+        },
+        {
+          "anio": "2024",
+          "FOB US$ M": 645.4
+        },
+        {
+          "anio": "2025",
+          "FOB US$ M": 911.3
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "cartera-de-proyectos-en-jujuy",
+      "id": "proyectos-listado",
+      "title": "Proyectos mineros activos en Jujuy",
+      "items": [
+        {
+          "name": "Aguilar — Plomo — Producción",
+          "value": 1
+        },
+        {
+          "name": "Ajedrez — Oro — Producción",
+          "value": 2
+        },
+        {
+          "name": "Cauchari — Litio — Prefactibilidad",
+          "value": 3
+        },
+        {
+          "name": "Cauchari Jv — Litio — Prefactibilidad",
+          "value": 4
+        },
+        {
+          "name": "Cauchari-Olaroz — Litio — Producción",
+          "value": 5
+        },
+        {
+          "name": "Córdoba — Oro — Producción",
+          "value": 6
+        },
+        {
+          "name": "Formentera-Cilón — Litio — Exploración inicial",
+          "value": 7
+        },
+        {
+          "name": "La Providencia — Plata — Producción",
+          "value": 8
+        },
+        {
+          "name": "Martín Bronce — Cobre — Producción",
+          "value": 9
+        },
+        {
+          "name": "Mina Catalina Ii — Oro — Producción",
+          "value": 10
+        },
+        {
+          "name": "Olaroz — Litio — Producción",
+          "value": 11
+        },
+        {
+          "name": "Puna Operation (Chinchillas - Pirquitas) — Plata — Producción",
+          "value": 12
+        },
+        {
+          "name": "Solaroz — Litio — Exploración avanzada",
+          "value": 13
+        }
+      ],
+      "order": "asc"
+    }
+  ],
+  "mapData": []
+}

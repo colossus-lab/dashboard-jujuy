@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "id": "educacion-indicadores",
+    "title": "Indicadores Educativos",
+    "category": "Educación",
+    "subcategory": "Indicadores",
+    "source": "Secretaría de Educación de la Nación · Dirección de Información Educativa",
+    "date": "2022-2023"
+  },
+  "kpis": [
+    {
+      "id": "abandono-primaria",
+      "label": "Abandono interanual primaria (2022-2023)",
+      "value": 0.33428793476062335,
+      "formatted": "0,33%",
+      "status": "good"
+    },
+    {
+      "id": "abandono-secundaria",
+      "label": "Abandono interanual secundaria (2022-2023)",
+      "value": 9.34377207086721,
+      "formatted": "9,34%",
+      "status": "warning"
+    },
+    {
+      "id": "repitencia-primaria",
+      "label": "Repitencia primaria (2022)",
+      "value": 0.15330402103671845,
+      "formatted": "0,15%"
+    },
+    {
+      "id": "repitencia-secundaria",
+      "label": "Repitencia secundaria (2022)",
+      "value": 9.50005259440696,
+      "formatted": "9,50%"
+    },
+    {
+      "id": "escuelas-total",
+      "label": "Establecimientos educativos en Jujuy",
+      "value": 1082,
+      "formatted": "1.082",
+      "unit": "escuelas"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "evolucion-del-abandono-interanual",
+      "config": {
+        "xAxis": "periodo",
+        "yAxis": "Tasa (%)"
+      },
+      "id": "line-abandono",
+      "type": "line",
+      "title": "Tasa de abandono interanual — Jujuy",
+      "sectionTitle": "Evolución del Abandono Interanual",
+      "data": [
+        {
+          "periodo": "2012-2013",
+          "Primaria": 0.23,
+          "Secundaria": 12.57
+        },
+        {
+          "periodo": "2013-2014",
+          "Primaria": 0.34,
+          "Secundaria": 9.74
+        },
+        {
+          "periodo": "2014-2015",
+          "Primaria": 0.04,
+          "Secundaria": 12.52
+        },
+        {
+          "periodo": "2015-2016",
+          "Primaria": 0.45,
+          "Secundaria": 11.18
+        },
+        {
+          "periodo": "2016-2017",
+          "Primaria": -0.3,
+          "Secundaria": 11.39
+        },
+        {
+          "periodo": "2017-2018",
+          "Primaria": -0.33,
+          "Secundaria": 10.9
+        },
+        {
+          "periodo": "2018-2019",
+          "Primaria": 0.03,
+          "Secundaria": 9.9
+        },
+        {
+          "periodo": "2019-2020",
+          "Primaria": -0.07,
+          "Secundaria": 11.78
+        },
+        {
+          "periodo": "2020-2021",
+          "Primaria": -0.01,
+          "Secundaria": 5.24
+        },
+        {
+          "periodo": "2021-2022",
+          "Primaria": -0.4,
+          "Secundaria": 9.35
+        },
+        {
+          "periodo": "2022-2023",
+          "Primaria": 0.33,
+          "Secundaria": 9.34
+        }
+      ]
+    },
+    {
+      "sectionId": "evolucion-de-la-repitencia",
+      "config": {
+        "xAxis": "periodo",
+        "yAxis": "Tasa (%)"
+      },
+      "id": "line-repitencia",
+      "type": "line",
+      "title": "Tasa de repitencia — Jujuy",
+      "sectionTitle": "Evolución de la Repitencia",
+      "data": [
+        {
+          "periodo": "2012",
+          "Primaria": 0.71,
+          "Secundaria": 8.11
+        },
+        {
+          "periodo": "2013",
+          "Primaria": 0.22,
+          "Secundaria": 6.73
+        },
+        {
+          "periodo": "2014",
+          "Primaria": 0.23,
+          "Secundaria": 10.11
+        },
+        {
+          "periodo": "2015",
+          "Primaria": 0.31,
+          "Secundaria": 11.71
+        },
+        {
+          "periodo": "2016",
+          "Primaria": 0.98,
+          "Secundaria": 12.42
+        },
+        {
+          "periodo": "2017",
+          "Primaria": 0.59,
+          "Secundaria": 12.65
+        },
+        {
+          "periodo": "2018",
+          "Primaria": 0.36,
+          "Secundaria": 11.62
+        },
+        {
+          "periodo": "2019",
+          "Primaria": 0.39,
+          "Secundaria": 9.63
+        },
+        {
+          "periodo": "2020",
+          "Primaria": 0.39,
+          "Secundaria": 7.44
+        },
+        {
+          "periodo": "2021",
+          "Primaria": 0.4,
+          "Secundaria": 5.62
+        },
+        {
+          "periodo": "2022",
+          "Primaria": 0.15,
+          "Secundaria": 9.5
+        }
+      ]
+    },
+    {
+      "sectionId": "padron-de-establecimientos",
+      "config": {},
+      "id": "pie-sector",
+      "type": "pie",
+      "title": "Establecimientos por sector de gestión — Jujuy (1082 totales)",
+      "sectionTitle": "Padrón de Establecimientos",
+      "data": [
+        {
+          "id": "Estatal",
+          "label": "Estatal",
+          "value": 943
+        },
+        {
+          "id": "Privado",
+          "label": "Privado",
+          "value": 123
+        },
+        {
+          "id": "Social/cooperativa",
+          "label": "Social/cooperativa",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "sectionId": "padron-de-establecimientos",
+      "config": {},
+      "id": "pie-ambito",
+      "type": "pie",
+      "title": "Establecimientos por ámbito",
+      "sectionTitle": "Padrón de Establecimientos",
+      "data": [
+        {
+          "id": "Urbano",
+          "label": "Urbano",
+          "value": 725
+        },
+        {
+          "id": "Rural",
+          "label": "Rural",
+          "value": 357
+        }
+      ]
+    },
+    {
+      "sectionId": "escuelas-por-departamento",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Escuelas"
+      },
+      "id": "bar-dept-escuelas",
+      "type": "bar",
+      "title": "Cantidad de establecimientos por departamento — Jujuy",
+      "sectionTitle": "Escuelas por Departamento",
+      "data": [
+        {
+          "departamento": "DOCTOR MANUEL BELGRANO",
+          "Escuelas": 341
+        },
+        {
+          "departamento": "SAN PEDRO",
+          "Escuelas": 115
+        },
+        {
+          "departamento": "EL CARMEN",
+          "Escuelas": 111
+        },
+        {
+          "departamento": "LEDESMA",
+          "Escuelas": 96
+        },
+        {
+          "departamento": "HUMAHUACA",
+          "Escuelas": 66
+        },
+        {
+          "departamento": "YAVI",
+          "Escuelas": 61
+        },
+        {
+          "departamento": "PALPALA",
+          "Escuelas": 55
+        },
+        {
+          "departamento": "COCHINOCA",
+          "Escuelas": 55
+        },
+        {
+          "departamento": "SANTA BARBARA",
+          "Escuelas": 35
+        },
+        {
+          "departamento": "TILCARA",
+          "Escuelas": 34
+        },
+        {
+          "departamento": "SANTA CATALINA",
+          "Escuelas": 26
+        },
+        {
+          "departamento": "TUMBAYA",
+          "Escuelas": 24
+        },
+        {
+          "departamento": "SUSQUES",
+          "Escuelas": 22
+        },
+        {
+          "departamento": "RINCONADA",
+          "Escuelas": 18
+        },
+        {
+          "departamento": "VALLE GRANDE",
+          "Escuelas": 14
+        },
+        {
+          "departamento": "SAN ANTONIO",
+          "Escuelas": 9
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "escuelas-por-departamento",
+      "id": "rank-dept-escuelas",
+      "title": "Departamentos con más establecimientos educativos",
+      "items": [
+        {
+          "name": "DOCTOR MANUEL BELGRANO",
+          "value": 341
+        },
+        {
+          "name": "SAN PEDRO",
+          "value": 115
+        },
+        {
+          "name": "EL CARMEN",
+          "value": 111
+        },
+        {
+          "name": "LEDESMA",
+          "value": 96
+        },
+        {
+          "name": "HUMAHUACA",
+          "value": 66
+        },
+        {
+          "name": "YAVI",
+          "value": 61
+        },
+        {
+          "name": "PALPALA",
+          "value": 55
+        },
+        {
+          "name": "COCHINOCA",
+          "value": 55
+        },
+        {
+          "name": "SANTA BARBARA",
+          "value": 35
+        },
+        {
+          "name": "TILCARA",
+          "value": 34
+        },
+        {
+          "name": "SANTA CATALINA",
+          "value": 26
+        },
+        {
+          "name": "TUMBAYA",
+          "value": 24
+        },
+        {
+          "name": "SUSQUES",
+          "value": 22
+        },
+        {
+          "name": "RINCONADA",
+          "value": 18
+        },
+        {
+          "name": "VALLE GRANDE",
+          "value": 14
+        },
+        {
+          "name": "SAN ANTONIO",
+          "value": 9
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}
