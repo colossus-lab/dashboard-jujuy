@@ -53,3 +53,4 @@ task.md
 
 # ─── Discovery dumps ───
 scripts/.discovery.json
+scripts/.ssj-sheets.json

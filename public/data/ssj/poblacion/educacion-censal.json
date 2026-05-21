@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "ssj-poblacion-educacion-censal",
+    "title": "Asistencia Educativa — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "Educación",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "asiste",
+      "label": "Asiste a un establecimiento",
+      "value": 38.27570124174803,
+      "formatted": "38,3%"
+    },
+    {
+      "id": "superior",
+      "label": "Con nivel superior alcanzado",
+      "value": 33.20495385026977,
+      "formatted": "33,2%",
+      "comparison": "terciario, universitario o posgrado"
+    },
+    {
+      "id": "no-asiste",
+      "label": "Asistió pero no asiste",
+      "value": 56.456808015801215,
+      "formatted": "56,5%"
+    },
+    {
+      "id": "nunca",
+      "label": "Nunca asistió",
+      "value": 5.267490742450754,
+      "formatted": "5,3%",
+      "status": "warning"
+    },
+    {
+      "id": "sin-instr",
+      "label": "Sin instrucción (5+ años)",
+      "value": 0.9954519106434209,
+      "formatted": "1,0%",
+      "status": "warning"
+    },
+    {
+      "id": "posgrado",
+      "label": "Con posgrado alcanzado",
+      "value": 4058,
+      "formatted": "4,1K"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "condicion-de-asistencia-belgrano",
+      "config": {},
+      "id": "pie-asist",
+      "type": "pie",
+      "title": "Condición de asistencia escolar — Belgrano",
+      "sectionTitle": "Condición de asistencia — Belgrano",
+      "data": [
+        {
+          "id": "Asiste",
+          "label": "Asiste",
+          "value": 122279
+        },
+        {
+          "id": "Asistió (no asiste)",
+          "label": "Asistió (no asiste)",
+          "value": 180362
+        },
+        {
+          "id": "Nunca asistió",
+          "label": "Nunca asistió",
+          "value": 16828
+        }
+      ]
+    },
+    {
+      "sectionId": "maximo-nivel-educativo-belgrano",
+      "config": {},
+      "id": "pie-nivel",
+      "type": "pie",
+      "title": "Máximo nivel educativo alcanzado — Belgrano (5+ años)",
+      "sectionTitle": "Máximo nivel educativo — Belgrano",
+      "data": [
+        {
+          "id": "Sin instrucción",
+          "label": "Sin instrucción",
+          "value": 1786
+        },
+        {
+          "id": "Primario",
+          "label": "Primario",
+          "value": 35256
+        },
+        {
+          "id": "Secundario",
+          "label": "Secundario",
+          "value": 81643
+        },
+        {
+          "id": "Terciario",
+          "label": "Terciario",
+          "value": 32347
+        },
+        {
+          "id": "Universitario",
+          "label": "Universitario",
+          "value": 23170
+        },
+        {
+          "id": "Posgrado",
+          "label": "Posgrado",
+          "value": 4058
+        }
+      ]
+    }
+  ],
+  "rankings": [],
+  "mapData": []
+}

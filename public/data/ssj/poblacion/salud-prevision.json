@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "id": "ssj-poblacion-salud-prevision",
+    "title": "Salud y Previsión Social — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "Salud",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "obra",
+      "label": "Con obra social o prepaga",
+      "value": 55.856436774773144,
+      "formatted": "55,9%"
+    },
+    {
+      "id": "prog",
+      "label": "Programas o planes estatales",
+      "value": 4.335944958665786,
+      "formatted": "4,3%"
+    },
+    {
+      "id": "sin-cob",
+      "label": "Sin cobertura de salud",
+      "value": 39.80761826656107,
+      "formatted": "39,8%",
+      "status": "critical"
+    },
+    {
+      "id": "jub",
+      "label": "Percibe jubilación o pensión",
+      "value": 17.584491766024247,
+      "formatted": "17,6%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "tipo-de-cobertura-en-belgrano",
+      "config": {},
+      "id": "pie-cob",
+      "type": "pie",
+      "title": "Cobertura de salud — Belgrano",
+      "sectionTitle": "Tipo de cobertura en Belgrano",
+      "data": [
+        {
+          "id": "Obra social/Prepaga",
+          "label": "Obra social/Prepaga",
+          "value": 178444
+        },
+        {
+          "id": "Programas estatales",
+          "label": "Programas estatales",
+          "value": 13852
+        },
+        {
+          "id": "Sin cobertura",
+          "label": "Sin cobertura",
+          "value": 127173
+        }
+      ]
+    },
+    {
+      "sectionId": "sin-cobertura-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Sin cobertura %"
+      },
+      "id": "bar-sin-comp",
+      "type": "bar",
+      "title": "% sin cobertura por departamento",
+      "sectionTitle": "Sin cobertura — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Sin cobertura %": 57
+        },
+        {
+          "departamento": "El Carmen",
+          "Sin cobertura %": 55.5
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Sin cobertura %": 39.8
+        },
+        {
+          "departamento": "Humahuaca",
+          "Sin cobertura %": 54.5
+        },
+        {
+          "departamento": "Ledesma",
+          "Sin cobertura %": 49.6
+        },
+        {
+          "departamento": "Palpalá",
+          "Sin cobertura %": 41.9
+        },
+        {
+          "departamento": "Rinconada",
+          "Sin cobertura %": 36.4
+        },
+        {
+          "departamento": "San Antonio",
+          "Sin cobertura %": 40.9
+        },
+        {
+          "departamento": "San Pedro",
+          "Sin cobertura %": 45
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Sin cobertura %": 54.5
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Sin cobertura %": 57.4
+        },
+        {
+          "departamento": "Susques",
+          "Sin cobertura %": 37.1
+        },
+        {
+          "departamento": "Tilcara",
+          "Sin cobertura %": 57.8
+        },
+        {
+          "departamento": "Tumbaya",
+          "Sin cobertura %": 49.3
+        },
+        {
+          "departamento": "Valle Grande",
+          "Sin cobertura %": 41.1
+        },
+        {
+          "departamento": "Yavi",
+          "Sin cobertura %": 61.4
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "sin-cobertura-comparativo-provincial",
+      "id": "rank-sin-cob",
+      "title": "Departamentos con mayor % sin cobertura",
+      "items": [
+        {
+          "name": "Yavi",
+          "value": 61.4,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Tilcara",
+          "value": 57.8,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 57.4,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 57,
+          "municipioId": "38007"
+        },
+        {
+          "name": "El Carmen",
+          "value": 55.5,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 54.5,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 54.5,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Ledesma",
+          "value": 49.6,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 49.3,
+          "municipioId": "38098"
+        },
+        {
+          "name": "San Pedro",
+          "value": 45,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Palpalá",
+          "value": 41.9,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 41.1,
+          "municipioId": "38105"
+        },
+        {
+          "name": "San Antonio",
+          "value": 40.9,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 39.8,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Susques",
+          "value": 37.1,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Rinconada",
+          "value": 36.4,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 57,
+      "label": "57,0% sin cobertura"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 55.5,
+      "label": "55,5% sin cobertura"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 39.8,
+      "label": "39,8% sin cobertura"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 54.5,
+      "label": "54,5% sin cobertura"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 49.6,
+      "label": "49,6% sin cobertura"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 41.9,
+      "label": "41,9% sin cobertura"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 36.4,
+      "label": "36,4% sin cobertura"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 40.9,
+      "label": "40,9% sin cobertura"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 45,
+      "label": "45,0% sin cobertura"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 54.5,
+      "label": "54,5% sin cobertura"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 57.4,
+      "label": "57,4% sin cobertura"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 37.1,
+      "label": "37,1% sin cobertura"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 57.8,
+      "label": "57,8% sin cobertura"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 49.3,
+      "label": "49,3% sin cobertura"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 41.1,
+      "label": "41,1% sin cobertura"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 61.4,
+      "label": "61,4% sin cobertura"
+    }
+  ]
+}

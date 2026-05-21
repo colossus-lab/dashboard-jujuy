@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { getPoblacionReports, getSectorialReports } from '../data/reportRegistry';
+import { getPoblacionReports, getSectorialReports, getSSJReports } from '../data/reportRegistry';
 import { SectionReveal } from '../components/ui/SectionReveal';
 import { SiteFooter } from '../components/layout/SiteFooter';
 import type { ReportEntry } from '../types/report';
@@ -11,7 +11,7 @@ const HERO_STATS = [
   { value: 811611, label: 'Habitantes', suffix: '', tooltip: 'Censo Nacional 2022 · INDEC' },
   { value: 16, label: 'Departamentos', suffix: '', tooltip: 'División política de la Provincia de Jujuy' },
   { value: 53219, label: 'km²', suffix: '', tooltip: 'Superficie total de la provincia' },
-  { value: 13, label: 'Informes', suffix: '', tooltip: '13 informes basados en datos abiertos' },
+  { value: 22, label: 'Informes', suffix: '', tooltip: '13 provinciales + 9 de San Salvador de Jujuy (Dr. M. Belgrano)' },
 ];
 
 // ─── Stats reales por informe ───
@@ -97,11 +97,67 @@ const REPORT_STATS: Record<string, StatItem[]> = {
     { value: 'Padrón', label: 'escuelas' },
     { value: 'Niveles', label: 'inic-sup' },
   ],
+  // ─── San Salvador de Jujuy (Depto. Dr. M. Belgrano) ───
+  'ssj-poblacion-estructura': [
+    { value: '321K', label: 'habitantes' },
+    { value: '39,5%', label: 'de la provincia' },
+    { value: '155', label: 'hab./km²' },
+    { value: '32', label: 'edad mediana' },
+  ],
+  'ssj-poblacion-habitacional-personas': [
+    { value: 'Personas', label: 'Belgrano' },
+    { value: 'Gas red', label: 'cobertura' },
+    { value: 'Agua', label: 'cañería' },
+    { value: 'Internet', label: 'brecha' },
+  ],
+  'ssj-poblacion-salud-prevision': [
+    { value: 'Salud', label: 'Belgrano' },
+    { value: 'Obra social', label: 'cobertura' },
+    { value: 'Previsión', label: 'jubilados' },
+    { value: 'Sin OS', label: 'subsist.' },
+  ],
+  'ssj-poblacion-habitacional-hogares': [
+    { value: 'Hogares', label: 'Belgrano' },
+    { value: 'Tenencia', label: 'propia/alq.' },
+    { value: 'Alquiler', label: 'mayor pp.' },
+    { value: 'Gas red', label: 'líder' },
+  ],
+  'ssj-poblacion-viviendas': [
+    { value: 'Stock', label: 'capital' },
+    { value: 'Departamentos', label: 'mayor %' },
+    { value: 'Desocupación', label: 'tasa' },
+    { value: 'Hacinamiento', label: 'residencial' },
+  ],
+  'ssj-poblacion-educacion-censal': [
+    { value: 'Nivel sup.', label: 'UNJu' },
+    { value: 'Asistencia', label: 'capital' },
+    { value: 'Posgrado', label: 'concentra' },
+    { value: 'Sin instr.', label: 'menor' },
+  ],
+  'ssj-poblacion-economia': [
+    { value: 'PEA', label: 'Belgrano' },
+    { value: 'Empleo', label: 'público' },
+    { value: 'Comercio', label: 'servicios' },
+    { value: 'Ramas', label: 'capital' },
+  ],
+  'ssj-poblacion-fecundidad': [
+    { value: 'Hijos', label: 'Belgrano' },
+    { value: '< prov.', label: 'transición' },
+    { value: 'Capital', label: 'urbana' },
+    { value: 'Promedio', label: 'menor' },
+  ],
+  'ssj-seguridad': [
+    { value: 'SNIC', label: 'Belgrano' },
+    { value: '40%+', label: 'del total' },
+    { value: 'Tasa hom.', label: '/100K' },
+    { value: 'Capital', label: '2024' },
+  ],
 };
 
 export function Landing() {
   const poblacion = getPoblacionReports();
   const sectoriales = getSectorialReports();
+  const ssj = getSSJReports();
 
   return (
     <div className="landing-page">
@@ -134,8 +190,9 @@ export function Landing() {
             </h1>
             <p className="hero-subtitle">
               Explorá <span className="hero-highlight">811.611 habitantes</span> y{' '}
-              <span className="hero-highlight">16 departamentos</span> con 13 informes basados
-              en datos oficiales del INDEC, Censo 2022, SNIC, SSPM, SIACAM y Ministerio de Salud.
+              <span className="hero-highlight">16 departamentos</span> con 22 informes basados
+              en datos oficiales del INDEC, Censo 2022, SNIC, SSPM, SIACAM y Ministerio de Salud
+              — incluye un <span className="hero-highlight">apartado especial sobre San Salvador de Jujuy</span>.
             </p>
             <p className="hero-attribution">
               Powered by{' '}
@@ -163,6 +220,32 @@ export function Landing() {
           </div>
         </header>
       </SectionReveal>
+
+      {/* ─── San Salvador de Jujuy · Análisis Especial (banner único) ─── */}
+      {ssj.length > 0 && (
+        <SectionReveal>
+          <Link to="/ssj" className="ssj-banner" aria-labelledby="ssj-banner-title">
+            <div className="ssj-banner-content">
+              <span className="ssj-highlight-badge">Análisis Especial</span>
+              <h2 id="ssj-banner-title" className="ssj-banner-title">San Salvador de Jujuy</h2>
+              <p className="ssj-banner-desc">
+                Apartado dedicado al <strong>Departamento Dr. Manuel Belgrano</strong> — la ciudad capital y el
+                <strong> 39,5%</strong> de la población provincial. {ssj.length} informes ejecutivos con foco en
+                Alto Comedero, el centro histórico y la conurbación capitalina.
+              </p>
+              <div className="ssj-banner-meta">
+                <span>📊 {ssj.length} informes</span>
+                <span>📍 Dr. Manuel Belgrano</span>
+                <span>🏘️ ~320.990 hab.</span>
+              </div>
+            </div>
+            <div className="ssj-banner-cta" aria-hidden="true">
+              <span className="ssj-banner-arrow">→</span>
+              <span className="ssj-banner-cta-label">Explorar</span>
+            </div>
+          </Link>
+        </SectionReveal>
+      )}
 
       {/* ─── Población Grid ─── */}
       <SectionReveal>
@@ -214,14 +297,26 @@ export function Landing() {
 
 // ═══════ Components ═══════
 
-function ReportCard({ report, index }: { report: ReportEntry; index: number }) {
+function ReportCard({ report, index, variant = 'default' }: {
+  report: ReportEntry;
+  index: number;
+  variant?: 'default' | 'featured';
+}) {
   const stats = REPORT_STATS[report.id];
-  const tickerSize: 'sm' | 'md' | 'lg' = index === 0 ? 'md' : 'sm';
+  const tickerSize: 'sm' | 'md' | 'lg' =
+    variant === 'featured' ? 'lg' :
+    index === 0 ? 'md' :
+    'sm';
+
+  // Para featured (SSJ con order 101+), mostrar el icono en lugar de un número largo
+  const numberLabel = variant === 'featured'
+    ? report.icon
+    : String(report.order).padStart(2, '0');
 
   return (
     <Link
       to={`/${report.slug}`}
-      className="report-card"
+      className={`report-card${variant === 'featured' ? ' report-card-featured' : ''}`}
       style={{
         '--card-color': report.color,
         animationDelay: `${index * 80}ms`,
@@ -229,7 +324,7 @@ function ReportCard({ report, index }: { report: ReportEntry; index: number }) {
     >
       <div className="report-card-glow" aria-hidden="true" />
       <div className="report-card-header">
-        <span className="report-card-number">{String(report.order).padStart(2, '0')}</span>
+        <span className="report-card-number">{numberLabel}</span>
         <span className="report-card-arrow">→</span>
       </div>
       <div className="report-card-body">

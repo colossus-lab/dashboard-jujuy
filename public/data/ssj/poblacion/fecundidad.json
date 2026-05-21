@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "id": "ssj-poblacion-fecundidad",
+    "title": "Fecundidad — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "Fecundidad",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "mujeres",
+      "label": "Mujeres de 14 años o más",
+      "value": 89831,
+      "formatted": "89,8K"
+    },
+    {
+      "id": "tuvo",
+      "label": "Tuvo al menos un hijo",
+      "value": 18643,
+      "formatted": "18.643,0%"
+    },
+    {
+      "id": "hijos-prom",
+      "label": "Hijos promedio por mujer",
+      "value": 16836,
+      "formatted": "16.836,00",
+      "comparison": "entre las que tuvieron hijos"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "mujeres-con-hijos-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "% con hijos"
+      },
+      "id": "bar-tuvo-comp",
+      "type": "bar",
+      "title": "% mujeres que tuvieron al menos un hijo — por depto.",
+      "sectionTitle": "Mujeres con hijos — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "% con hijos": 980
+        },
+        {
+          "departamento": "El Carmen",
+          "% con hijos": 7172
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "% con hijos": 18643
+        },
+        {
+          "departamento": "Humahuaca",
+          "% con hijos": 1323
+        },
+        {
+          "departamento": "Ledesma",
+          "% con hijos": 5612
+        },
+        {
+          "departamento": "Palpalá",
+          "% con hijos": 3903
+        },
+        {
+          "departamento": "Rinconada",
+          "% con hijos": 80
+        },
+        {
+          "departamento": "San Antonio",
+          "% con hijos": 411
+        },
+        {
+          "departamento": "San Pedro",
+          "% con hijos": 5143
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "% con hijos": 1206
+        },
+        {
+          "departamento": "Santa Catalina",
+          "% con hijos": 147
+        },
+        {
+          "departamento": "Susques",
+          "% con hijos": 257
+        },
+        {
+          "departamento": "Tilcara",
+          "% con hijos": 925
+        },
+        {
+          "departamento": "Tumbaya",
+          "% con hijos": 357
+        },
+        {
+          "departamento": "Valle Grande",
+          "% con hijos": 121
+        },
+        {
+          "departamento": "Yavi",
+          "% con hijos": 1627
+        }
+      ]
+    },
+    {
+      "sectionId": "hijos-promedio-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Hijos promedio"
+      },
+      "id": "bar-hijos-comp",
+      "type": "bar",
+      "title": "Promedio de hijos por mujer (entre las que tuvieron) — por depto.",
+      "sectionTitle": "Hijos promedio — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Hijos promedio": 717
+        },
+        {
+          "departamento": "El Carmen",
+          "Hijos promedio": 6503
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Hijos promedio": 16836
+        },
+        {
+          "departamento": "Humahuaca",
+          "Hijos promedio": 1022
+        },
+        {
+          "departamento": "Ledesma",
+          "Hijos promedio": 5178
+        },
+        {
+          "departamento": "Palpalá",
+          "Hijos promedio": 3439
+        },
+        {
+          "departamento": "Rinconada",
+          "Hijos promedio": 71
+        },
+        {
+          "departamento": "San Antonio",
+          "Hijos promedio": 355
+        },
+        {
+          "departamento": "San Pedro",
+          "Hijos promedio": 4593
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Hijos promedio": 1121
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Hijos promedio": 105
+        },
+        {
+          "departamento": "Susques",
+          "Hijos promedio": 180
+        },
+        {
+          "departamento": "Tilcara",
+          "Hijos promedio": 805
+        },
+        {
+          "departamento": "Tumbaya",
+          "Hijos promedio": 266
+        },
+        {
+          "departamento": "Valle Grande",
+          "Hijos promedio": 98
+        },
+        {
+          "departamento": "Yavi",
+          "Hijos promedio": 1372
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "hijos-promedio-comparativo-provincial",
+      "id": "rank-hij",
+      "title": "Departamentos con mayor promedio de hijos",
+      "items": [
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 16836,
+          "municipioId": "38021"
+        },
+        {
+          "name": "El Carmen",
+          "value": 6503,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Ledesma",
+          "value": 5178,
+          "municipioId": "38035"
+        },
+        {
+          "name": "San Pedro",
+          "value": 4593,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Palpalá",
+          "value": 3439,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Yavi",
+          "value": 1372,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 1121,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 1022,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Tilcara",
+          "value": 805,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 717,
+          "municipioId": "38007"
+        },
+        {
+          "name": "San Antonio",
+          "value": 355,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 266,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Susques",
+          "value": 180,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 105,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 98,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Rinconada",
+          "value": 71,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
 import { Landing } from './pages/Landing';
 import { ReportView } from './pages/ReportView';
+import { SSJHub } from './pages/SSJHub';
 import React from 'react';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -74,6 +75,7 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Landing />} />
+            <Route path="/ssj" element={<SSJHub />} />
             <Route path="/*" element={<ReportView />} />
           </Routes>
         </Layout>

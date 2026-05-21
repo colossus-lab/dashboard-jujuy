@@ -70,6 +70,8 @@ export interface ReportData {
 // Report Registry Entry
 // ═══════════════════════════════════════════════════════════════
 
+export type ReportScope = 'provincial' | 'ssj';
+
 export interface ReportEntry {
   id: string;
   slug: string;
@@ -82,4 +84,5 @@ export interface ReportEntry {
   mdPath: string;      // path to .md in public/reports/
   dataPath: string;    // path to data.json in public/data/
   order: number;
+  scope?: ReportScope; // default 'provincial' si se omite
 }

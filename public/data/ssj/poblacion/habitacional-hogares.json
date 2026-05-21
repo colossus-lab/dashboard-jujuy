@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "id": "ssj-poblacion-habitacional-hogares",
+    "title": "Condiciones Habitacionales de los Hogares — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "Hábitat Hogares",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "hogares",
+      "label": "Total de hogares",
+      "value": 100036,
+      "formatted": "100,0K"
+    },
+    {
+      "id": "propia",
+      "label": "Hogares en vivienda propia",
+      "value": 70.23471550241914,
+      "formatted": "70,2%"
+    },
+    {
+      "id": "alq",
+      "label": "Hogares en vivienda alquilada",
+      "value": 15.545403654684314,
+      "formatted": "15,5%"
+    },
+    {
+      "id": "gas-hog",
+      "label": "Hogares con gas de red",
+      "value": 50.23191651005639,
+      "formatted": "50,2%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "regimen-de-tenencia-belgrano",
+      "config": {},
+      "id": "pie-ten",
+      "type": "pie",
+      "title": "Régimen de tenencia — Hogares Belgrano",
+      "sectionTitle": "Régimen de tenencia — Belgrano",
+      "data": [
+        {
+          "id": "Propia",
+          "label": "Propia",
+          "value": 70260
+        },
+        {
+          "id": "Alquilada",
+          "label": "Alquilada",
+          "value": 15551
+        },
+        {
+          "id": "Cedida",
+          "label": "Cedida",
+          "value": 579
+        },
+        {
+          "id": "Otras",
+          "label": "Otras",
+          "value": 13646
+        }
+      ]
+    },
+    {
+      "sectionId": "alquiler-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Alquiler %"
+      },
+      "id": "bar-alq-comp",
+      "type": "bar",
+      "title": "% hogares en alquiler por departamento",
+      "sectionTitle": "Alquiler — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Alquiler %": 9.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Alquiler %": 10.3
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Alquiler %": 15.5
+        },
+        {
+          "departamento": "Humahuaca",
+          "Alquiler %": 6.7
+        },
+        {
+          "departamento": "Ledesma",
+          "Alquiler %": 7.1
+        },
+        {
+          "departamento": "Palpalá",
+          "Alquiler %": 10.7
+        },
+        {
+          "departamento": "Rinconada",
+          "Alquiler %": 6.1
+        },
+        {
+          "departamento": "San Antonio",
+          "Alquiler %": 4.3
+        },
+        {
+          "departamento": "San Pedro",
+          "Alquiler %": 6.8
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Alquiler %": 3.9
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Alquiler %": 6.2
+        },
+        {
+          "departamento": "Susques",
+          "Alquiler %": 7
+        },
+        {
+          "departamento": "Tilcara",
+          "Alquiler %": 10.2
+        },
+        {
+          "departamento": "Tumbaya",
+          "Alquiler %": 10.9
+        },
+        {
+          "departamento": "Valle Grande",
+          "Alquiler %": 3.7
+        },
+        {
+          "departamento": "Yavi",
+          "Alquiler %": 17.8
+        }
+      ]
+    },
+    {
+      "sectionId": "gas-de-red-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Gas de red %"
+      },
+      "id": "bar-gas-hog-comp",
+      "type": "bar",
+      "title": "% hogares con gas de red por departamento",
+      "sectionTitle": "Gas de red — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Gas de red %": 4.3
+        },
+        {
+          "departamento": "El Carmen",
+          "Gas de red %": 27.6
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Gas de red %": 50.2
+        },
+        {
+          "departamento": "Humahuaca",
+          "Gas de red %": 18.7
+        },
+        {
+          "departamento": "Ledesma",
+          "Gas de red %": 30.4
+        },
+        {
+          "departamento": "Palpalá",
+          "Gas de red %": 35.6
+        },
+        {
+          "departamento": "Rinconada",
+          "Gas de red %": 1.6
+        },
+        {
+          "departamento": "San Antonio",
+          "Gas de red %": 0.4
+        },
+        {
+          "departamento": "San Pedro",
+          "Gas de red %": 31.9
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Gas de red %": 0.9
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Gas de red %": 0.3
+        },
+        {
+          "departamento": "Susques",
+          "Gas de red %": 0.4
+        },
+        {
+          "departamento": "Tilcara",
+          "Gas de red %": 10.1
+        },
+        {
+          "departamento": "Tumbaya",
+          "Gas de red %": 2.5
+        },
+        {
+          "departamento": "Valle Grande",
+          "Gas de red %": 1.6
+        },
+        {
+          "departamento": "Yavi",
+          "Gas de red %": 7
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "alquiler-comparativo-provincial",
+      "id": "rank-alq",
+      "title": "Departamentos con mayor % alquiler",
+      "items": [
+        {
+          "name": "Yavi",
+          "value": 17.8,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 15.5,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 10.9,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Palpalá",
+          "value": 10.7,
+          "municipioId": "38042"
+        },
+        {
+          "name": "El Carmen",
+          "value": 10.3,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Tilcara",
+          "value": 10.2,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 9.9,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Ledesma",
+          "value": 7.1,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Susques",
+          "value": 7,
+          "municipioId": "38084"
+        },
+        {
+          "name": "San Pedro",
+          "value": 6.8,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 6.7,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 6.2,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Rinconada",
+          "value": 6.1,
+          "municipioId": "38049"
+        },
+        {
+          "name": "San Antonio",
+          "value": 4.3,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 3.9,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 3.7,
+          "municipioId": "38105"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

@@ -39,11 +39,13 @@ if (!censoSourceExists && !censoOutputsExist) {
 const PIPELINE = [];
 if (censoSourceExists) {
   PIPELINE.push({ name: "Census (8 informes Población)", file: "generate-report-data.cjs" });
+  PIPELINE.push({ name: "SSJ Censo (8 informes Dr. M. Belgrano)", file: "generate-ssj-report-data.cjs" });
 } else {
   console.log("ℹ️  Pipeline censo: fuentes XLSX no disponibles, usando outputs pre-generados.");
 }
 if (datasetsExist) {
   PIPELINE.push({ name: "Seguridad SNIC", file: "process-seguridad.cjs" });
+  PIPELINE.push({ name: "SSJ Seguridad SNIC (Belgrano)", file: "process-ssj-seguridad.cjs" });
   PIPELINE.push({ name: "Salud (vitales)", file: "process-salud.cjs" });
   PIPELINE.push({ name: "Empleo SSPM", file: "process-empleo.cjs" });
   PIPELINE.push({ name: "Minería / Litio SIACAM", file: "process-mineria.cjs" });
