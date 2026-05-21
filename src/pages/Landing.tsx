@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { getPoblacionReports, getSectorialReports } from '../data/reportRegistry';
+import { getPoblacionReports, getSectorialReports, getSSJReports } from '../data/reportRegistry';
 import { SectionReveal } from '../components/ui/SectionReveal';
 import { SiteFooter } from '../components/layout/SiteFooter';
 import type { ReportEntry } from '../types/report';
@@ -11,7 +11,7 @@ const HERO_STATS = [
   { value: 811611, label: 'Habitantes', suffix: '', tooltip: 'Censo Nacional 2022 · INDEC' },
   { value: 16, label: 'Departamentos', suffix: '', tooltip: 'División política de la Provincia de Jujuy' },
   { value: 53219, label: 'km²', suffix: '', tooltip: 'Superficie total de la provincia' },
-  { value: 13, label: 'Informes', suffix: '', tooltip: '13 informes basados en datos abiertos' },
+  { value: 22, label: 'Informes', suffix: '', tooltip: '13 provinciales + 9 de San Salvador de Jujuy (Dr. M. Belgrano)' },
 ];
 
 // ─── Stats reales por informe ───
@@ -97,11 +97,67 @@ const REPORT_STATS: Record<string, StatItem[]> = {
     { value: 'Padrón', label: 'escuelas' },
     { value: 'Niveles', label: 'inic-sup' },
   ],
+  // ─── San Salvador de Jujuy (Depto. Dr. M. Belgrano) ───
+  'ssj-poblacion-estructura': [
+    { value: '321K', label: 'habitantes' },
+    { value: '39,5%', label: 'de la provincia' },
+    { value: '155', label: 'hab./km²' },
+    { value: '32', label: 'edad mediana' },
+  ],
+  'ssj-poblacion-habitacional-personas': [
+    { value: 'Personas', label: 'Belgrano' },
+    { value: 'Gas red', label: 'cobertura' },
+    { value: 'Agua', label: 'cañería' },
+    { value: 'Internet', label: 'brecha' },
+  ],
+  'ssj-poblacion-salud-prevision': [
+    { value: 'Salud', label: 'Belgrano' },
+    { value: 'Obra social', label: 'cobertura' },
+    { value: 'Previsión', label: 'jubilados' },
+    { value: 'Sin OS', label: 'subsist.' },
+  ],
+  'ssj-poblacion-habitacional-hogares': [
+    { value: 'Hogares', label: 'Belgrano' },
+    { value: 'Tenencia', label: 'propia/alq.' },
+    { value: 'Alquiler', label: 'mayor pp.' },
+    { value: 'Gas red', label: 'líder' },
+  ],
+  'ssj-poblacion-viviendas': [
+    { value: 'Stock', label: 'capital' },
+    { value: 'Departamentos', label: 'mayor %' },
+    { value: 'Desocupación', label: 'tasa' },
+    { value: 'Hacinamiento', label: 'residencial' },
+  ],
+  'ssj-poblacion-educacion-censal': [
+    { value: 'Nivel sup.', label: 'UNJu' },
+    { value: 'Asistencia', label: 'capital' },
+    { value: 'Posgrado', label: 'concentra' },
+    { value: 'Sin instr.', label: 'menor' },
+  ],
+  'ssj-poblacion-economia': [
+    { value: 'PEA', label: 'Belgrano' },
+    { value: 'Empleo', label: 'público' },
+    { value: 'Comercio', label: 'servicios' },
+    { value: 'Ramas', label: 'capital' },
+  ],
+  'ssj-poblacion-fecundidad': [
+    { value: 'Hijos', label: 'Belgrano' },
+    { value: '< prov.', label: 'transición' },
+    { value: 'Capital', label: 'urbana' },
+    { value: 'Promedio', label: 'menor' },
+  ],
+  'ssj-seguridad': [
+    { value: 'SNIC', label: 'Belgrano' },
+    { value: '40%+', label: 'del total' },
+    { value: 'Tasa hom.', label: '/100K' },
+    { value: 'Capital', label: '2024' },
+  ],
 };
 
 export function Landing() {
   const poblacion = getPoblacionReports();
   const sectoriales = getSectorialReports();
+  const ssj = getSSJReports();
 
   return (
     <div className="landing-page">
@@ -134,8 +190,9 @@ export function Landing() {
             </h1>
             <p className="hero-subtitle">
               Explorá <span className="hero-highlight">811.611 habitantes</span> y{' '}
-              <span className="hero-highlight">16 departamentos</span> con 13 informes basados
-              en datos oficiales del INDEC, Censo 2022, SNIC, SSPM, SIACAM y Ministerio de Salud.
+              <span className="hero-highlight">16 departamentos</span> con 22 informes basados
+              en datos oficiales del INDEC, Censo 2022, SNIC, SSPM, SIACAM y Ministerio de Salud
+              — incluye un <span className="hero-highlight">apartado especial sobre San Salvador de Jujuy</span>.
             </p>
             <p className="hero-attribution">
               Powered by{' '}
@@ -199,6 +256,30 @@ export function Landing() {
             </div>
             <div className="report-grid">
               {sectoriales.map((report, i) => (
+                <ReportCard key={report.id} report={report} index={i} />
+              ))}
+            </div>
+          </section>
+        </SectionReveal>
+      )}
+
+      {/* ─── San Salvador de Jujuy Grid ─── */}
+      {ssj.length > 0 && (
+        <SectionReveal>
+          <section className="landing-section">
+            <div className="section-header">
+              <div className="section-number">03</div>
+              <div>
+                <h2 className="section-title">Especial · San Salvador de Jujuy</h2>
+                <p className="section-desc">
+                  Apartado dedicado al Departamento Dr. Manuel Belgrano, que contiene la ciudad capital
+                  y concentra el 39,5% de la población provincial. Mismos análisis del corpus provincial,
+                  recortados al territorio del Gran San Salvador.
+                </p>
+              </div>
+            </div>
+            <div className="report-grid">
+              {ssj.map((report, i) => (
                 <ReportCard key={report.id} report={report} index={i} />
               ))}
             </div>
