@@ -179,6 +179,134 @@ export const REPORTS: ReportEntry[] = [
     dataPath: '/data/educacion/indicadores.json',
     order: 13,
   },
+
+  // ─── Grupo 3: San Salvador de Jujuy (Depto. Dr. M. Belgrano) ───
+  {
+    id: 'ssj-poblacion-estructura',
+    slug: 'ssj/poblacion/estructura',
+    title: 'Estructura por Sexo y Edad — San Salvador de Jujuy',
+    shortTitle: 'Estructura',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Estructura',
+    icon: '🏙️',
+    color: '#74ACDF',
+    mdPath: '/reports/ssj/poblacion/estructura.md',
+    dataPath: '/data/ssj/poblacion/estructura.json',
+    order: 101,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-habitacional-personas',
+    slug: 'ssj/poblacion/habitacional-personas',
+    title: 'Condiciones Habitacionales — San Salvador de Jujuy',
+    shortTitle: 'Hábitat Personas',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Hábitat Personas',
+    icon: '🏠',
+    color: '#F6B40E',
+    mdPath: '/reports/ssj/poblacion/habitacional-personas.md',
+    dataPath: '/data/ssj/poblacion/habitacional-personas.json',
+    order: 102,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-salud-prevision',
+    slug: 'ssj/poblacion/salud-prevision',
+    title: 'Salud y Previsión Social — San Salvador de Jujuy',
+    shortTitle: 'Salud & Previsión',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Salud',
+    icon: '🏥',
+    color: '#6BBF59',
+    mdPath: '/reports/ssj/poblacion/salud-prevision.md',
+    dataPath: '/data/ssj/poblacion/salud-prevision.json',
+    order: 103,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-habitacional-hogares',
+    slug: 'ssj/poblacion/habitacional-hogares',
+    title: 'Condiciones Habitacionales de los Hogares — San Salvador de Jujuy',
+    shortTitle: 'Hábitat Hogares',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Hábitat Hogares',
+    icon: '🏗️',
+    color: '#FFD04A',
+    mdPath: '/reports/ssj/poblacion/habitacional-hogares.md',
+    dataPath: '/data/ssj/poblacion/habitacional-hogares.json',
+    order: 104,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-viviendas',
+    slug: 'ssj/poblacion/viviendas',
+    title: 'Stock Habitacional y Viviendas — San Salvador de Jujuy',
+    shortTitle: 'Viviendas',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Viviendas',
+    icon: '🏘️',
+    color: '#93C5F8',
+    mdPath: '/reports/ssj/poblacion/viviendas.md',
+    dataPath: '/data/ssj/poblacion/viviendas.json',
+    order: 105,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-educacion-censal',
+    slug: 'ssj/poblacion/educacion-censal',
+    title: 'Asistencia Educativa — San Salvador de Jujuy',
+    shortTitle: 'Educación Censal',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Educación',
+    icon: '📚',
+    color: '#06b6d4',
+    mdPath: '/reports/ssj/poblacion/educacion-censal.md',
+    dataPath: '/data/ssj/poblacion/educacion-censal.json',
+    order: 106,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-economia',
+    slug: 'ssj/poblacion/economia',
+    title: 'Características Económicas — San Salvador de Jujuy',
+    shortTitle: 'Economía',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Economía',
+    icon: '💼',
+    color: '#eab308',
+    mdPath: '/reports/ssj/poblacion/economia.md',
+    dataPath: '/data/ssj/poblacion/economia.json',
+    order: 107,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-poblacion-fecundidad',
+    slug: 'ssj/poblacion/fecundidad',
+    title: 'Fecundidad — San Salvador de Jujuy',
+    shortTitle: 'Fecundidad',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'Fecundidad',
+    icon: '👶',
+    color: '#ec4899',
+    mdPath: '/reports/ssj/poblacion/fecundidad.md',
+    dataPath: '/data/ssj/poblacion/fecundidad.json',
+    order: 108,
+    scope: 'ssj',
+  },
+  {
+    id: 'ssj-seguridad',
+    slug: 'ssj/seguridad',
+    title: 'Seguridad y Estadísticas Criminales — San Salvador de Jujuy',
+    shortTitle: 'Seguridad',
+    category: 'San Salvador de Jujuy',
+    subcategory: 'SNIC',
+    icon: '🛡️',
+    color: '#dc2626',
+    mdPath: '/reports/ssj/seguridad.md',
+    dataPath: '/data/ssj/seguridad.json',
+    order: 109,
+    scope: 'ssj',
+  },
 ];
 
 export function getReportBySlug(slug: string): ReportEntry | undefined {
@@ -189,10 +317,22 @@ export function getReportsByCategory(category: string): ReportEntry[] {
   return REPORTS.filter(r => r.category === category);
 }
 
+function isProvincial(r: ReportEntry): boolean {
+  return (r.scope ?? 'provincial') === 'provincial';
+}
+
 export function getPoblacionReports(): ReportEntry[] {
-  return REPORTS.filter(r => r.category === 'Población');
+  return REPORTS.filter(r => isProvincial(r) && r.category === 'Población');
 }
 
 export function getSectorialReports(): ReportEntry[] {
-  return REPORTS.filter(r => r.category !== 'Población');
+  return REPORTS.filter(r => isProvincial(r) && r.category !== 'Población');
+}
+
+export function getProvincialReports(): ReportEntry[] {
+  return REPORTS.filter(isProvincial);
+}
+
+export function getSSJReports(): ReportEntry[] {
+  return REPORTS.filter(r => r.scope === 'ssj');
 }

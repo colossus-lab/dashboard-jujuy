@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "id": "ssj-seguridad",
+    "title": "Seguridad y Estadísticas Criminales — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "SNIC",
+    "source": "SNIC — Sistema Nacional de Información Criminal (Ministerio de Seguridad de la Nación)",
+    "date": "2024"
+  },
+  "kpis": [
+    {
+      "id": "homicidios",
+      "label": "Homicidios dolosos",
+      "value": 9,
+      "formatted": "9",
+      "unit": "casos",
+      "comparison": "+80,0% vs 2023"
+    },
+    {
+      "id": "tasa-hom",
+      "label": "Tasa homicidios",
+      "value": 2.7781293,
+      "formatted": "2,78",
+      "unit": "/100K hab."
+    },
+    {
+      "id": "robos",
+      "label": "Robos (totales)",
+      "value": 2577,
+      "formatted": "2,6K",
+      "unit": "casos",
+      "comparison": "incluye agravados"
+    },
+    {
+      "id": "hurtos",
+      "label": "Hurtos",
+      "value": 3692,
+      "formatted": "3,7K",
+      "unit": "casos"
+    },
+    {
+      "id": "lesiones",
+      "label": "Lesiones dolosas",
+      "value": 1611,
+      "formatted": "1,6K",
+      "unit": "casos"
+    },
+    {
+      "id": "muertes-viales",
+      "label": "Muertes viales",
+      "value": 18,
+      "formatted": "18",
+      "unit": "casos"
+    },
+    {
+      "id": "suicidios",
+      "label": "Suicidios",
+      "value": 24,
+      "formatted": "24",
+      "unit": "casos"
+    },
+    {
+      "id": "total",
+      "label": "Total hechos delictivos",
+      "value": 22582,
+      "formatted": "22,6K",
+      "comparison": "45,5% del total provincial"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "principales-tipos-de-delito-en-belgrano",
+      "config": {
+        "xAxis": "delito",
+        "yAxis": "Hechos",
+        "layout": "horizontal"
+      },
+      "id": "bar-top-delitos",
+      "type": "bar",
+      "title": "Principales tipos de delito — Dr. M. Belgrano, 2024",
+      "sectionTitle": "Principales tipos de delito en Belgrano",
+      "data": [
+        {
+          "delito": "Hurtos",
+          "Hechos": 3692
+        },
+        {
+          "delito": "Robos",
+          "Hechos": 2577
+        },
+        {
+          "delito": "Estafas",
+          "Hechos": 2328
+        },
+        {
+          "delito": "Lesiones dolosas",
+          "Hechos": 1611
+        },
+        {
+          "delito": "Amenazas",
+          "Hechos": 1413
+        },
+        {
+          "delito": "Abusos sexuales con acceso carnal",
+          "Hechos": 49
+        },
+        {
+          "delito": "Suicidios",
+          "Hechos": 24
+        },
+        {
+          "delito": "Muertes viales",
+          "Hechos": 18
+        },
+        {
+          "delito": "Homicidios dolosos",
+          "Hechos": 9
+        }
+      ]
+    },
+    {
+      "sectionId": "evolucion-2014-2024-en-belgrano",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "Hechos"
+      },
+      "id": "line-serie-belgrano",
+      "type": "line",
+      "title": "Evolución temporal de delitos clave — Dr. M. Belgrano 2000-2024",
+      "sectionTitle": "Evolución 2014-2024 en Belgrano",
+      "data": [
+        {
+          "anio": "2000",
+          "Homicidios dolosos": 8,
+          "Hurtos": 2623,
+          "Robos": 1932
+        },
+        {
+          "anio": "2001",
+          "Homicidios dolosos": 9,
+          "Hurtos": 3002,
+          "Robos": 2129
+        },
+        {
+          "anio": "2002",
+          "Homicidios dolosos": 2,
+          "Hurtos": 1355,
+          "Robos": 1089
+        },
+        {
+          "anio": "2003",
+          "Homicidios dolosos": 6,
+          "Hurtos": 2220,
+          "Robos": 1825
+        },
+        {
+          "anio": "2004",
+          "Homicidios dolosos": 8,
+          "Hurtos": 3902,
+          "Robos": 3759
+        },
+        {
+          "anio": "2005",
+          "Homicidios dolosos": 9,
+          "Hurtos": 3738,
+          "Robos": 3225
+        },
+        {
+          "anio": "2006",
+          "Homicidios dolosos": 25,
+          "Hurtos": 3506,
+          "Robos": 3378
+        },
+        {
+          "anio": "2007",
+          "Homicidios dolosos": 17,
+          "Hurtos": 3255,
+          "Robos": 3615
+        },
+        {
+          "anio": "2008",
+          "Homicidios dolosos": 21,
+          "Hurtos": 3607,
+          "Robos": 4458
+        },
+        {
+          "anio": "2009",
+          "Homicidios dolosos": 0,
+          "Hurtos": 3129,
+          "Robos": 4026
+        },
+        {
+          "anio": "2010",
+          "Homicidios dolosos": 15,
+          "Hurtos": 2766,
+          "Robos": 3971
+        },
+        {
+          "anio": "2011",
+          "Homicidios dolosos": 22,
+          "Hurtos": 2353,
+          "Robos": 3344
+        },
+        {
+          "anio": "2012",
+          "Homicidios dolosos": 19,
+          "Hurtos": 2240,
+          "Robos": 3580
+        },
+        {
+          "anio": "2013",
+          "Homicidios dolosos": 0,
+          "Hurtos": 2165,
+          "Robos": 3629
+        },
+        {
+          "anio": "2014",
+          "Homicidios dolosos": 12,
+          "Hurtos": 2525,
+          "Robos": 4248
+        },
+        {
+          "anio": "2015",
+          "Homicidios dolosos": 8,
+          "Hurtos": 2557,
+          "Robos": 3808
+        },
+        {
+          "anio": "2016",
+          "Homicidios dolosos": 18,
+          "Hurtos": 2479,
+          "Robos": 3840
+        },
+        {
+          "anio": "2017",
+          "Homicidios dolosos": 5,
+          "Hurtos": 2226,
+          "Robos": 3822
+        },
+        {
+          "anio": "2018",
+          "Homicidios dolosos": 11,
+          "Hurtos": 1978,
+          "Robos": 3141
+        },
+        {
+          "anio": "2019",
+          "Homicidios dolosos": 15,
+          "Hurtos": 2521,
+          "Robos": 3275
+        },
+        {
+          "anio": "2020",
+          "Homicidios dolosos": 15,
+          "Hurtos": 2097,
+          "Robos": 2103
+        },
+        {
+          "anio": "2021",
+          "Homicidios dolosos": 7,
+          "Hurtos": 2509,
+          "Robos": 2417
+        },
+        {
+          "anio": "2022",
+          "Homicidios dolosos": 5,
+          "Hurtos": 2969,
+          "Robos": 2371
+        },
+        {
+          "anio": "2023",
+          "Homicidios dolosos": 5,
+          "Hurtos": 3254,
+          "Robos": 2529
+        },
+        {
+          "anio": "2024",
+          "Homicidios dolosos": 9,
+          "Hurtos": 3692,
+          "Robos": 2577
+        }
+      ]
+    },
+    {
+      "sectionId": "tasa-de-homicidios-en-belgrano",
+      "config": {
+        "xAxis": "anio",
+        "yAxis": "Tasa /100.000"
+      },
+      "id": "line-tasa-belgrano",
+      "type": "line",
+      "title": "Tasa de homicidios dolosos cada 100.000 hab. — Dr. M. Belgrano",
+      "sectionTitle": "Tasa de homicidios en Belgrano",
+      "data": [
+        {
+          "anio": "2000",
+          "Tasa /100K": 3.4386122
+        },
+        {
+          "anio": "2001",
+          "Tasa /100K": 3.7750094
+        },
+        {
+          "anio": "2002",
+          "Tasa /100K": 0.8276878
+        },
+        {
+          "anio": "2003",
+          "Tasa /100K": 2.4498994
+        },
+        {
+          "anio": "2004",
+          "Tasa /100K": 3.2228954
+        },
+        {
+          "anio": "2005",
+          "Tasa /100K": 3.5773339
+        },
+        {
+          "anio": "2006",
+          "Tasa /100K": 9.804306
+        },
+        {
+          "anio": "2007",
+          "Tasa /100K": 6.577878
+        },
+        {
+          "anio": "2008",
+          "Tasa /100K": 8.0171032
+        },
+        {
+          "anio": "2009",
+          "Tasa /100K": 0
+        },
+        {
+          "anio": "2010",
+          "Tasa /100K": 5.5745502
+        },
+        {
+          "anio": "2011",
+          "Tasa /100K": 8.0566311
+        },
+        {
+          "anio": "2012",
+          "Tasa /100K": 6.8574729
+        },
+        {
+          "anio": "2013",
+          "Tasa /100K": 0
+        },
+        {
+          "anio": "2014",
+          "Tasa /100K": 4.209197
+        },
+        {
+          "anio": "2015",
+          "Tasa /100K": 2.767333
+        },
+        {
+          "anio": "2016",
+          "Tasa /100K": 6.1418147
+        },
+        {
+          "anio": "2017",
+          "Tasa /100K": 1.6832126
+        },
+        {
+          "anio": "2018",
+          "Tasa /100K": 3.6543758
+        },
+        {
+          "anio": "2019",
+          "Tasa /100K": 4.919065
+        },
+        {
+          "anio": "2020",
+          "Tasa /100K": 4.8571825
+        },
+        {
+          "anio": "2021",
+          "Tasa /100K": 2.238775
+        },
+        {
+          "anio": "2022",
+          "Tasa /100K": 1.5799086
+        },
+        {
+          "anio": "2023",
+          "Tasa /100K": 1.5613388
+        },
+        {
+          "anio": "2024",
+          "Tasa /100K": 2.7781293
+        }
+      ]
+    },
+    {
+      "sectionId": "belgrano-vs-provincia",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Hechos"
+      },
+      "id": "bar-comparativo-deptos",
+      "type": "bar",
+      "title": "Hechos delictivos por departamento — 2024 (Belgrano resaltado)",
+      "sectionTitle": "Belgrano vs Provincia",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Hechos": 665
+        },
+        {
+          "departamento": "El Carmen",
+          "Hechos": 6804
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Hechos": 22582
+        },
+        {
+          "departamento": "Humahuaca",
+          "Hechos": 1278
+        },
+        {
+          "departamento": "Ledesma",
+          "Hechos": 3896
+        },
+        {
+          "departamento": "Palpalá",
+          "Hechos": 4746
+        },
+        {
+          "departamento": "Rinconada",
+          "Hechos": 40
+        },
+        {
+          "departamento": "San Antonio",
+          "Hechos": 124
+        },
+        {
+          "departamento": "San Pedro",
+          "Hechos": 4726
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Hechos": 528
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Hechos": 48
+        },
+        {
+          "departamento": "Susques",
+          "Hechos": 74
+        },
+        {
+          "departamento": "Tilcara",
+          "Hechos": 853
+        },
+        {
+          "departamento": "Tumbaya",
+          "Hechos": 159
+        },
+        {
+          "departamento": "Valle Grande",
+          "Hechos": 31
+        },
+        {
+          "departamento": "Yavi",
+          "Hechos": 1262
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "belgrano-vs-provincia",
+      "id": "rank-deptos",
+      "title": "Hechos delictivos por departamento",
+      "items": [
+        {
+          "name": "Dr. Manuel Belgrano ★",
+          "value": 22582,
+          "municipioId": "38021"
+        },
+        {
+          "name": "El Carmen",
+          "value": 6804,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Palpalá",
+          "value": 4746,
+          "municipioId": "38042"
+        },
+        {
+          "name": "San Pedro",
+          "value": 4726,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Ledesma",
+          "value": 3896,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 1278,
+          "municipioId": "38028"
+        },
+        {
+          "name": "Yavi",
+          "value": 1262,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Tilcara",
+          "value": 853,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 665,
+          "municipioId": "38007"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 528,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 159,
+          "municipioId": "38098"
+        },
+        {
+          "name": "San Antonio",
+          "value": 124,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Susques",
+          "value": 74,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 48,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Rinconada",
+          "value": 40,
+          "municipioId": "38049"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 31,
+          "municipioId": "38105"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": [
+    {
+      "municipioId": "38007",
+      "municipioNombre": "Cochinoca",
+      "value": 665,
+      "label": "665 hechos"
+    },
+    {
+      "municipioId": "38014",
+      "municipioNombre": "El Carmen",
+      "value": 6804,
+      "label": "6.804 hechos"
+    },
+    {
+      "municipioId": "38021",
+      "municipioNombre": "Dr. Manuel Belgrano",
+      "value": 22582,
+      "label": "22.582 hechos"
+    },
+    {
+      "municipioId": "38028",
+      "municipioNombre": "Humahuaca",
+      "value": 1278,
+      "label": "1.278 hechos"
+    },
+    {
+      "municipioId": "38035",
+      "municipioNombre": "Ledesma",
+      "value": 3896,
+      "label": "3.896 hechos"
+    },
+    {
+      "municipioId": "38042",
+      "municipioNombre": "Palpalá",
+      "value": 4746,
+      "label": "4.746 hechos"
+    },
+    {
+      "municipioId": "38049",
+      "municipioNombre": "Rinconada",
+      "value": 40,
+      "label": "40 hechos"
+    },
+    {
+      "municipioId": "38056",
+      "municipioNombre": "San Antonio",
+      "value": 124,
+      "label": "124 hechos"
+    },
+    {
+      "municipioId": "38063",
+      "municipioNombre": "San Pedro",
+      "value": 4726,
+      "label": "4.726 hechos"
+    },
+    {
+      "municipioId": "38070",
+      "municipioNombre": "Santa Bárbara",
+      "value": 528,
+      "label": "528 hechos"
+    },
+    {
+      "municipioId": "38077",
+      "municipioNombre": "Santa Catalina",
+      "value": 48,
+      "label": "48 hechos"
+    },
+    {
+      "municipioId": "38084",
+      "municipioNombre": "Susques",
+      "value": 74,
+      "label": "74 hechos"
+    },
+    {
+      "municipioId": "38094",
+      "municipioNombre": "Tilcara",
+      "value": 853,
+      "label": "853 hechos"
+    },
+    {
+      "municipioId": "38098",
+      "municipioNombre": "Tumbaya",
+      "value": 159,
+      "label": "159 hechos"
+    },
+    {
+      "municipioId": "38105",
+      "municipioNombre": "Valle Grande",
+      "value": 31,
+      "label": "31 hechos"
+    },
+    {
+      "municipioId": "38112",
+      "municipioNombre": "Yavi",
+      "value": 1262,
+      "label": "1.262 hechos"
+    }
+  ]
+}

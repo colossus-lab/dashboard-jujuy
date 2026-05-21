@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "id": "ssj-poblacion-habitacional-personas",
+    "title": "Condiciones Habitacionales — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "Hábitat Personas",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "pob",
+      "label": "Población en viviendas particulares",
+      "value": 319469,
+      "formatted": "319,5K",
+      "unit": "hab."
+    },
+    {
+      "id": "gas-red",
+      "label": "Cocina con gas de red",
+      "value": 48.41064391224187,
+      "formatted": "48,4%"
+    },
+    {
+      "id": "gas-garrafa",
+      "label": "Cocina con gas en garrafa",
+      "value": 47.39959119664193,
+      "formatted": "47,4%",
+      "status": "warning"
+    },
+    {
+      "id": "agua",
+      "label": "Agua por cañería dentro de la vivienda",
+      "value": 94.41886380212165,
+      "formatted": "94,4%"
+    },
+    {
+      "id": "internet",
+      "label": "Vive en hogar con internet",
+      "value": 84.29456379179202,
+      "formatted": "84,3%"
+    },
+    {
+      "id": "propia",
+      "label": "Vive en vivienda propia",
+      "value": 73.4174520845528,
+      "formatted": "73,4%"
+    },
+    {
+      "id": "alquila",
+      "label": "Vive en vivienda alquilada",
+      "value": 12.482588294951936,
+      "formatted": "12,5%"
+    },
+    {
+      "id": "elec",
+      "label": "Cocina con electricidad",
+      "value": 2.1582688774184664,
+      "formatted": "2,2%"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "combustibles-para-cocinar",
+      "config": {},
+      "id": "pie-comb",
+      "type": "pie",
+      "title": "Combustible para cocinar — Belgrano",
+      "sectionTitle": "Combustibles para cocinar",
+      "data": [
+        {
+          "id": "Gas de red",
+          "label": "Gas de red",
+          "value": 154657
+        },
+        {
+          "id": "Electricidad",
+          "label": "Electricidad",
+          "value": 6895
+        },
+        {
+          "id": "Gas en garrafa",
+          "label": "Gas en garrafa",
+          "value": 151427
+        },
+        {
+          "id": "Gas zeppelin",
+          "label": "Gas zeppelin",
+          "value": 2937
+        },
+        {
+          "id": "Leña/carbón",
+          "label": "Leña/carbón",
+          "value": 3237
+        },
+        {
+          "id": "Otro",
+          "label": "Otro",
+          "value": 316
+        }
+      ]
+    },
+    {
+      "sectionId": "gas-de-red-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Gas de red %"
+      },
+      "id": "bar-gas-comp",
+      "type": "bar",
+      "title": "% con gas de red por departamento",
+      "sectionTitle": "Gas de red — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Gas de red %": 4.8
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Gas de red %": 48.4
+        },
+        {
+          "departamento": "El Carmen",
+          "Gas de red %": 26.8
+        },
+        {
+          "departamento": "Humahuaca",
+          "Gas de red %": 18.2
+        },
+        {
+          "departamento": "Ledesma",
+          "Gas de red %": 28.5
+        },
+        {
+          "departamento": "Palpalá",
+          "Gas de red %": 35.5
+        },
+        {
+          "departamento": "Rinconada",
+          "Gas de red %": 1.5
+        },
+        {
+          "departamento": "San Antonio",
+          "Gas de red %": 0.3
+        },
+        {
+          "departamento": "San Pedro",
+          "Gas de red %": 29.5
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Gas de red %": 0.8
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Gas de red %": 0.3
+        },
+        {
+          "departamento": "Susques",
+          "Gas de red %": 0.4
+        },
+        {
+          "departamento": "Tilcara",
+          "Gas de red %": 9.7
+        },
+        {
+          "departamento": "Tumbaya",
+          "Gas de red %": 2.7
+        },
+        {
+          "departamento": "Valle Grande",
+          "Gas de red %": 1.4
+        },
+        {
+          "departamento": "Yavi",
+          "Gas de red %": 6.4
+        }
+      ]
+    },
+    {
+      "sectionId": "procedencia-del-agua-belgrano",
+      "config": {},
+      "id": "pie-agua",
+      "type": "pie",
+      "title": "Procedencia del agua — Belgrano",
+      "sectionTitle": "Procedencia del agua — Belgrano",
+      "data": [
+        {
+          "id": "Red pública (agua corriente)",
+          "label": "Red pública (agua corriente)",
+          "value": 313514
+        },
+        {
+          "id": "Perforación con bomba a motor",
+          "label": "Perforación con bomba a motor",
+          "value": 861
+        },
+        {
+          "id": "Perforación con bomba manual",
+          "label": "Perforación con bomba manual",
+          "value": 327
+        },
+        {
+          "id": "Pozo sin bomba",
+          "label": "Pozo sin bomba",
+          "value": 456
+        },
+        {
+          "id": "Transporte por cisterna, agua de lluvi",
+          "label": "Transporte por cisterna, agua de lluvi",
+          "value": 1883
+        }
+      ]
+    },
+    {
+      "sectionId": "brecha-digital-en-belgrano",
+      "config": {},
+      "id": "pie-internet",
+      "type": "pie",
+      "title": "Acceso a internet en la vivienda — Belgrano",
+      "sectionTitle": "Brecha digital en Belgrano",
+      "data": [
+        {
+          "id": "Internet + dispositivo",
+          "label": "Internet + dispositivo",
+          "value": 181305
+        },
+        {
+          "id": "Internet sin dispositivo",
+          "label": "Internet sin dispositivo",
+          "value": 87990
+        },
+        {
+          "id": "Sin internet",
+          "label": "Sin internet",
+          "value": 50174
+        }
+      ]
+    },
+    {
+      "sectionId": "tenencia-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "%",
+        "grouped": true
+      },
+      "id": "bar-tenencia-comp",
+      "type": "bar",
+      "title": "% propia vs alquilada por departamento",
+      "sectionTitle": "Tenencia — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Propia %": 78.8,
+          "Alquilada %": 9
+        },
+        {
+          "departamento": "El Carmen",
+          "Propia %": 75.2,
+          "Alquilada %": 8.8
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Propia %": 73.4,
+          "Alquilada %": 12.5
+        },
+        {
+          "departamento": "Humahuaca",
+          "Propia %": 78.1,
+          "Alquilada %": 5.8
+        },
+        {
+          "departamento": "Ledesma",
+          "Propia %": 80.2,
+          "Alquilada %": 6
+        },
+        {
+          "departamento": "Palpalá",
+          "Propia %": 73.6,
+          "Alquilada %": 9.1
+        },
+        {
+          "departamento": "Rinconada",
+          "Propia %": 87.1,
+          "Alquilada %": 5.1
+        },
+        {
+          "departamento": "San Antonio",
+          "Propia %": 74.6,
+          "Alquilada %": 4.4
+        },
+        {
+          "departamento": "San Pedro",
+          "Propia %": 78.9,
+          "Alquilada %": 5.7
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Propia %": 83.1,
+          "Alquilada %": 3.4
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Propia %": 78.2,
+          "Alquilada %": 5.5
+        },
+        {
+          "departamento": "Susques",
+          "Propia %": 85,
+          "Alquilada %": 5.7
+        },
+        {
+          "departamento": "Tilcara",
+          "Propia %": 77.5,
+          "Alquilada %": 8
+        },
+        {
+          "departamento": "Tumbaya",
+          "Propia %": 73.1,
+          "Alquilada %": 9.9
+        },
+        {
+          "departamento": "Valle Grande",
+          "Propia %": 85.5,
+          "Alquilada %": 2.9
+        },
+        {
+          "departamento": "Yavi",
+          "Propia %": 69.9,
+          "Alquilada %": 16.2
+        }
+      ]
+    },
+    {
+      "sectionId": "saneamiento-en-belgrano",
+      "config": {},
+      "id": "pie-bano",
+      "type": "pie",
+      "title": "Ubicación del baño — Belgrano",
+      "sectionTitle": "Saneamiento en Belgrano",
+      "data": [
+        {
+          "id": "Dentro de la vivienda",
+          "label": "Dentro de la vivienda",
+          "value": 287816
+        },
+        {
+          "id": "Fuera de la vivienda",
+          "label": "Fuera de la vivienda",
+          "value": 29066
+        },
+        {
+          "id": "No tiene baño",
+          "label": "No tiene baño",
+          "value": 2587
+        }
+      ]
+    },
+    {
+      "sectionId": "materiales-de-piso-belgrano",
+      "config": {},
+      "id": "pie-piso",
+      "type": "pie",
+      "title": "Material predominante de los pisos — Belgrano",
+      "sectionTitle": "Materiales de piso — Belgrano",
+      "data": [
+        {
+          "id": "Cerámica/Mosaico/Madera",
+          "label": "Cerámica/Mosaico/Madera",
+          "value": 248568
+        },
+        {
+          "id": "Carpeta/Contrapiso",
+          "label": "Carpeta/Contrapiso",
+          "value": 57709
+        },
+        {
+          "id": "Tierra/Ladrillo suelto",
+          "label": "Tierra/Ladrillo suelto",
+          "value": 8397
+        },
+        {
+          "id": "Otro",
+          "label": "Otro",
+          "value": 4795
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "gas-de-red-comparativo-provincial",
+      "id": "rank-garrafa",
+      "title": "Departamentos con mayor uso de gas en garrafa",
+      "items": [
+        {
+          "name": "San Antonio",
+          "value": 88.1,
+          "municipioId": "38056"
+        },
+        {
+          "name": "Santa Bárbara",
+          "value": 86.5,
+          "municipioId": "38070"
+        },
+        {
+          "name": "Yavi",
+          "value": 85,
+          "municipioId": "38112"
+        },
+        {
+          "name": "Susques",
+          "value": 82.5,
+          "municipioId": "38084"
+        },
+        {
+          "name": "Tilcara",
+          "value": 78.9,
+          "municipioId": "38094"
+        },
+        {
+          "name": "Tumbaya",
+          "value": 77.7,
+          "municipioId": "38098"
+        },
+        {
+          "name": "Cochinoca",
+          "value": 76.5,
+          "municipioId": "38007"
+        },
+        {
+          "name": "El Carmen",
+          "value": 68.6,
+          "municipioId": "38014"
+        },
+        {
+          "name": "Humahuaca",
+          "value": 64.8,
+          "municipioId": "38028"
+        },
+        {
+          "name": "San Pedro",
+          "value": 63.3,
+          "municipioId": "38063"
+        },
+        {
+          "name": "Ledesma",
+          "value": 62.9,
+          "municipioId": "38035"
+        },
+        {
+          "name": "Palpalá",
+          "value": 60.2,
+          "municipioId": "38042"
+        },
+        {
+          "name": "Valle Grande",
+          "value": 56.7,
+          "municipioId": "38105"
+        },
+        {
+          "name": "Santa Catalina",
+          "value": 56.3,
+          "municipioId": "38077"
+        },
+        {
+          "name": "Dr. Manuel Belgrano",
+          "value": 47.4,
+          "municipioId": "38021"
+        },
+        {
+          "name": "Rinconada",
+          "value": 44.9,
+          "municipioId": "38049"
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "id": "ssj-poblacion-economia",
+    "title": "Características Económicas — San Salvador de Jujuy",
+    "category": "San Salvador de Jujuy",
+    "subcategory": "Economía",
+    "source": "Censo Nacional de Población, Hogares y Viviendas 2022 (INDEC)",
+    "date": "2022"
+  },
+  "kpis": [
+    {
+      "id": "tact",
+      "label": "Tasa de actividad",
+      "value": 64.7662235263197,
+      "formatted": "64,8%",
+      "comparison": "PEA / 14+"
+    },
+    {
+      "id": "temp",
+      "label": "Tasa de empleo",
+      "value": 59.50031970438132,
+      "formatted": "59,5%",
+      "comparison": "Ocupados / 14+"
+    },
+    {
+      "id": "tdes",
+      "label": "Tasa de desocupación",
+      "value": 8.130632813257098,
+      "formatted": "8,1%",
+      "comparison": "Desocupados / PEA",
+      "status": "warning"
+    },
+    {
+      "id": "nopea",
+      "label": "No económicamente activa",
+      "value": 89819,
+      "formatted": "89,8K"
+    }
+  ],
+  "charts": [
+    {
+      "sectionId": "condicion-de-actividad-belgrano",
+      "config": {},
+      "id": "pie-act",
+      "type": "pie",
+      "title": "Condición de actividad económica — Belgrano (14+)",
+      "sectionTitle": "Condición de actividad — Belgrano",
+      "data": [
+        {
+          "id": "Ocupada",
+          "label": "Ocupada",
+          "value": 151680
+        },
+        {
+          "id": "Desocupada",
+          "label": "Desocupada",
+          "value": 13424
+        },
+        {
+          "id": "No PEA",
+          "label": "No PEA",
+          "value": 89819
+        }
+      ]
+    },
+    {
+      "sectionId": "tasa-de-actividad-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Tasa actividad %"
+      },
+      "id": "bar-tact-comp",
+      "type": "bar",
+      "title": "Tasa de actividad por departamento",
+      "sectionTitle": "Tasa de actividad — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Tasa actividad %": 58.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Tasa actividad %": 62.5
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Tasa actividad %": 64.8
+        },
+        {
+          "departamento": "Humahuaca",
+          "Tasa actividad %": 59.9
+        },
+        {
+          "departamento": "Ledesma",
+          "Tasa actividad %": 60.6
+        },
+        {
+          "departamento": "Palpalá",
+          "Tasa actividad %": 63
+        },
+        {
+          "departamento": "Rinconada",
+          "Tasa actividad %": 62.9
+        },
+        {
+          "departamento": "San Antonio",
+          "Tasa actividad %": 64.2
+        },
+        {
+          "departamento": "San Pedro",
+          "Tasa actividad %": 60.7
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Tasa actividad %": 58.5
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Tasa actividad %": 54.1
+        },
+        {
+          "departamento": "Susques",
+          "Tasa actividad %": 57.4
+        },
+        {
+          "departamento": "Tilcara",
+          "Tasa actividad %": 67.1
+        },
+        {
+          "departamento": "Tumbaya",
+          "Tasa actividad %": 66
+        },
+        {
+          "departamento": "Valle Grande",
+          "Tasa actividad %": 57.8
+        },
+        {
+          "departamento": "Yavi",
+          "Tasa actividad %": 61.3
+        }
+      ]
+    },
+    {
+      "sectionId": "tasa-de-desocupacion-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Desocupación %"
+      },
+      "id": "bar-tdes-comp",
+      "type": "bar",
+      "title": "Tasa de desocupación por departamento",
+      "sectionTitle": "Tasa de desocupación — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Desocupación %": 8.9
+        },
+        {
+          "departamento": "El Carmen",
+          "Desocupación %": 8
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Desocupación %": 8.1
+        },
+        {
+          "departamento": "Humahuaca",
+          "Desocupación %": 8.1
+        },
+        {
+          "departamento": "Ledesma",
+          "Desocupación %": 7
+        },
+        {
+          "departamento": "Palpalá",
+          "Desocupación %": 8.9
+        },
+        {
+          "departamento": "Rinconada",
+          "Desocupación %": 4.7
+        },
+        {
+          "departamento": "San Antonio",
+          "Desocupación %": 6.7
+        },
+        {
+          "departamento": "San Pedro",
+          "Desocupación %": 8.4
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Desocupación %": 5.4
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Desocupación %": 8.9
+        },
+        {
+          "departamento": "Susques",
+          "Desocupación %": 7.6
+        },
+        {
+          "departamento": "Tilcara",
+          "Desocupación %": 6
+        },
+        {
+          "departamento": "Tumbaya",
+          "Desocupación %": 6
+        },
+        {
+          "departamento": "Valle Grande",
+          "Desocupación %": 5.2
+        },
+        {
+          "departamento": "Yavi",
+          "Desocupación %": 7.5
+        }
+      ]
+    },
+    {
+      "sectionId": "ramas-de-actividad-en-belgrano",
+      "config": {
+        "xAxis": "rama",
+        "yAxis": "Ocupados",
+        "layout": "horizontal"
+      },
+      "id": "bar-ramas",
+      "type": "bar",
+      "title": "Población ocupada por rama de actividad — Belgrano",
+      "sectionTitle": "Ramas de actividad en Belgrano",
+      "data": [
+        {
+          "rama": "Comercio al por mayor y al por menor…",
+          "Ocupados": 26121
+        },
+        {
+          "rama": "Sin respuesta",
+          "Ocupados": 21560
+        },
+        {
+          "rama": "Información insuficiente para codifi…",
+          "Ocupados": 20534
+        },
+        {
+          "rama": "Construcción",
+          "Ocupados": 13913
+        },
+        {
+          "rama": "Comercio al por mayor y al por menor…",
+          "Ocupados": 13451
+        },
+        {
+          "rama": "Construcción",
+          "Ocupados": 13404
+        },
+        {
+          "rama": "Comercio al por mayor y al por menor…",
+          "Ocupados": 12670
+        },
+        {
+          "rama": "Enseñanza",
+          "Ocupados": 11431
+        },
+        {
+          "rama": "Sin respuesta",
+          "Ocupados": 10877
+        },
+        {
+          "rama": "Información insuficiente para codifi…",
+          "Ocupados": 10859
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "sectionId": "ramas-de-actividad-en-belgrano",
+      "id": "rank-ramas",
+      "title": "Ramas con mayor ocupación en Belgrano",
+      "items": [
+        {
+          "name": "Comercio al por mayor y al por menor…",
+          "value": 26121
+        },
+        {
+          "name": "Sin respuesta",
+          "value": 21560
+        },
+        {
+          "name": "Información insuficiente para codifi…",
+          "value": 20534
+        },
+        {
+          "name": "Construcción",
+          "value": 13913
+        },
+        {
+          "name": "Comercio al por mayor y al por menor…",
+          "value": 13451
+        },
+        {
+          "name": "Construcción",
+          "value": 13404
+        },
+        {
+          "name": "Comercio al por mayor y al por menor…",
+          "value": 12670
+        },
+        {
+          "name": "Enseñanza",
+          "value": 11431
+        },
+        {
+          "name": "Sin respuesta",
+          "value": 10877
+        },
+        {
+          "name": "Información insuficiente para codifi…",
+          "value": 10859
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

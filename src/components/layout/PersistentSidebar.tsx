@@ -5,6 +5,7 @@ import {
   REPORTS,
   getPoblacionReports,
   getSectorialReports,
+  getSSJReports,
 } from '../../data/reportRegistry';
 
 export function useIsReportRoute() {
@@ -18,6 +19,7 @@ export function PersistentSidebar() {
   const location = useLocation();
   const poblacion = getPoblacionReports();
   const sectoriales = getSectorialReports();
+  const ssj = getSSJReports();
 
   const isActive = (slug: string) => location.pathname === `/${slug}`;
 
@@ -50,6 +52,14 @@ export function PersistentSidebar() {
         <hr className="psidebar-divider" />
         {!collapsed && <h3 className="psidebar-heading">Sectorial</h3>}
         {sectoriales.map(renderItem)}
+
+        {ssj.length > 0 && (
+          <>
+            <hr className="psidebar-divider" />
+            {!collapsed && <h3 className="psidebar-heading">San Salvador de Jujuy</h3>}
+            {ssj.map(renderItem)}
+          </>
+        )}
       </nav>
 
       <button
