@@ -221,26 +221,29 @@ export function Landing() {
         </header>
       </SectionReveal>
 
-      {/* ─── San Salvador de Jujuy · Análisis Especial (highlight) ─── */}
+      {/* ─── San Salvador de Jujuy · Análisis Especial (banner único) ─── */}
       {ssj.length > 0 && (
         <SectionReveal>
-          <section className="ssj-highlight" aria-labelledby="ssj-highlight-title">
-            <div className="ssj-highlight-header">
+          <Link to="/ssj" className="ssj-banner" aria-labelledby="ssj-banner-title">
+            <div className="ssj-banner-content">
               <span className="ssj-highlight-badge">Análisis Especial</span>
-              <h2 id="ssj-highlight-title" className="ssj-highlight-title">San Salvador de Jujuy</h2>
-              <p className="ssj-highlight-desc">
-                Apartado dedicado al Departamento Dr. Manuel Belgrano, que contiene la ciudad capital
-                y concentra el <strong>39,5%</strong> de la población provincial. Mismo corpus analítico
-                que el dashboard provincial, recortado al territorio del Gran San Salvador — con foco
-                narrativo en Alto Comedero, el centro histórico y la conurbación capitalina.
+              <h2 id="ssj-banner-title" className="ssj-banner-title">San Salvador de Jujuy</h2>
+              <p className="ssj-banner-desc">
+                Apartado dedicado al <strong>Departamento Dr. Manuel Belgrano</strong> — la ciudad capital y el
+                <strong> 39,5%</strong> de la población provincial. {ssj.length} informes ejecutivos con foco en
+                Alto Comedero, el centro histórico y la conurbación capitalina.
               </p>
+              <div className="ssj-banner-meta">
+                <span>📊 {ssj.length} informes</span>
+                <span>📍 Dr. Manuel Belgrano</span>
+                <span>🏘️ ~320.990 hab.</span>
+              </div>
             </div>
-            <div className="ssj-highlight-grid">
-              {ssj.map((report, i) => (
-                <ReportCard key={report.id} report={report} index={i} variant="featured" />
-              ))}
+            <div className="ssj-banner-cta" aria-hidden="true">
+              <span className="ssj-banner-arrow">→</span>
+              <span className="ssj-banner-cta-label">Explorar</span>
             </div>
-          </section>
+          </Link>
         </SectionReveal>
       )}
 
