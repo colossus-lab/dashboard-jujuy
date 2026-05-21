@@ -61,12 +61,12 @@
   ],
   "charts": [
     {
-      "sectionId": "combustibles-para-cocinar",
+      "sectionId": "combustibles-para-cocinar-en-belgrano",
       "config": {},
       "id": "pie-comb",
       "type": "pie",
       "title": "Combustible para cocinar — Belgrano",
-      "sectionTitle": "Combustibles para cocinar",
+      "sectionTitle": "Combustibles para cocinar en Belgrano",
       "data": [
         {
           "id": "Gas de red",
@@ -178,12 +178,12 @@
       ]
     },
     {
-      "sectionId": "procedencia-del-agua-belgrano",
+      "sectionId": "procedencia-del-agua-en-belgrano",
       "config": {},
       "id": "pie-agua",
       "type": "pie",
       "title": "Procedencia del agua — Belgrano",
-      "sectionTitle": "Procedencia del agua — Belgrano",
+      "sectionTitle": "Procedencia del agua en Belgrano",
       "data": [
         {
           "id": "Red pública (agua corriente)",
@@ -357,12 +357,12 @@
       ]
     },
     {
-      "sectionId": "materiales-de-piso-belgrano",
+      "sectionId": "materiales-de-piso-en-belgrano",
       "config": {},
       "id": "pie-piso",
       "type": "pie",
       "title": "Material predominante de los pisos — Belgrano",
-      "sectionTitle": "Materiales de piso — Belgrano",
+      "sectionTitle": "Materiales de piso en Belgrano",
       "data": [
         {
           "id": "Cerámica/Mosaico/Madera",

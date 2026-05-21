@@ -221,6 +221,29 @@ export function Landing() {
         </header>
       </SectionReveal>
 
+      {/* ─── San Salvador de Jujuy · Análisis Especial (highlight) ─── */}
+      {ssj.length > 0 && (
+        <SectionReveal>
+          <section className="ssj-highlight" aria-labelledby="ssj-highlight-title">
+            <div className="ssj-highlight-header">
+              <span className="ssj-highlight-badge">Análisis Especial</span>
+              <h2 id="ssj-highlight-title" className="ssj-highlight-title">San Salvador de Jujuy</h2>
+              <p className="ssj-highlight-desc">
+                Apartado dedicado al Departamento Dr. Manuel Belgrano, que contiene la ciudad capital
+                y concentra el <strong>39,5%</strong> de la población provincial. Mismo corpus analítico
+                que el dashboard provincial, recortado al territorio del Gran San Salvador — con foco
+                narrativo en Alto Comedero, el centro histórico y la conurbación capitalina.
+              </p>
+            </div>
+            <div className="ssj-highlight-grid">
+              {ssj.map((report, i) => (
+                <ReportCard key={report.id} report={report} index={i} variant="featured" />
+              ))}
+            </div>
+          </section>
+        </SectionReveal>
+      )}
+
       {/* ─── Población Grid ─── */}
       <SectionReveal>
         <section className="landing-section">
@@ -263,30 +286,6 @@ export function Landing() {
         </SectionReveal>
       )}
 
-      {/* ─── San Salvador de Jujuy Grid ─── */}
-      {ssj.length > 0 && (
-        <SectionReveal>
-          <section className="landing-section">
-            <div className="section-header">
-              <div className="section-number">03</div>
-              <div>
-                <h2 className="section-title">Especial · San Salvador de Jujuy</h2>
-                <p className="section-desc">
-                  Apartado dedicado al Departamento Dr. Manuel Belgrano, que contiene la ciudad capital
-                  y concentra el 39,5% de la población provincial. Mismos análisis del corpus provincial,
-                  recortados al territorio del Gran San Salvador.
-                </p>
-              </div>
-            </div>
-            <div className="report-grid">
-              {ssj.map((report, i) => (
-                <ReportCard key={report.id} report={report} index={i} />
-              ))}
-            </div>
-          </section>
-        </SectionReveal>
-      )}
-
       {/* ─── Footer ─── */}
       <SiteFooter />
     </div>
@@ -295,14 +294,26 @@ export function Landing() {
 
 // ═══════ Components ═══════
 
-function ReportCard({ report, index }: { report: ReportEntry; index: number }) {
+function ReportCard({ report, index, variant = 'default' }: {
+  report: ReportEntry;
+  index: number;
+  variant?: 'default' | 'featured';
+}) {
   const stats = REPORT_STATS[report.id];
-  const tickerSize: 'sm' | 'md' | 'lg' = index === 0 ? 'md' : 'sm';
+  const tickerSize: 'sm' | 'md' | 'lg' =
+    variant === 'featured' ? 'lg' :
+    index === 0 ? 'md' :
+    'sm';
+
+  // Para featured (SSJ con order 101+), mostrar el icono en lugar de un número largo
+  const numberLabel = variant === 'featured'
+    ? report.icon
+    : String(report.order).padStart(2, '0');
 
   return (
     <Link
       to={`/${report.slug}`}
-      className="report-card"
+      className={`report-card${variant === 'featured' ? ' report-card-featured' : ''}`}
       style={{
         '--card-color': report.color,
         animationDelay: `${index * 80}ms`,
@@ -310,7 +321,7 @@ function ReportCard({ report, index }: { report: ReportEntry; index: number }) {
     >
       <div className="report-card-glow" aria-hidden="true" />
       <div className="report-card-header">
-        <span className="report-card-number">{String(report.order).padStart(2, '0')}</span>
+        <span className="report-card-number">{numberLabel}</span>
         <span className="report-card-arrow">→</span>
       </div>
       <div className="report-card-body">

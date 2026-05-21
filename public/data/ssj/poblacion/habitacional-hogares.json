@@ -140,6 +140,83 @@
           "Alquiler %": 17.8
         }
       ]
+    },
+    {
+      "sectionId": "gas-de-red-comparativo-provincial",
+      "config": {
+        "xAxis": "departamento",
+        "yAxis": "Gas de red %"
+      },
+      "id": "bar-gas-hog-comp",
+      "type": "bar",
+      "title": "% hogares con gas de red por departamento",
+      "sectionTitle": "Gas de red — comparativo provincial",
+      "data": [
+        {
+          "departamento": "Cochinoca",
+          "Gas de red %": 4.3
+        },
+        {
+          "departamento": "El Carmen",
+          "Gas de red %": 27.6
+        },
+        {
+          "departamento": "Dr. Manuel Belgrano",
+          "Gas de red %": 50.2
+        },
+        {
+          "departamento": "Humahuaca",
+          "Gas de red %": 18.7
+        },
+        {
+          "departamento": "Ledesma",
+          "Gas de red %": 30.4
+        },
+        {
+          "departamento": "Palpalá",
+          "Gas de red %": 35.6
+        },
+        {
+          "departamento": "Rinconada",
+          "Gas de red %": 1.6
+        },
+        {
+          "departamento": "San Antonio",
+          "Gas de red %": 0.4
+        },
+        {
+          "departamento": "San Pedro",
+          "Gas de red %": 31.9
+        },
+        {
+          "departamento": "Santa Bárbara",
+          "Gas de red %": 0.9
+        },
+        {
+          "departamento": "Santa Catalina",
+          "Gas de red %": 0.3
+        },
+        {
+          "departamento": "Susques",
+          "Gas de red %": 0.4
+        },
+        {
+          "departamento": "Tilcara",
+          "Gas de red %": 10.1
+        },
+        {
+          "departamento": "Tumbaya",
+          "Gas de red %": 2.5
+        },
+        {
+          "departamento": "Valle Grande",
+          "Gas de red %": 1.6
+        },
+        {
+          "departamento": "Yavi",
+          "Gas de red %": 7
+        }
+      ]
     }
   ],
   "rankings": [

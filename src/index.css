@@ -5706,3 +5706,118 @@ em {
   font-size: 1.5rem;
   line-height: 1;
 }
+
+/* ═══════ SSJ Highlight (featured section under Hero) ═══════ */
+.ssj-highlight {
+  margin: 2.5rem 0 4rem;
+  padding: 2.25rem 2rem;
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse at top right, color-mix(in srgb, var(--accent-purple, #8b5cf6) 14%, transparent), transparent 55%),
+    radial-gradient(ellipse at bottom left, color-mix(in srgb, var(--accent-cyan) 12%, transparent), transparent 55%),
+    var(--bg-card);
+  border: 1px solid var(--border-glass);
+  backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+}
+
+.ssj-highlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent-cyan) 35%, transparent), transparent 60%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+
+.ssj-highlight-header {
+  margin-bottom: 1.75rem;
+  max-width: 720px;
+}
+
+.ssj-highlight-badge {
+  display: inline-block;
+  padding: 0.32rem 0.85rem;
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: var(--accent-cyan);
+  color: #0a0f1c;
+  margin-bottom: 0.85rem;
+}
+
+.ssj-highlight-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 0.6rem;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ssj-highlight-desc {
+  color: var(--text-secondary);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.ssj-highlight-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+@media (max-width: 640px) {
+  .ssj-highlight {
+    padding: 1.5rem 1.25rem;
+    margin: 1.75rem 0 2.5rem;
+  }
+  .ssj-highlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ═══════ Report Card · Featured variant (used inside SSJ highlight) ═══════ */
+.report-card-featured {
+  min-height: 200px;
+  padding: 1.75rem;
+  background: var(--bg-card);
+  border-color: color-mix(in srgb, var(--card-color) 35%, var(--border-glass));
+}
+
+.report-card-featured .report-card-title {
+  font-size: 1.15rem;
+}
+
+.report-card-featured .report-card-number {
+  font-size: 1.85rem;
+}
+
+.report-card-featured .report-card-desc {
+  -webkit-line-clamp: 3;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 767px) {
+  .report-card-featured {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    min-height: 0;
+    padding: 1.25rem;
+  }
+  .report-card-featured .report-card-desc {
+    display: -webkit-box;
+  }
+}
